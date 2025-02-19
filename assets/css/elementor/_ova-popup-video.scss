@@ -1,0 +1,95 @@
+.ovau-popup-video {
+
+	.ovau-modal-container {
+		@include transaction( all, 0.5s, ease);
+	    position: fixed;
+	    top: 0;
+	    left: 0;
+	    width: 100vw;
+	    height: 100vh;
+	    z-index: 9999;
+	    display: -webkit-box;
+	    display: -ms-flexbox;
+	    display: flex;
+	    -webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	    justify-content: center;
+	    -webkit-box-align: center;
+	    -ms-flex-align: center;
+	    align-items: center;
+	    -webkit-transform: translateY(-110%);
+	    transform: translateY(-110%);
+
+	    .ovau-modal-overlay {
+			@include transaction( all, 0.5s, ease);
+			position: absolute;
+		    top: 0;
+		    left: 0;
+		    right: 0;
+		    bottom: 0;
+		    background-color: var(--heading);
+		    opacity: 0.75;
+		    cursor: pointer;
+		    z-index: -1;
+		}
+
+		.ovau-modal-content {
+			position: relative;
+			width: 100%;
+    		max-width: 900px;
+    		height: 507px;
+
+    		.ovau-modal-close {
+    			position: absolute;
+    			top: -20px;
+    			right: -20px;
+    			font-size: 20px;
+    			color: #FFFFFF;
+    			@include transaction( all, 0.3s, ease);
+
+    			&:hover {
+    				color: var(--primary);
+    			}
+    		}
+
+    		@media screen and (max-width: 991px) {
+    			max-width: 700px;
+    			height: 394px;
+
+    			iframe, video {
+    				width: 700px;
+    				height: 394px;
+    			}
+    		}
+
+    		@media screen and (max-width: 755px) {
+    			max-width: 560px;
+    			height: 315px;
+
+    			iframe, video {
+    				width: 560px;
+    				height: 315px;
+    			}
+    		}
+
+    		@media screen and (max-width: 600px) {
+    			max-width: 320px;
+    			height: 180px;
+
+    			iframe, video {
+    				width: 320px;
+    				height: 180px;
+    			}
+    		}
+		}
+	}
+
+	&.ovau-show-video {
+		.ovau-modal-container {
+			@include transaction( all, 0.5s, ease);
+			-webkit-transform: translateY(0%);
+            transform: translateY(0%);
+		}
+      
+	}
+}

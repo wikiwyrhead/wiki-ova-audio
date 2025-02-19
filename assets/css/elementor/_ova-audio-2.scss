@@ -1,0 +1,412 @@
+.ovau-audio-2 {
+	display: flex;
+	align-items: center;
+	column-gap: 35px;
+	width: 100%;
+
+	@media screen and (max-width: 768px) {
+		flex-direction: column;
+	}
+
+	.avatar {
+		position: relative;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 160px;
+		min-width: 160px;
+		height: 160px;
+		-webkit-border-radius: 50%;
+		-moz-border-radius: 50%;
+		border-radius: 50%;
+		overflow: hidden;
+
+		@media screen and (max-width: 768px) {
+			margin-bottom: 30px;
+		}
+
+		.loader {
+			display: none;
+		}
+
+		img {
+			border-radius: 50%;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			object-position: center;
+		}
+
+		&.playing {
+			img {
+				-webkit-animation: avatarRotate 10s linear infinite;
+	    		-moz-animation: avatarRotate 10s linear infinite;
+				animation: avatarRotate 10s linear infinite;
+			}
+
+			.loader {
+				position: absolute;
+				z-index: 1;
+				display: flex;
+				width: 100%;
+				height: 100%;
+				align-items: center;
+				justify-content: center;
+
+				.stroke {
+					position: relative;
+					background-color: var(--primary);
+					height: 20px;
+					width: 5px;
+					border-radius: 50px;
+					margin: 0 2px;
+					animation: playing 1s linear infinite;
+
+					&:nth-child(1) {
+						animation-delay: 0s;
+					}
+
+					&:nth-child(2) {
+						animation-delay: 0.3s;
+					}
+
+					&:nth-child(3) {
+						animation-delay: 0.6s;
+					}
+
+					&:nth-child(4) {
+						animation-delay: 0.3s;
+					}
+
+					&:nth-child(5) {
+						animation-delay: 0s;
+					}
+
+				}
+
+				@keyframes playing {
+					50% {
+						height: 5px;
+					}
+					100% {
+					    height: 20px;
+					}
+				}
+			}
+
+			@keyframes avatarRotate {
+				100% { 
+			        -webkit-transform: rotate(360deg);
+			        -moz-animation: rotate(360deg);
+			        transform: rotate(360deg); 
+			    }
+			}
+		}
+	}
+
+	.content {
+		display: flex;
+		flex-direction: column;
+	    justify-content: space-between;
+		width: 100%;
+
+		.ovau-player-top {
+			display: flex;
+			align-items: center;
+			column-gap: 25px;  
+			margin-bottom: 25px;
+
+			@media screen and (max-width: 768px) {
+				flex-direction: column;
+				margin-bottom: 0;
+			}
+
+			.ovau-controls {
+				display: flex;
+				align-items: center;
+				column-gap: 15px;
+
+				@media screen and (max-width: 768px) {
+					width: 100%;
+					justify-content: center;
+					margin-bottom: 30px;
+				}
+
+				.skip-back, .jump-forward {
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					width: 30px;
+					min-width: 30px;
+					height: 30px;
+					border-radius: 50%;
+					background-color: #f5f5f5;
+					color: #000000;
+					font-size: 10px;
+					cursor: pointer;
+					-webkit-tap-highlight-color: transparent;
+					@include transaction( all, 0.3s, ease );
+
+					&:hover {
+						color: #FFFFFF;
+						background-color: var(--primary);
+					}
+				}
+
+				.play-pause {
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					width: 65px;
+					height: 65px;
+					border-radius: 50%;
+					font-size: 16px;
+					background-color: #000000;
+					color: #FFFFFF;
+					cursor: pointer;
+					-webkit-tap-highlight-color: transparent;
+					@include transaction( all, 0.3s, ease );
+
+					i {
+						display: inline-flex;
+					}
+
+					&:hover {
+						background-color: var(--primary);
+					}
+
+					&.playing {
+						background-color: var(--primary);
+					}
+				}
+			}
+
+			.title-episode {
+				width: 70%;
+
+				@media screen and (max-width: 768px) {
+					width: 100%;
+					text-align: center;
+					margin-bottom: 10px;
+				}
+
+				.title {
+					margin: 0;
+					color: var(--heading);
+					font-size: 20px;
+					font-weight: bold;
+					line-height: 1.5;
+
+					a {
+						color: var(--heading);
+						font-size: 20px;
+						font-weight: bold;
+						line-height: 1.5;
+						@include transaction( all, 0.3s, ease );
+
+						&:hover {
+							color: var(--primary);
+						}
+					}
+				}
+
+				.episode {
+					color: var(--text);
+					font-size: 16px;
+
+					.seperate {
+						color: #000000;
+						font-size: 18px;
+						font-weight: 600;
+						line-height: 1;
+					}
+					a {
+						&:hover {
+							color: var(--heading);
+						}
+					}
+				}
+			}
+
+			.detail-link {
+				width: 200px;
+
+				a {
+					display: flex;
+					justify-content: flex-end;
+					column-gap: 10px; 
+ 					font-size: 12px;
+					font-weight: bold;
+					text-transform: uppercase;
+					line-height: 1.2;
+					color: var(--primary);
+					@include transaction( all, 0.3s, ease );
+
+					i {
+						line-height: 1;
+						vertical-align: middle;
+					}
+
+					&:hover {
+						color: var(--heading);
+					}
+				}
+
+				@media screen and (max-width: 768px) {
+					width: 100%;
+
+					a {
+						justify-content: center;
+					}
+				}
+			}
+		}
+
+		.ovau-player-view {
+			display: flex;
+			width: 100%;
+			height: 50px;
+			align-items: center;
+
+			.ovau-player {
+				width: 100%;
+
+				.ovamejs-container {
+	  				height: 40px;
+	  				.ovamejs-controls {
+	  					.ovamejs-skip-back-button, .ovamejs-jump-forward-button {
+	  						display: flex;
+	  						align-items: center;
+	  						justify-content: center;
+	  						width: 40px;
+	  						min-width: 40px;
+	  						height: 40px;
+
+	  						&:first-child {
+	  							margin-right: 10px;
+	  						}
+
+	  						& > button {
+	  							display: flex;
+		  						align-items: center;
+		  						justify-content: center;
+		  						width: 40px;
+		  						min-width: 40px;
+		  						height: 40px;
+		  						background-color: #f5f5f5;
+		  						border-radius: 50%;
+		  						color: #000000;
+		  						font-size: 14px;
+		  						font-weight: 400;
+		  						@include transaction( all, 0.3s, ease );
+
+		  						&:hover {
+		  							background-color: var(--primary);
+		  							color: #FFFFFF;
+		  						}
+	  						}
+	  					}
+
+	  					.ovamejs-time-rail {
+	  						.ovamejs-time-total {
+	  							background-color: #000000;
+	  							height: 2px;
+	  							border-radius: 2px;
+
+	  							.ovamejs-time-current {
+	  								background-color: var(--primary);
+	  							}
+
+	  							.ovamejs-time-loaded, .ovamejs-time-current, .ovamejs-time-hovered {
+	  								height: 2px;
+	  								border-radius: 2px;
+	  							}
+
+	  							.ovamejs-time-handle {
+	  								.ovamejs-time-handle-content {
+	  									top: -9px;
+	  									border-color: var(--primary);
+	  								}
+	  							}
+	  						}
+	  					}
+
+	  					.ovamejs-time {
+	  						display: flex;
+	  						align-items: center;
+	  						padding: 0;
+	  						min-width: 40px;
+
+	  						.seperate {
+	  							margin: 0 10px;
+	  						}
+
+	  						@media screen and (max-width: 500px) {
+	  							.ovamejs-duration {
+	  								display: block;
+	  							}
+	  						}
+	  					}
+
+	  					.ovamejs-volume-button {
+	  						margin-left: 45px;
+
+	  						@media screen and (max-width: 768px) {
+	  							display: block;
+	  							margin-left: 15px;
+	  						}
+
+	  						&.ovamejs-mute {
+	  							width: 50px;
+	  							min-width: 50px;
+	  							height: 50px;
+	  						}
+
+	  						& > button {
+								width: 50px;
+								min-width: 50px;
+								height: 50px;
+								background-color: #f5f5f5;
+		  						border-radius: 50%;
+		  						color: #000000;
+		  						@include transaction( all, 0.3s, ease );
+
+		  						&:before {
+		  							font-size: 24px;
+		  							@include transaction( all, 0.3s, ease );
+		  						}
+
+		  						&:hover {
+		  							background-color: var(--primary);
+		  							color: #FFFFFF;
+
+		  							&:before {
+										color: #FFFFFF;
+									}
+		  						}
+							}
+	  					}
+	  				}
+	  			}
+			}
+		}
+	}
+
+	&.ovau-media-video {
+		.content {
+			.ovau-player-top {
+				margin: 0;
+			}
+		}
+	}
+}
+
+.rtl {
+	.ovau-audio-2 .content .ovau-player-view .ovau-player .ovamejs-container .ovamejs-controls .ovamejs-volume-button {
+		margin-left: 0;
+		margin-right: 45px;
+		@media screen and (max-width: 768px) {
+			margin-right: 15px;
+		}
+	}
+}

@@ -1,0 +1,45 @@
+.archive_audio {
+	margin-bottom: 100px;
+	@media (max-width: 1024px) {
+		margin-bottom: 70px;
+	}
+}
+
+// grid
+.archive_audio_grid_content {
+	display: grid;
+	grid-gap: 30px;
+	.ovau-item-part-grid, .ovau-item-part-grid-2{
+		padding: 0;
+	}
+
+    &.two_column{
+		grid-template-columns: 1fr 1fr;
+		@media(max-width: 767px){
+			grid-template-columns: auto;
+		}
+	}
+
+	&.three_column{
+		grid-template-columns: 1fr 1fr 1fr;
+		@media(max-width: 991px){
+			grid-template-columns: 1fr 1fr;
+		}
+		@media(max-width: 767px){
+			grid-template-columns: auto;
+		}
+	}
+
+	&.four_column{
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		@media(max-width: 1200px){
+			grid-template-columns: 1fr 1fr 1fr;
+		}
+		@media(max-width: 991px){
+			grid-template-columns: 1fr 1fr;
+		}
+		@media(max-width: 767px){
+			grid-template-columns: auto;
+		}
+	}
+}

@@ -1,0 +1,52 @@
+<?php
+/**
+ * @package    OVA Audio by ovatheme
+ * @author     Ovatheme
+ * @copyright  Copyright (C) 2022 Ovatheme All Rights Reserved.
+ * @license    GNU/GPL v2 or later http://www.gnu.org/licenses/gpl-2.0.html
+ */
+if ( !defined( 'ABSPATH' ) ) exit();
+
+$number_column = get_theme_mod( 'ovau_column_layout', 'three_column' );
+
+$args = array(
+    'show_thumbnail'    => get_theme_mod('ovau_archive_show_thumbnail','yes'),
+    'show_host'         => get_theme_mod('ovau_archive_show_host','yes'),
+    'show_category'     => get_theme_mod('ovau_archive_show_category','yes'),
+    'show_episode'      => get_theme_mod('ovau_archive_show_episode','yes'),
+    'show_title'        => get_theme_mod('ovau_archive_show_title','yes'),
+    'show_text_button'  => get_theme_mod('ovau_archive_show_text_button','yes'),
+);
+
+get_header();
+
+?>
+
+   <div class="row_site">
+        <div class="container_site">
+
+            <div class="archive_audio archive_audio_grid">
+
+                <div class="archive_audio_grid_content <?php echo esc_attr( $number_column ) ?>">
+
+                    <?php if( have_posts() ) : while ( have_posts() ) : the_post();
+                        ovau_get_template( 'parts/audio-item-grid.php', $args );
+                    endwhile; endif; wp_reset_postdata(); ?>
+                    
+                </div>
+
+                <?php 
+                     $args = array(
+                        'type'      => 'list',
+                        'next_text' => '<i class="ovaicon-next"></i>',
+                        'prev_text' => '<i class="ovaicon-back"></i>',
+                    );
+
+                    the_posts_pagination($args);
+                ?>
+            </div>
+            
+        </div>
+    </div>
+
+<?php get_footer();

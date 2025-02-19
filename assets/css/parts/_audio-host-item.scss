@@ -1,0 +1,135 @@
+.item-audio-host {
+	position: relative;
+	&:hover {
+		.img {
+			img {
+				transition: all .4s ease;
+				transform: translateY(-10px);  
+			}
+			.list-icon {
+                transition: all .5s ease;
+				bottom: 30px;
+				opacity: 1;
+				visibility: visible;
+			}
+		}
+	}
+
+	&.template_2 {
+		.img {
+			margin-bottom: 0; 
+			img {
+				transform: none; 
+			}
+			.host_img_overlay {
+				position: absolute;
+				width: 100%;
+				height: 40%;
+				left: 0;
+				bottom: 0;
+				right: 0;
+				background: linear-gradient(180deg, rgba(85, 85, 85, 0.00) 0%, #323232 100%);
+			}
+			.list-icon {
+				display: none;
+			}
+		}
+		.info {
+			position: absolute;
+			width: 100%;
+			bottom: 20px;
+			left: 20px;
+			text-align: unset;
+			.name {
+				font-size: 20px;
+				font-weight: 500;
+				color: #fff;
+			}
+			.job {
+				font-size: 16px;
+				font-weight: 400;
+				text-transform: none;
+			}
+		}
+	}
+
+	.img {
+		position: relative;
+		overflow: hidden;
+		background-color: var(--primary); 
+		margin-bottom: 25px;
+		img {
+			transition: all .4s ease;
+			transform: translateY(0); 
+			display: block;
+			width: 100%;
+			object-fit: cover;
+		}
+
+		.list-icon {
+			transition: all .5s ease;
+			opacity: 0;
+			visibility: hidden;
+			position: absolute;
+			bottom: 0;
+			left: 50%;
+			transform: translateX(-50%); 
+			text-align: center;
+            margin: 0;
+			padding: 0 10px; 
+			list-style-type: none; 
+			display: inline-flex;
+		    justify-content: center;
+		    align-items: center;
+		    background-color: #fff;
+			.item {
+				transition: all .3s ease;
+				display: inline-flex;
+				justify-content: center;
+				align-items: center;
+				width: 40px;
+				height: 40px;
+				&:hover {
+					transition: all .3s ease;
+					background-color: rgb(244, 244, 244);
+					i {
+						color: var(--primary); 
+					}
+				}
+				a {
+					display: inline-flex;
+					justify-content: center;
+					align-items: center;
+				    width: 100%;
+				    height: 100%;
+				}
+                i {
+                	transition: all .3s ease;
+                	font-size: 15px; 
+                	color: var(--heading);  
+                	display: inline-flex;
+                }
+			}
+		}
+	}
+
+	.info {
+		text-align: center;
+		.name {
+			margin: 0;
+            font-size: 24px;
+            line-height: 1.5; 
+            color: var(--heading); 
+		}
+
+        .job {
+			margin: 0;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 1.5; 
+            color: var(--primary); 
+            text-transform: uppercase;
+		}
+	}
+
+}

@@ -1,0 +1,245 @@
+.ovau-item-part-grid-2 {
+	padding: 15px;
+	&:hover {
+		.ova-media {
+			.audio-img-wrapper {
+                .audio-img {
+                	-webkit-transition: all .5s ease; 
+                	transition: all .5s ease;
+                	-webkit-transform: scale(1.03);
+                    transform: scale(1.03);
+                }
+                .host-img {
+                	-webkit-transition: all 1s ease; 
+				    transition: all 1s ease;
+				    -webkit-transform: scale(1.2);
+				    transform: scale(1.2);
+                }  
+			}
+			.content {
+                .audio-button {
+                    -webkit-transition: all .5s ease; 
+                	transition: all 0.5s ease;
+                	color: #fff;
+                	background-color: var(--primary); 
+                }
+			}
+		}
+	}
+
+	.ova-media {
+		position: relative;
+
+		img {
+			display: block;
+			width: 100%;
+			object-fit: cover;
+		}
+
+		.audio-img-wrapper {
+			position: relative;
+		    overflow: hidden;
+		    border-radius: 4px 4px 0 0; 
+
+			.audio-img {
+				height: 250px;
+				-webkit-transition: all .5s ease; 
+				transition: all .5s ease; 
+			}
+		}
+
+		.host-img {
+			-webkit-transition: all 1s ease; 
+			transition: all 1s ease;
+			position: absolute;
+			right: 20px;
+			top: 20px;
+			border-radius: 50%;
+			overflow: hidden;
+			width: 45px;
+			height: 45px;
+			object-fit: cover;
+			display: inline-flex;
+			justify-content: center;
+			align-items: center;
+			background-color: var(--primary);
+			border: 2px solid var(--primary);
+		}
+
+		.content { 
+			position: relative;
+			box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
+			background-color: #fff;
+			border-radius: 0 0 4px 4px; 
+			padding: 25px 30px 30px 30px;
+			@media (max-width: 767px) {
+				padding: 25px;
+			}
+
+			.title {
+				-webkit-transition: all .3s ease; 
+				transition: all .3s ease;
+                margin: 12px 0 22px 0; 
+                font-size: 21px;
+                line-height: 1.4;
+			}
+            
+            .icon {  
+            	display: inline-block;
+            	vertical-align: middle;
+            	line-height: 1;
+				i {
+					color: var(--primary);
+					font-size: 16px;
+				}
+			}
+            .category {
+            	a {
+            		color: var(--text);
+            		&:hover {
+	            		color: var(--primary);
+	            	}
+            	}
+            }
+			.episode {
+				display: inline-block;
+				&.no-separator {
+					&:before {
+						content: none;
+					}
+				}
+				&:before{
+                    content:"\A";
+                    width:4px;
+                    height:4px;
+                    margin:0 8px;
+                    border-radius:50%;
+                    background: rgba(0,0,0,0.3);;
+                    display:inline-block;
+                }
+			}
+
+			.audio-meta-wrap {
+				padding-top: 5px; 
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				flex-wrap: wrap;
+				column-gap: 12px;
+				row-gap: 8px;
+				.item-meta, .right-meta {
+					display: flex;
+					align-items: center;
+				}
+				.item-meta {
+					column-gap: 5px;
+					a {
+						color: var(--text);
+					}
+					i {
+						color: var(--primary);
+					}
+				}
+				.right-meta {
+					column-gap: 12px;
+				}
+				i {
+					display: inline-flex;
+				}
+			}
+ 
+			.audio-button{
+	           -webkit-transition: all .3s ease; 
+				transition: all .3s ease;
+				border-radius: 50%;
+				width: 36px;
+				height: 36px;
+				display: inline-flex;
+				justify-content: center;
+				align-items: center;
+				color: var(--primary);
+				background-color: rgba(255, 79, 0, 0.22); 
+				cursor: pointer;
+	            i {
+	            	font-size: 14px;
+	            }
+
+	            .loader {
+					display: none;
+				}
+				&.ovau-playing {
+					background-color: var(--primary);
+					overflow: hidden;
+
+					.loader {
+						display: flex;
+						width: 100%;
+						height: 100%;
+						align-items: center;
+	    				justify-content: center;
+
+						.stroke {
+							position: relative;
+							background-color: #FFFFFF;
+							height: 15px;
+							width: 3px;
+							border-radius: 50px;
+							margin: 0 1px;
+							animation: playing 1s linear infinite;
+
+							&:nth-child(1) {
+								animation-delay: 0s;
+							}
+
+							&:nth-child(2) {
+								animation-delay: 0.3s;
+							}
+
+							&:nth-child(3) {
+								animation-delay: 0.6s;
+							}
+
+							&:nth-child(4) {
+								animation-delay: 0.3s;
+							}
+
+							&:nth-child(5) {
+								animation-delay: 0s;
+							}
+
+						}
+
+						@keyframes playing {
+							50% {
+		    					height: 5px;
+							}
+							100% {
+							    height: 15px;
+							}
+						}
+					}
+
+					i {
+						display: none;
+					}
+
+					&:hover {
+						.loader {
+							display: none;
+						}
+
+						i {
+							display: block;
+						}
+					}
+				}
+	        }
+
+		}
+	}
+
+	a.not-mega-link {
+		display: inherit!important;
+    	padding: 0!important;
+    }
+}

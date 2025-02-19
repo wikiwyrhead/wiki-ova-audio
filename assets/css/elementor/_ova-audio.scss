@@ -1,0 +1,253 @@
+@mixin transaction( $propertty, $duration, $timing ){
+	transition: $propertty $duration $timing;
+    -moz-transition: $propertty $duration $timing;
+    -webkit-transition: $propertty $duration $timing;
+    -o-transition: $propertty $duration $timing;
+}
+
+.ovau-audio {
+	display: flex;
+	align-items: center;
+	background-color: #FFF;
+  	box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.1);
+  	width: 100%;
+  	height: 150px;
+  	padding: 30px 50px;
+
+  	@media screen and (max-width: 1024px) {
+  		flex-direction: column;
+  		align-items: flex-start;
+  		height: auto;
+  	}
+
+  	@media (max-width: 500px) {
+        padding: 30px;
+  	}
+
+  	.ovau-player-left {
+  		height: 100%;
+  		width: 35%;
+  		display: flex;
+  		align-items: center;
+  		gap: 30px;
+
+  		@media screen and (max-width: 1024px) {
+	  		width: 100%;
+	  		height: auto;
+	  		margin-bottom: 20px;
+	  	}
+
+	  	@media screen and (max-width: 500px) {
+	  		margin-bottom: 0;
+	  	}
+
+  		.control-icon {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: 90px;
+			min-width: 90px;
+			height: 90px;
+			background-color: var(--primary);
+			border-radius: 50%;
+			color: #FFF;
+			font-size: 24px;
+			cursor: pointer;
+			-webkit-tap-highlight-color: transparent;
+			@include transaction( all, 0.3s, ease );
+
+			&:hover {
+				background-color: #FFF;
+				border: 1px solid var(--primary);
+				box-sizing: border-box;
+				color: var(--primary);
+			}
+		}
+
+		.title {
+			display: flex;
+			height: 100%;
+			flex-direction: column;
+			justify-content: center;
+
+			h2 {
+				margin: 0;
+				color: var(--heading);
+				font-size: 20px;
+				font-weight: bold;
+				line-height: 1.5;
+
+				a {
+					color: var(--heading);
+					font-size: 20px;
+					font-weight: bold;
+					line-height: 1.5;
+					@include transaction( all, 0.3s, ease );
+
+					&:hover {
+						color: var(--primary);
+					}
+				}
+			}
+		}
+
+		.episode {
+			font-size: 16px;
+			font-weight: 400;
+			line-height: 30px;
+			color: var(--text);
+
+			.seperate {
+				font-size: 20px;
+				font-weight: 400;
+				line-height: 1;
+			}
+			a {
+				&:hover {
+					color: var(--heading);
+				}
+			}
+		}
+  	}
+
+  	.ovau-player-right {
+  		width: 65%;
+
+  		@media screen and (max-width: 1024px) {
+	  		width: 100%;
+	  	}
+
+	  	@media screen and (max-width: 500px) {
+	  		display: none;
+	  	}
+
+  		.ovau-player {
+  			.ovamejs-container {
+  				height: 40px;
+  				.ovamejs-controls {
+  					.ovamejs-skip-back-button, .ovamejs-jump-forward-button {
+  						display: flex;
+  						align-items: center;
+  						justify-content: center;
+  						width: 40px;
+  						min-width: 40px;
+  						height: 40px;
+  						margin: 0 5px;
+
+  						& > button {
+  							display: flex;
+	  						align-items: center;
+	  						justify-content: center;
+	  						width: 40px;
+	  						min-width: 40px;
+	  						height: 40px;
+	  						background-color: #f5f5f5;
+	  						border-radius: 50%;
+	  						color: #000000;
+	  						font-size: 14px;
+	  						font-weight: 400;
+	  						@include transaction( all, 0.3s, ease );
+
+	  						&:hover {
+	  							background-color: var(--primary);
+	  							color: #FFFFFF;
+	  						}
+  						}
+  					}
+
+  					.ovamejs-time-rail {
+  						.ovamejs-time-total {
+  							background-color: #000000;
+  							height: 2px;
+  							border-radius: 2px;
+
+  							.ovamejs-time-current {
+  								background-color: var(--primary);
+  							}
+
+  							.ovamejs-time-loaded, .ovamejs-time-current, .ovamejs-time-hovered {
+  								height: 2px;
+  								border-radius: 2px;
+  							}
+
+  							.ovamejs-time-handle {
+  								.ovamejs-time-handle-content {
+  									top: -9px;
+  									border-color: var(--primary);
+  								}
+  							}
+  						}
+  					}
+
+  					.ovamejs-time {
+  						display: flex;
+  						align-items: center;
+  						margin: 0 20px 0 0;
+  						padding: 0;
+
+  						.seperate {
+  							margin: 0 10px;
+  						}
+  					}
+
+  					.ovamejs-volume-button {
+  						@media screen and (max-width: 768px) {
+  							display: block;
+  						}
+
+  						&.ovamejs-mute {
+  							width: 50px;
+  							min-width: 50px;
+  							height: 50px;
+  						}
+
+  						& > button {
+							width: 50px;
+							min-width: 50px;
+							height: 50px;
+							background-color: #f5f5f5;
+	  						border-radius: 50%;
+	  						color: #000000;
+	  						@include transaction( all, 0.3s, ease );
+
+	  						&:before {
+	  							@include transaction( all, 0.3s, ease );
+	  						}
+
+	  						&:hover {
+	  							background-color: var(--primary);
+	  							color: #FFFFFF;
+
+	  							&:before {
+									color: #FFFFFF;
+								}
+	  						}
+						}
+  					}
+  				}
+  			}
+  		}
+  	}
+
+  	&.ovau-media-video {
+  		.ovau-player-left {
+  			width: 100%;
+  		}
+  	}
+}
+
+.rtl {
+	.ovau-audio {
+		.ovau-player-right {
+			.ovau-player {
+				.ovamejs-container {
+					.ovamejs-controls {
+						.ovamejs-time {
+							margin: 0 0 0 20px;
+						}
+					}
+				}
+			}
+		}
+	}     
+}

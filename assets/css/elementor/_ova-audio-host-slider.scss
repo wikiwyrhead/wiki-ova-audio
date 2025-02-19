@@ -1,0 +1,27 @@
+.ova-audio-host-slider {
+
+	.owl-dots{
+		text-align: center;
+		margin-top: 20px;
+		line-height: 1;
+		.owl-dot{
+			outline: none;
+			span{
+				width: 10px;
+				height: 10px;
+				margin: 5px;
+				background: rgba(0,0,0,0.3);
+				border-radius: 50%;
+				display: block;
+				-webkit-backface-visibility: visible;
+				transition: opacity .2s ease;
+			}
+			&.active{
+				span{
+					background: var(--primary);
+				}
+			}
+		}
+	}
+	
+}

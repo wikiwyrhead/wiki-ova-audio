@@ -1,0 +1,271 @@
+.ova-audio-podcast {
+	background-color: #FFFFFF;
+	border: 1px solid #e4e4e4;
+	padding: 40px 35px;
+	@media (max-width: 500px) {
+		padding: 30px 25px;
+	}
+
+	.ovau-podcast-play {
+		display: flex;
+		align-items: center;
+		gap: 30px;
+		width: 100%;
+
+		.img-podcast {
+			display: flex;
+			flex: 35%;
+			width: 30%;
+			height: 100%;
+			overflow: hidden;
+
+			img {
+				display: flex;
+				height: 100%;
+				object-fit: cover;
+				object-position: center;
+			}
+		}
+
+		.ovau-container {
+			flex: 65%;
+			width: 70%;
+
+			.title {
+				margin: 0;
+				font-size: 20px;
+				font-weight: bold;
+				line-height: 1.2;
+				color: var(--heading);
+
+				a {
+					font-size: 20px;
+					font-weight: bold;
+					color: var(--heading);
+					@include transaction( all, 0.3s, ease );
+
+					&:hover {
+						color: var(--primary);
+					}
+				}
+			}
+
+			.episode {
+				a {
+					font-size: 14px;
+					color: var(--primary);
+					@include transaction( all, 0.3s, ease );
+
+					&:hover {
+						color: var(--heading);
+					}
+				}
+			}
+
+			.seperate-host {
+				font-size: 18px;
+				font-weight: 600;
+				color: var(--heading);
+			}
+
+			.episode {
+				margin-bottom: 5px;
+
+				.label {
+					font-size: 14px;
+					color: var(--text);
+				}
+			}
+
+			.ovau-podcast {
+				display: flex;
+				align-items: center;
+				height: 25px;
+
+				.control-icon {
+					display: flex;
+					width: 25px;
+					min-width: 25px;
+					height: 25px;
+					border-radius: 50%;
+					align-items: center;
+					justify-content: center;
+					background-color: var(--primary);
+					color: #FFFFFF;
+					font-size: 10px;
+					cursor: pointer;
+					-webkit-tap-highlight-color: transparent;
+					@include transaction( all, 0.3s, ease );
+
+					&:hover {
+						background-color: var(--heading);
+						color: #FFFFFF;
+					}
+				}
+
+				.ovau-podcast-player {
+					overflow: hidden;
+					width: 100%;
+
+					.ovamejs-container {
+		  				height: 30px;
+		  				.ovamejs-controls {
+
+		  					.ovamejs-time-rail {
+		  						height: 30px;
+		  						.ovamejs-time-total {
+		  							background-color: #000000;
+		  							height: 2px;
+		  							border-radius: 2px;
+
+		  							.ovamejs-time-current {
+		  								background-color: #e4e4e4;
+		  							}
+
+		  							.ovamejs-time-loaded, .ovamejs-time-current, .ovamejs-time-hovered {
+		  								height: 2px;
+		  								border-radius: 2px;
+		  							}
+
+		  							.ovamejs-time-handle {
+		  								border: 4px solid var(--primary);
+									    border-left: 2px;
+									    top: -3px;
+
+		  								.ovamejs-time-handle-content {
+		  									display: none;
+		  								}
+		  							}
+
+		  							.ovamejs-time-float {
+		  								display: none !important;
+		  							}
+		  						}
+		  					}
+
+		  					.ovamejs-time {
+		  						display: flex;
+		  						align-items: center;
+		  						justify-content: flex-end;
+		  						padding: 0;
+		  						min-width: 90px;
+
+		  						.seperate {
+		  							margin: 0 3px;
+		  						}
+
+		  						@media screen and (max-width: 500px) {
+		  							min-width: 40px;
+		  							.ovamejs-duration {
+		  								display: none;
+		  							}
+		  						}
+		  					}
+		  				}
+		  			}
+				}
+			}
+		}
+
+		@media screen and (max-width: 500px) {
+			flex-direction: column;
+
+			.img-podcast {
+				flex: 100%;
+				width: 100%;
+				margin-right: 0;
+				margin-bottom: 20px;
+			}
+
+			.ovau-container {
+				flex: 100%;
+				width: 100%;
+			}
+		}
+	}
+
+	.ovau-podcast-list {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		margin-top: 25px;
+
+		.item-podcast {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			gap: 20px;
+			line-height: 1;
+
+			&:not(:last-child) {
+				margin-bottom: 20px;
+			}
+
+			.podcast-left {
+				display: flex;
+				align-items: center;
+				column-gap: 20px;  
+
+				.play-icon {
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					width: 20px;
+					min-width: 20px;
+					height: 20px;
+					border-radius: 50%;
+					color: #fff;
+					font-size: 8px;
+					background-color: var(--primary);
+					cursor: pointer;
+					-webkit-tap-highlight-color: transparent;
+					@include transaction( all, 0.3s, ease );
+
+					&:hover {
+						background-color: var(--heading);
+						color: #FFFFFF;
+					}
+
+				}
+
+				.title {
+					margin: 0;
+					font-size: 16px;
+					font-weight: bold;
+					color: var(--heading);
+
+					a {
+						font-size: 16px;
+						font-weight: bold;
+						color: var(--heading);
+						@include transaction( all, 0.3s, ease );
+
+						&:hover {
+							color: var(--primary);
+						}
+					}
+				}
+			}
+
+			.podcast-right {
+				display: flex;
+				align-items: center;
+				column-gap: 12px; 
+
+				.duration {
+					font-size: 14px;
+					color: var(--text);
+				}
+
+				.podcast-download {
+					a {
+						i {
+							font-size: 14px;
+							color: var(--text);
+						}
+					}
+				}
+			}
+		}
+	}
+}

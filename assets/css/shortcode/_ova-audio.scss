@@ -1,0 +1,1098 @@
+.ovau-player-container {
+    font-family: sans-serif;
+    display: flex;
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: 9999;
+    font-size: 16px;
+    padding: 0;
+    visibility: visible;
+    opacity: 1;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+    background-color: #000000;
+
+    &.ova-player-hide {
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    .ova-player-toggle {
+        position: absolute;
+        top: -40px;
+        right: 0;
+        height: 40px;
+        padding: 0;
+        opacity: .5;
+        transition: all .3s ease-in-out;
+        line-height: 30px;
+        font-size: 20px;
+        padding: 5px 10px;
+        text-decoration: none;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #000000;
+        color: #FFFFFF;
+
+        .ova-player-show-text {
+            display: none;
+        }
+
+        &.ovau-toggle-icon {
+            .ova-player-collapse-text {
+                display: none;
+            }
+
+            .ova-player-show-text {
+                display: block;
+            }
+        }
+
+        &:hover {
+            opacity: 1;
+        }
+    }
+
+    .ova-player-wrapper {
+        font-family: sans-serif;
+        display: flex;
+        height: auto;
+        width: 100% !important;
+        max-width: 100%;
+        font-size: 16px;
+        padding: 0;
+        background-color: #000000;
+
+        .ova-player-right {
+            flex: 0 0 65%;
+            max-width: 65%;
+            height: 100%;
+            padding-right: 40px;
+
+            .ova-player {
+                display: flex;
+                align-items: center;
+                min-height: 150px;
+                padding: 0;
+
+                iframe {
+                    width: 100%;
+                    height: 100%;
+                    max-height: 150px;
+                }
+
+                .ovamejs-container {
+                    width: 100%;
+                    background: transparent;
+
+                    .ovamejs-controls {
+                        .ovamejs-time {
+                            color: #FFFFFF;
+                        }
+
+                        .ovamejs-time-rail {
+                            .ovamejs-time-slider {
+                                overflow: hidden;
+                            }
+                        }
+                    }
+                }
+            }
+
+            @media screen and (max-width: 768px) {
+                flex: 0 0 30%;
+                max-width: 30%;
+                padding-right: 0;
+
+                .ova-player {
+                    .ovamejs-container {
+                        .ovamejs-controls {
+                            justify-content: center;
+
+                            .ovamejs-skip-back-button, .ovamejs-jump-forward-button, .ovamejs-time-rail, .ovamejs-time, .ovamejs-speed-button {
+                                display: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .ova-player-left {
+            display: flex;
+            flex-direction: column;
+            flex: 0 0 35%;
+            max-width: 35%;
+            justify-content: center;
+            padding: 20px 20px 20px 40px;
+            float: left;
+            color: #fff;
+
+            .ova-player-title {
+                font-size: 20px;
+                line-height: 1.2;
+                margin-bottom: 8px;
+                font-weight: 600;
+            }
+
+            .ova-player-info {
+                font-size: 16px;
+                line-height: 1.2;
+                a {
+                    font-size: 16px;
+                    color: var(--primary);
+                    -webkit-transition: all, 0.3s, ease;
+                    -moz-transition: all, 0.3s, ease;
+                    -o-transition: all, 0.3s, ease;
+                    transition: all, 0.3s, ease;
+                }
+            }
+
+            @media screen and (max-width: 768px) {
+                height: auto;
+                flex: 0 0 70%;
+                max-width: 70%;
+                padding: 20px 0 20px 30px;
+            }
+        }
+    }
+
+    &.ovau-iframe {
+        .ova-player-wrapper {
+            .ova-player-right {
+                padding-right: 0;
+            }
+
+            @media screen and (max-width: 991px) {
+                flex-direction: column;
+
+                .ova-player-left, .ova-player-right {
+                    flex: 0;
+                    max-width: 100%;
+                }
+
+                .ova-player-left {
+                    .ova-player-title {
+                        font-size: 18px;
+                    }
+
+                    .ova-player-info {
+                        font-size: 14px;
+
+                        a {
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Player */
+@font-face {
+    font-family: 'audioplayer-font';
+    src: url('../fonts/audioplayer-font.eot?rsgnm2');
+    src: url('../fonts/audioplayer-font.eot?rsgnm2#iefix') format('embedded-opentype'),
+    url('../fonts/audioplayer-font.ttf?rsgnm2') format('truetype'),
+    url('../fonts/audioplayer-font.woff?rsgnm2') format('woff'),
+    url('../fonts/audioplayer-font.svg?rsgnm2#audioplayer-font') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="ovapf-"],
+[class*=" ovapf-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'audioplayer-font' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.ovapf-play:before {
+    content: "\a900";
+}
+
+.ovapf-pause:before {
+    content: "\a901";
+}
+
+.ovapf-volume:before {
+    content: "\a902";
+}
+
+.ovapf-mute:before {
+    content: "\a903";
+}
+
+.ovapf-replay:before {
+    content: "\a904";
+}
+
+.ovapf-minimize:before {
+    content: "\a905";
+}
+
+.ovapf-maximize:before {
+    content: "\a906";
+}
+
+
+.ovamejs-offscreen {
+    display: none;
+}
+.ovamejs-speed-selector.ovamejs-offscreen{
+    display: block;
+}
+
+
+.ovamejs-mediaelement {
+    display: none;
+}
+
+.ovamejs-container {
+    position: relative;
+    text-align: left;
+    text-indent: 0;
+    vertical-align: top;
+    margin-bottom: 0
+}
+
+.ovamejs-container,
+.ovamejs-container * {
+    box-sizing: border-box
+}
+
+
+.ovamejs-controls {
+    bottom: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    left: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    z-index: 3
+}
+
+.ovamejs-controls:not([style*="display: none"]) {}
+
+
+.ovamejs-time,
+.ovamejs-time-rail {
+    font-size: 10px;
+    height: 120px;
+    line-height: 10px;
+    margin: 0;
+    width: 32px
+}
+
+.ovamejs-button {
+    font-size: 10px;
+    height: 50px;
+    line-height: 50px;
+    width: 64px;
+}
+
+.ovamejs-button>button {
+    background: 0 0;
+    height: 50px;
+    width: 64px;
+    border: 0;
+    cursor: pointer;
+    display: block;
+    font-size: 0;
+    line-height: 0;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    text-decoration: none;
+    z-index: 2;
+    font-weight: normal;
+}
+
+.ovamejs-button>button:before {
+    font-family: 'audioplayer-font' !important;
+    font-size: 30px;
+    line-height: 1;
+}
+
+.ovamejs-play>button:before {
+    content: "\a900";
+    margin-left: 3px;
+}
+
+.ovamejs-pause>button:before {
+    content: "\a901";
+}
+
+.ovamejs-replay > button:before {
+    content: "\a904";
+}
+
+.ovamejs-mute>button:before {
+    content: "\a902";
+}
+
+.ovamejs-unmute>button:before {
+    content: "\a903";
+}
+
+.ovamejs-skip-back-button>button:before {
+    content: "-";
+}
+
+.ovamejs-jump-forward-button>button:before {
+    content: "+";
+}
+
+.ovamejs-skip-back-button>button:after,
+.ovamejs-jump-forward-button>button:after {
+    content: "s";
+}
+
+.ovamejs-skip-back-button>button,
+.ovamejs-jump-forward-button>button,
+.ovamejs-skip-back-button>button:before,
+.ovamejs-jump-forward-button>button:before,
+.ovamejs-speed-button>button {
+    font-size: 14px;
+}
+
+.ovamejs-volume-button>.ovamejs-volume-slider,
+.ovamejs-speed-selector {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .25);
+}
+
+.ovamejs-playpause-button {
+    width: 50px;
+    height: 50px;
+    flex: 0 0 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ovamejs-playpause-button>button {
+    height: 50px;
+    width: 50px;
+    flex: 0 0 50px;
+}
+
+.ovamejs-button>button:focus {
+    outline: 0;
+}
+
+.ovamejs-container-keyboard-inactive [role=slider],
+.ovamejs-container-keyboard-inactive [role=slider]:focus,
+.ovamejs-container-keyboard-inactive a,
+.ovamejs-container-keyboard-inactive a:focus,
+.ovamejs-container-keyboard-inactive button,
+.ovamejs-container-keyboard-inactive button:focus {
+    outline: 0
+}
+
+.ovamejs-time {
+    box-sizing: content-box;
+    font-size: 14px;
+    height: 24px;
+    overflow: hidden;
+    padding: 13px 6px 0;
+    text-align: center;
+    width: auto
+}
+
+
+
+.ovamejs-time-rail {
+    direction: ltr;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    height: 40px;
+    margin: 0 10px;
+    padding-top: 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.ovamejs-time-buffering,
+.ovamejs-time-current,
+.ovamejs-time-float,
+.ovamejs-time-float-corner,
+.ovamejs-time-float-current,
+.ovamejs-time-hovered,
+.ovamejs-time-loaded,
+.ovamejs-time-marker,
+.ovamejs-time-total {
+    border-radius: 0;
+    cursor: pointer;
+    display: block;
+    height: 6px;
+    position: absolute
+}
+
+.ovamejs-time-buffering,
+.ovamejs-time-current,
+.ovamejs-time-hovered,
+.ovamejs-time-loaded,
+.ovamejs-time-current,
+.ovamejs-time-handle-content {
+    border-radius: 0;
+}
+
+.ovamejs-time-total {
+    background: hsla(0, 0%, 100%, .3);
+    margin: 0;
+    width: 100%
+}
+
+.ovamejs-time-buffering {
+    -webkit-animation: b 2s linear infinite;
+    animation: b 2s linear infinite;
+    background: -webkit-linear-gradient(135deg, hsla(0, 0%, 100%, .4) 25%, transparent 0, transparent 50%, hsla(0, 0%, 100%, .4) 0, hsla(0, 0%, 100%, .4) 75%, transparent 0, transparent);
+    background: linear-gradient(-45deg, hsla(0, 0%, 100%, .4) 25%, transparent 0, transparent 50%, hsla(0, 0%, 100%, .4) 0, hsla(0, 0%, 100%, .4) 75%, transparent 0, transparent);
+    background-size: 15px 15px;
+    width: 100%
+}
+
+@-webkit-keyframes b {
+    0% {
+        background-position: 0 0
+    }
+
+    to {
+        background-position: 30px 0
+    }
+}
+
+@keyframes b {
+    0% {
+        background-position: 0 0
+    }
+
+    to {
+        background-position: 30px 0
+    }
+}
+
+.ovamejs-time-loaded {
+    background: hsla(0, 0%, 100%, .3)
+}
+
+.ovamejs-time-current,
+.ovamejs-time-handle-content {
+    background: hsla(0, 0%, 100%, .9)
+}
+
+.ovamejs-time-hovered {
+    background: hsla(0, 0%, 100%, .5);
+    z-index: 10
+}
+
+.ovamejs-time-hovered.negative {
+    background: rgba(0, 0, 0, .2)
+}
+
+.ovamejs-time-buffering,
+.ovamejs-time-current,
+.ovamejs-time-hovered,
+.ovamejs-time-loaded {
+    left: 0;
+    -webkit-transform: scaleX(0);
+    -ms-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    transform-origin: 0 0;
+    -webkit-transition: all .15s ease-in;
+    transition: all .15s ease-in;
+    width: 100%
+}
+
+.ovamejs-time-buffering {
+    -webkit-transform: scaleX(1);
+    -ms-transform: scaleX(1);
+    transform: scaleX(1)
+}
+
+.ovamejs-time-hovered {
+    -webkit-transition: height .1s cubic-bezier(.44, 0, 1, 1);
+    transition: height .1s cubic-bezier(.44, 0, 1, 1)
+}
+
+.ovamejs-time-hovered.no-hover {
+    -webkit-transform: scaleX(0) !important;
+    -ms-transform: scaleX(0) !important;
+    transform: scaleX(0) !important
+}
+
+.ovamejs-time-handle,
+.ovamejs-time-handle-content {
+    border: 4px solid transparent;
+    cursor: pointer;
+    left: 0;
+    position: absolute;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+    z-index: 11
+}
+
+.ovamejs-time-handle-content {
+    border: 6px solid hsla(0, 0%, 100%, .9);
+    border-radius: 50%;
+    height: 10px;
+    left: -7px;
+    top: -7px;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    width: 10px
+}
+
+.ovamejs-time-rail .ovamejs-time-handle-content:active,
+.ovamejs-time-rail .ovamejs-time-handle-content:focus,
+.ovamejs-time-rail:hover .ovamejs-time-handle-content {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1)
+}
+
+.ovamejs-time-float {
+    background: #eee;
+    border: 1px solid #333;
+    bottom: 100%;
+    color: #111;
+    display: none;
+    height: 17px;
+    margin-bottom: 9px;
+    position: absolute;
+    text-align: center;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 36px
+}
+
+.ovamejs-time-float-current {
+    display: block;
+    left: 0;
+    margin: 2px;
+    text-align: center;
+    width: 30px
+}
+
+.ovamejs-time-float-corner {
+    border: 5px solid #eee;
+    border-color: #eee transparent transparent;
+    border-radius: 0;
+    display: block;
+    height: 0;
+    left: 50%;
+    line-height: 0;
+    position: absolute;
+    top: 100%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 0
+}
+
+
+
+
+
+/* Volume  */
+
+
+
+.ovamejs-volume-button {
+    position: relative
+}
+
+.ovamejs-volume-button>.ovamejs-volume-slider {
+    -webkit-backface-visibility: hidden;
+    border-radius: 0;
+    bottom: 3px;
+    display: none;
+    height: 160px;
+    left: 50%;
+    margin: 0;
+    position: absolute;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 50px;
+    z-index: 1;
+    border-radius: 25px;
+
+}
+
+.ovamejs-volume-button:hover {
+    border-radius: 0 0 4px 4px
+}
+
+.ovamejs-volume-total {
+    background: #000;
+    height: 100px;
+    left: 50%;
+    margin: 0;
+    position: absolute;
+    top: 20px;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 10px;
+    border-radius: 6px;
+}
+
+.ovamejs-volume-current {
+    left: 0;
+    margin: 0;
+    width: 100%;
+    border-radius: 25px;
+}
+
+.ovamejs-volume-current,
+.ovamejs-volume-handle {
+    background: hsla(0, 0%, 100%, .9);
+    position: absolute;
+    transition: all .1s ease-in-out;
+}
+
+.ovamejs-volume-handle {
+    border-radius: 0;
+    cursor: ns-resize;
+    height: 6px;
+    left: 50%;
+    -webkit-transform: translate(-50%, 5px);
+    -ms-transform: translate(-50%, 5px);
+    transform: translate(-50%, 5px);
+    width: 10px;
+}
+
+.ovamejs-horizontal-volume-slider {
+    display: block;
+    height: 36px;
+    position: relative;
+    vertical-align: middle;
+    width: 56px
+}
+
+.ovamejs-horizontal-volume-total {
+    background: rgba(50, 50, 50, .8);
+    height: 8px;
+    top: 16px;
+    width: 50px
+}
+
+.ovamejs-horizontal-volume-current,
+.ovamejs-horizontal-volume-total {
+    border-radius: 2px;
+    font-size: 1px;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute
+}
+
+.ovamejs-horizontal-volume-current {
+    background: hsla(0, 0%, 100%, .8);
+    height: 100%;
+    top: 0;
+    width: 100%
+}
+
+.ovamejs-horizontal-volume-handle {
+    display: none
+}
+
+.ovamejs-captions-button,
+.ovamejs-chapters-button {
+    position: relative
+}
+
+.ovamejs-captions-button>button {
+    background-position: -140px 0
+}
+
+.ovamejs-chapters-button>button {
+    background-position: -180px 0
+}
+
+.ovamejs-captions-button>.ovamejs-captions-selector,
+.ovamejs-chapters-button>.ovamejs-chapters-selector {
+    background: rgba(50, 50, 50, .7);
+    border: 1px solid transparent;
+    border-radius: 0;
+    bottom: 100%;
+    margin-right: -43px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    right: 50%;
+    visibility: visible;
+    width: 86px
+}
+
+.ovamejs-chapters-button>.ovamejs-chapters-selector {
+    margin-right: -55px;
+    width: 110px
+}
+
+.ovamejs-captions-selector-list,
+.ovamejs-chapters-selector-list {
+    list-style-type: none !important;
+    margin: 0;
+    overflow: hidden;
+    padding: 0
+}
+
+.ovamejs-captions-selector-list-item,
+.ovamejs-chapters-selector-list-item {
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    list-style-type: none !important;
+    margin: 0 0 6px;
+    overflow: hidden;
+    padding: 0 10px
+}
+
+.ovamejs-captions-selector-list-item:hover,
+.ovamejs-chapters-selector-list-item:hover {
+    background-color: #c8c8c8 !important;
+    background-color: hsla(0, 0%, 100%, .4) !important
+}
+
+.ovamejs-captions-selector-input,
+.ovamejs-chapters-selector-input {
+    clear: both;
+    float: left;
+    left: -1000px;
+    margin: 3px 3px 0 5px;
+    position: absolute
+}
+
+.ovamejs-captions-selector-label,
+.ovamejs-chapters-selector-label {
+    cursor: pointer;
+    float: left;
+    font-size: 10px;
+    line-height: 15px;
+    padding: 4px 0 0
+}
+
+.ovamejs-captions-selected,
+.ovamejs-chapters-selected {
+    color: #21f8f8
+}
+
+.ovamejs-captions-translations {
+    font-size: 10px;
+    margin: 0 0 5px
+}
+
+.ovamejs-captions-layer {
+    bottom: 0;
+    color: #fff;
+    font-size: 16px;
+    left: 0;
+    line-height: 20px;
+    position: absolute;
+    text-align: center
+}
+
+.ovamejs-captions-layer a {
+    color: #fff;
+    text-decoration: underline
+}
+
+.ovamejs-captions-layer[lang=ar] {
+    font-size: 20px;
+    font-weight: 400
+}
+
+.ovamejs-captions-position {
+    bottom: 15px;
+    left: 0;
+    position: absolute;
+    width: 100%
+}
+
+.ovamejs-captions-position-hover {
+    bottom: 35px
+}
+
+.ovamejs-captions-text,
+.ovamejs-captions-text * {
+    background: hsla(0, 0%, 8%, .5);
+    box-shadow: 5px 0 0 hsla(0, 0%, 8%, .5), -5px 0 0 hsla(0, 0%, 8%, .5);
+    padding: 0;
+    white-space: pre-wrap
+}
+
+.ovamejs-container.ovamejs-hide-cues video::-webkit-media-text-track-container {
+    display: none
+}
+
+.ovamejs-overlay-error {
+    position: relative
+}
+
+.ovamejs-overlay-error>img {
+    left: 0;
+    position: absolute;
+    top: 0;
+    z-index: -1
+}
+
+.ovamejs-cannotplay,
+.ovamejs-cannotplay a {
+    color: #fff;
+    font-size: .8em
+}
+
+.ovamejs-cannotplay {
+    position: relative
+}
+
+.ovamejs-cannotplay a,
+.ovamejs-cannotplay p {
+    display: inline-block;
+    padding: 0 15px;
+    width: 100%
+}
+
+/* Speed */
+
+.mejs__speed-button,
+.ovamejs-speed-button {
+    position: relative;
+}
+
+
+
+.mejs__speed-selector,
+.ovamejs-speed-selector {
+    height: 160px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    bottom: 0;
+    visibility: hidden;
+    top: auto !important;
+    width: 50px;
+    border-radius: 25px;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    left: 50%;
+}
+
+.mejs__speed-selector,
+.ovamejs-speed-selector {
+    visibility: visible;
+}
+
+.mejs__speed-selector-list,
+.ovamejs-speed-selector-list {
+    display: block;
+    list-style-type: none !important;
+    margin: 0 0 3px;
+    overflow: hidden;
+    padding: 0;
+}
+
+.mejs__speed-selector-list-item,
+.ovamejs-speed-selector-list-item {
+    display: block;
+    list-style-type: none !important;
+    margin: 0 0 10px;
+    overflow: hidden;
+    padding: 0;
+    text-align: center;
+}
+
+.mejs__speed-selector-list-item:hover,
+.ovamejs-speed-selector-list-item:hover {
+    background-color: rgb(200, 200, 200) !important;
+    background-color: rgba(255, 255, 255, 0.4) !important;
+}
+
+.mejs__speed-selector-input,
+.ovamejs-speed-selector-input {
+    clear: both;
+    float: left;
+    left: -1000px;
+    margin: 3px 3px 0 5px;
+    position: absolute;
+}
+
+.mejs__speed-selector-label,
+.ovamejs-speed-selector-label {
+    cursor: pointer;
+    float: left;
+    line-height: 15px;
+    margin-left: 0;
+    padding: 4px 0 0;
+    width: 50px;
+}
+
+.mejs__speed-selected,
+.ovamejs-speed-selected {
+    color: #000;
+}
+
+.mejs__speed-selector,
+.ovamejs-speed-selector {
+    visibility: hidden;
+}
+
+.mejs__speed-button:hover .mejs__speed-selector,
+.ovamejs-speed-button:hover .ovamejs-speed-selector {
+    visibility: visible;
+}
+.ovamejs-speed-button,
+.ovamejs-speed-button button,
+.ovamejs-volume-button button,
+.ovamejs-volume-button{
+    width: 50px;
+}
+
+.ova-player .ovamejs-speed-button>button,
+.ova-player .ovamejs-speed-button .ovamejs-speed-selector-list-item {
+    font-size: 14px;
+}
+
+.ovamejs-speed-selector {
+    padding-bottom: 30px;
+    height: auto;
+    bottom: 1px;
+    padding-top: 8px;
+}
+
+
+
+/* Reponsive */
+@media (max-width: 768px){
+    .ovamejs-volume-button{
+        display: none;
+    }
+}
+
+@media (max-width: 500px){
+    .ova-player-player,
+    .ova-player{
+        height: 70px;
+    }
+    .ova-player-collapsed{
+        bottom: -70px;
+    }
+    .ovamejs-button,
+    .ovamejs-button>button{
+        width: 40px;
+        line-height: 2;
+    }
+    .ovamejs-playpause-button{
+        height: 40px;
+        flex: 0 0 40px;
+        margin: 0 4px;
+    }
+    .ovamejs-playpause-button > button:before{
+        font-size: 22px;
+    }
+    .ovamejs-time .ovamejs-duration,
+    .ovamejs-time .ovamejs-currenttime + span{
+        display: none;
+    }
+}
+
+@media (max-width: 400px){
+    .ovamejs-time{
+        display: none;
+    }
+    .ovamejs-button.ovamejs-speed-button,
+    .ova-player .ovamejs-speed-button>button{
+        width: 30px;
+    }
+}
+
+/*loading*/
+#ova-loading {
+    position: absolute;
+    display: none;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #7372724d;
+    z-index: 3000;
+    cursor: pointer;
+}
+
+#ova-loading .ova-spinner {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    border: 5px solid #eee;
+    display: inline-block;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#ova-loading .ova-spinner:after,
+#ova-loading .ova-spinner:before {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+#ova-loading .ova-spinner:after {
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    border: 5px solid transparent;
+    border-top-color: #928a8a;
+    animation: ova_spin 1s linear infinite;
+}
+
+@keyframes ova_spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

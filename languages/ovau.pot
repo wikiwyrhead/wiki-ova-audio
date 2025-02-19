@@ -1,0 +1,3288 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ova Audio\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-24 08:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.11; wp-6.6.1\n"
+"X-Domain: ovau"
+
+#: templates/shortcode/ova_audio.php:15
+msgid " - "
+msgstr ""
+
+#: templates/parts/audio-item-grid-2.php:232
+msgid " 0"
+msgstr ""
+
+#: templates/parts/audio-item-grid-2.php:233
+msgid " 01"
+msgstr ""
+
+#: inc/ova-core-functions.php:319
+msgid " ago"
+msgstr ""
+
+#: templates/parts/audio-item-grid-2.php:102
+msgid " min"
+msgstr ""
+
+#: templates/shortcode/ova_audio.php:21
+msgid " Play - Audio "
+msgstr ""
+
+#: templates/single-audio-2.php:25 templates/single-audio.php:24
+#: elementor/widgets/ova_audio.php:173 elementor/widgets/ova_audio_2.php:187
+#: elementor/widgets/ova_audio_featured.php:302
+#: elementor/widgets/ova_audio_grid_2.php:348
+#: elementor/widgets/ova_audio_list.php:200
+#: elementor/widgets/ova_audio_main-slider.php:228
+#: elementor/widgets/ova_audio_podcast.php:191
+#: elementor/widgets/ova_audio_slider_2.php:358
+#: elementor/widgets/ova_audio_slider_3.php:199
+#: templates/elementor/ova_audio.php:57 templates/elementor/ova_audio_2.php:67
+#: templates/elementor/ova_audio_category.php:151
+#: templates/elementor/ova_audio_seasons.php:136
+#: templates/shortcode/player.php:22
+msgid "."
+msgstr ""
+
+#: templates/single-audio-2.php:26 templates/single-audio-2.php:320
+#: templates/single-audio.php:25 templates/single-audio.php:213
+#: templates/elementor/ova_audio.php:25 templates/elementor/ova_audio_2.php:33
+#: templates/elementor/ova_audio_podcast.php:21
+msgid "00:00"
+msgstr ""
+
+#: elementor/widgets/ova_audio_host.php:72
+msgid "1 Columns"
+msgstr ""
+
+#: inc/class-customize.php:114 inc/class-customize.php:754
+#: inc/class-customize.php:895
+msgid "2 column"
+msgstr ""
+
+#: elementor/widgets/ova_audio_grid.php:114
+#: elementor/widgets/ova_audio_grid_2.php:117
+#: elementor/widgets/ova_audio_host.php:73
+msgid "2 Columns"
+msgstr ""
+
+#: inc/class-customize.php:115 inc/class-customize.php:755
+#: inc/class-customize.php:896
+msgid "3 column"
+msgstr ""
+
+#: elementor/widgets/ova_audio_grid.php:115
+#: elementor/widgets/ova_audio_grid_2.php:118
+#: elementor/widgets/ova_audio_host.php:74
+msgid "3 Columns"
+msgstr ""
+
+#: inc/class-customize.php:116 inc/class-customize.php:756
+msgid "4 column"
+msgstr ""
+
+#: elementor/widgets/ova_audio_grid.php:116
+#: elementor/widgets/ova_audio_grid_2.php:119
+#: elementor/widgets/ova_audio_host.php:75
+msgid "4 Columns"
+msgstr ""
+
+#: templates/single-audio-2.php:311
+msgid ":"
+msgstr ""
+
+#: admin/class-ova-metabox.php:41
+msgid "<iframe> HTML"
+msgstr ""
+
+#: elementor/widgets/ova_audio_categories_slider.php:489
+#: elementor/widgets/ova_audio_category_filter.php:401
+#: elementor/widgets/ova_audio_category_filter_2.php:309
+#: elementor/widgets/ova_audio_host_slider.php:582
+#: elementor/widgets/ova_audio_main-slider.php:922
+#: elementor/widgets/ova_audio_slider.php:760
+#: elementor/widgets/ova_audio_slider_2.php:1117
+#: elementor/widgets/ova_audio_slider_3.php:929
+msgid "Active"
+msgstr ""
+
+#: admin/class-ova-metabox.php:109
+msgid "Add"
+msgstr ""
+
+#: admin/class-ova-metabox.php:64
+msgid "Add a Media"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:34 inc/class-ova-custom-post-type.php:123
+msgid "Add New"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:33
+msgid "Add New Audio"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:75 inc/class-ova-custom-post-type.php:76
+msgid "Add New Category Audio"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:122
+msgid "Add New Host"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:163
+#: inc/class-ova-custom-post-type.php:164
+msgid "Add New Season Audio"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:208
+#: inc/class-ova-custom-post-type.php:209
+msgid "Add New Tag Audio"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:80 inc/class-ova-custom-post-type.php:168
+#: inc/class-ova-custom-post-type.php:213
+msgid "Add or remove items"
+msgstr ""
+
+#: admin/class-ova-metabox.php:187
+msgid "Add Social"
+msgstr ""
+
+#: elementor/widgets/ova_audio_2.php:309
+#: elementor/widgets/ova_audio_categories_slider.php:115
+#: elementor/widgets/ova_audio_category.php:261
+#: elementor/widgets/ova_audio_category_filter.php:214
+#: elementor/widgets/ova_audio_featured.php:309
+#: elementor/widgets/ova_audio_host_slider.php:159
+#: elementor/widgets/ova_audio_list.php:189
+#: elementor/widgets/ova_audio_list_2.php:197
+#: elementor/widgets/ova_audio_play_button.php:100
+#: elementor/widgets/ova_audio_podcast.php:223
+#: elementor/widgets/ova_audio_seasons.php:249
+#: elementor/widgets/ova_audio_slider.php:225
+msgid "Additional Options"
+msgstr ""
+
+#: elementor/widgets/ova_audio_grid_2.php:337
+#: elementor/widgets/ova_audio_main-slider.php:217
+#: elementor/widgets/ova_audio_slider_2.php:346
+#: elementor/widgets/ova_audio_slider_3.php:188
+msgid "Additional Options Play"
+msgstr ""
+
+#: elementor/widgets/ova_audio_main-slider.php:316
+#: elementor/widgets/ova_audio_slider_2.php:445
+#: elementor/widgets/ova_audio_slider_3.php:287
+msgid "Additional Options Slider"
+msgstr ""
+
+#: inc/class-ajax.php:230 elementor/widgets/ova_audio_category.php:54
+#: elementor/widgets/ova_audio_featured.php:79
+#: elementor/widgets/ova_audio_list_2.php:76
+#: elementor/widgets/ova_audio_main-slider.php:64
+#: elementor/widgets/ova_audio_seasons.php:54
+#: elementor/widgets/ova_audio_slider_3.php:64
+#: templates/elementor/ova_audio_category.php:11
+#: templates/elementor/ova_audio_featured.php:10
+#: templates/elementor/ova_audio_list_2.php:13
+#: templates/elementor/ova_audio_seasons.php:11
+msgid "All"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:32
+msgid "All Audios"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:71
+msgid "All Category Audio"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:121
+msgid "All Hosts"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:159
+msgid "All Seasons Audio"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:204
+msgid "All Tags Audio"
+msgstr ""
+
+#: inc/class-customize.php:32 inc/class-customize.php:668
+msgid "Archive"
+msgstr ""
+
+#: elementor/widgets/ova_audio_categories_slider.php:562
+#: elementor/widgets/ova_audio_main-slider.php:995
+#: elementor/widgets/ova_audio_slider_2.php:1190
+#: elementor/widgets/ova_audio_slider_3.php:1002
+msgid "Arrows Control"
+msgstr ""
+
+#: inc/class-customize.php:69 inc/class-customize.php:707
+#: elementor/widgets/ova_audio_category.php:88
+#: elementor/widgets/ova_audio_category_filter.php:95
+#: elementor/widgets/ova_audio_category_filter.php:206
+#: elementor/widgets/ova_audio_category_filter_2.php:82
+#: elementor/widgets/ova_audio_category_filter_2.php:194
+#: elementor/widgets/ova_audio_featured.php:103
+#: elementor/widgets/ova_audio_grid.php:128
+#: elementor/widgets/ova_audio_grid_2.php:131
+#: elementor/widgets/ova_audio_host.php:104
+#: elementor/widgets/ova_audio_host_slider.php:93
+#: elementor/widgets/ova_audio_list.php:90
+#: elementor/widgets/ova_audio_list_2.php:100
+#: elementor/widgets/ova_audio_main-slider.php:110
+#: elementor/widgets/ova_audio_podcast.php:90
+#: elementor/widgets/ova_audio_seasons.php:90
+#: elementor/widgets/ova_audio_slider.php:128
+#: elementor/widgets/ova_audio_slider_2.php:175
+#: elementor/widgets/ova_audio_slider_3.php:120
+msgid "Ascending"
+msgstr ""
+
+#: admin/class-ova-metabox.php:50 inc/class-customize.php:26
+#: inc/class-ova-custom-post-type.php:28 elementor/widgets/ova_audio.php:23
+msgid "Audio"
+msgstr ""
+
+#: elementor/widgets/ova_audio_2.php:23
+msgid "Audio 2"
+msgstr ""
+
+#: elementor/widgets/ova_audio_categories_slider.php:24
+msgid "Audio Categories Slider"
+msgstr ""
+
+#: elementor/widgets/ova_audio_category.php:23
+msgid "Audio Category"
+msgstr ""
+
+#: elementor/widgets/ova_audio_category_filter.php:25
+#: elementor/widgets/ova_audio_category_filter.php:46
+msgid "Audio Category Filter"
+msgstr ""
+
+#: elementor/widgets/ova_audio_category_filter_2.php:25
+#: elementor/widgets/ova_audio_category_filter_2.php:46
+msgid "Audio Category Filter 2"
+msgstr ""
+
+#: elementor/widgets/ova_audio_featured.php:23
+msgid "Audio Featured"
+msgstr ""
+
+#: elementor/widgets/ova_audio_grid.php:23
+msgid "Audio Grid"
+msgstr ""
+
+#: elementor/widgets/ova_audio_grid_2.php:23
+msgid "Audio Grid 2"
+msgstr ""
+
+#: inc/class-customize.php:662 inc/class-ova-custom-post-type.php:117
+#: elementor/widgets/ova_audio_host.php:23
+msgid "Audio Host"
+msgstr ""
+
+#: elementor/widgets/ova_audio_host_slider.php:23
+msgid "Audio Host Slider"
+msgstr ""
+
+#: elementor/widgets/ova_audio_list.php:23
+msgid "Audio List"
+msgstr ""
+
+#: elementor/widgets/ova_audio_list_2.php:23
+msgid "Audio List 2"
+msgstr ""
+
+#: elementor/widgets/ova_audio_main-slider.php:23
+msgid "Audio Main Slider"
+msgstr ""
+
+#: elementor/widgets/ova_audio_play_button.php:23
+msgid "Audio Play Button"
+msgstr ""
+
+#: elementor/widgets/ova_audio_seasons.php:23
+msgid "Audio Seasons"
+msgstr ""
+
+#: elementor/widgets/ova_audio_slider.php:24
+msgid "Audio Slider"
+msgstr ""
+
+#: elementor/widgets/ova_audio_slider_2.php:23
+msgid "Audio Slider 2"
+msgstr ""
+
+#: elementor/widgets/ova_audio_slider_3.php:23
+msgid "Audio Slider 3"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:27
+msgid "Audios"
+msgstr ""
+
+#: admin/class-ova-metabox.php:91
+msgid "Automatically insert Episode if empty"
+msgstr ""
+
+#: admin/class-ova-metabox.php:151 admin/class-ova-metabox.php:211
+msgid "Automatically insert Sort Order if empty"
+msgstr ""
+
+#: elementor/widgets/ova_audio_podcast.php:232
+msgid "Automatically Next Podcast"
+msgstr ""
+
+#: elementor/widgets/ova_audio_categories_slider.php:191
+#: elementor/widgets/ova_audio_host_slider.php:236
+#: elementor/widgets/ova_audio_main-slider.php:352
+#: elementor/widgets/ova_audio_slider.php:303
+#: elementor/widgets/ova_audio_slider_2.php:521
+#: elementor/widgets/ova_audio_slider_3.php:363
+msgid "Autoplay"
+msgstr ""
+
+#: elementor/widgets/ova_audio_categories_slider.php:205
+#: elementor/widgets/ova_audio_host_slider.php:250
+#: elementor/widgets/ova_audio_main-slider.php:366
+#: elementor/widgets/ova_audio_slider.php:317
+#: elementor/widgets/ova_audio_slider_2.php:535
+#: elementor/widgets/ova_audio_slider_3.php:377
+msgid "Autoplay Speed"
+msgstr ""
+
+#: elementor/widgets/ova_audio_2.php:406 templates/elementor/ova_audio_2.php:17
+msgid "Avatar"
+msgstr ""
+
+#: elementor/widgets/ova_audio.php:338 elementor/widgets/ova_audio.php:462
+#: elementor/widgets/ova_audio.php:493 elementor/widgets/ova_audio.php:524
+#: elementor/widgets/ova_audio.php:820 elementor/widgets/ova_audio.php:853
+#: elementor/widgets/ova_audio.php:1046 elementor/widgets/ova_audio.php:1077
+#: elementor/widgets/ova_audio_2.php:521 elementor/widgets/ova_audio_2.php:552
+#: elementor/widgets/ova_audio_2.php:583 elementor/widgets/ova_audio_2.php:723
+#: elementor/widgets/ova_audio_2.php:756 elementor/widgets/ova_audio_2.php:1240
+#: elementor/widgets/ova_audio_2.php:1271
+#: elementor/widgets/ova_audio_category.php:351
+#: elementor/widgets/ova_audio_category.php:535
+#: elementor/widgets/ova_audio_category.php:759
+#: elementor/widgets/ova_audio_category.php:810
+#: elementor/widgets/ova_audio_category.php:830
+#: elementor/widgets/ova_audio_category.php:1090
+#: elementor/widgets/ova_audio_category.php:1121
+#: elementor/widgets/ova_audio_category_filter.php:356
+#: elementor/widgets/ova_audio_category_filter.php:388
+#: elementor/widgets/ova_audio_category_filter.php:419
+#: elementor/widgets/ova_audio_category_filter.php:514
+#: elementor/widgets/ova_audio_category_filter.php:564
+#: elementor/widgets/ova_audio_category_filter.php:615
+#: elementor/widgets/ova_audio_category_filter.php:635
+#: elementor/widgets/ova_audio_category_filter_2.php:264
+#: elementor/widgets/ova_audio_category_filter_2.php:296
+#: elementor/widgets/ova_audio_category_filter_2.php:327
+#: elementor/widgets/ova_audio_category_filter_2.php:745
+#: elementor/widgets/ova_audio_featured.php:562
+#: elementor/widgets/ova_audio_featured.php:593
+#: elementor/widgets/ova_audio_featured.php:624
+#: elementor/widgets/ova_audio_grid.php:640
+#: elementor/widgets/ova_audio_grid_2.php:692
+#: elementor/widgets/ova_audio_list.php:291
+#: elementor/widgets/ova_audio_list.php:493
+#: elementor/widgets/ova_audio_list.php:544
+#: elementor/widgets/ova_audio_list.php:575
+#: elementor/widgets/ova_audio_list_2.php:435
+#: elementor/widgets/ova_audio_list_2.php:486
+#: elementor/widgets/ova_audio_list_2.php:506
+#: elementor/widgets/ova_audio_main-slider.php:754
+#: elementor/widgets/ova_audio_podcast.php:328
+#: elementor/widgets/ova_audio_podcast.php:657
+#: elementor/widgets/ova_audio_podcast.php:688
+#: elementor/widgets/ova_audio_podcast.php:719
+#: elementor/widgets/ova_audio_podcast.php:1078
+#: elementor/widgets/ova_audio_podcast.php:1109
+#: elementor/widgets/ova_audio_seasons.php:339
+#: elementor/widgets/ova_audio_seasons.php:730
+#: elementor/widgets/ova_audio_seasons.php:781
+#: elementor/widgets/ova_audio_seasons.php:801
+#: elementor/widgets/ova_audio_seasons.php:1061
+#: elementor/widgets/ova_audio_seasons.php:1092
+#: elementor/widgets/ova_audio_slider.php:648
+#: elementor/widgets/ova_audio_slider_2.php:1005
+#: elementor/widgets/ova_audio_slider_3.php:605
+#: elementor/widgets/ova_audio_slider_3.php:817
+msgid "Background"
+msgstr ""
+
+#: elementor/widgets/ova_audio_category_filter_2.php:716
+#: elementor/widgets/ova_audio_grid.php:611
+#: elementor/widgets/ova_audio_grid_2.php:663
+#: elementor/widgets/ova_audio_slider.php:619
+#: elementor/widgets/ova_audio_slider_2.php:976
+#: elementor/widgets/ova_audio_slider_3.php:788
+msgid "Background "
+msgstr ""
+
+#: elementor/widgets/ova_audio_categories_slider.php:636
+#: elementor/widgets/ova_audio_categories_slider.php:667
+#: elementor/widgets/ova_audio_category_filter_2.php:438
+#: elementor/widgets/ova_audio_grid.php:333
+#: elementor/widgets/ova_audio_host.php:316
+#: elementor/widgets/ova_audio_host.php:345
+#: elementor/widgets/ova_audio_host_slider.php:441
+#: elementor/widgets/ova_audio_host_slider.php:470
+#: elementor/widgets/ova_audio_main-slider.php:460
+#: elementor/widgets/ova_audio_main-slider.php:714
+#: elementor/widgets/ova_audio_main-slider.php:1066
+#: elementor/widgets/ova_audio_main-slider.php:1097
+#: elementor/widgets/ova_audio_slider.php:379
+#: elementor/widgets/ova_audio_slider_2.php:698
+#: elementor/widgets/ova_audio_slider_2.php:1261
+#: elementor/widgets/ova_audio_slider_2.php:1292
+#: elementor/widgets/ova_audio_slider_3.php:471
+#: elementor/widgets/ova_audio_slider_3.php:565
+#: elementor/widgets/ova_audio_slider_3.php:1073
+#: elementor/widgets/ova_audio_slider_3.php:1104
+msgid "Background Color"
+msgstr ""
+
+#: elementor/widgets/ova_audio_category_filter_2.php:469
+#: elementor/widgets/ova_audio_grid.php:364
+#: elementor/widgets/ova_audio_main-slider.php:796
+#: elementor/widgets/ova_audio_slider_2.php:729
+#: elementor/widgets/ova_audio_slider_3.php:482
+#: elementor/widgets/ova_audio_slider_3.php:636
+msgid "Background Color Hover"
+msgstr ""
+
+#: elementor/widgets/ova_audio.php:412 elementor/widgets/ova_audio.php:599
+#: elementor/widgets/ova_audio.php:908 elementor/widgets/ova_audio.php:1127
+#: elementor/widgets/ova_audio_2.php:450 elementor/widgets/ova_audio_2.php:659
+#: elementor/widgets/ova_audio_2.php:834 elementor/widgets/ova_audio_2.php:1321
+#: elementor/widgets/ova_audio_category.php:375
+#: elementor/widgets/ova_audio_category.php:645
+#: elementor/widgets/ova_audio_category.php:687
+#: elementor/widgets/ova_audio_category.php:729
+#: elementor/widgets/ova_audio_category.php:905
+#: elementor/widgets/ova_audio_category_filter.php:434
+#: elementor/widgets/ova_audio_category_filter.php:526
+#: elementor/widgets/ova_audio_category_filter.php:710
+#: elementor/widgets/ova_audio_category_filter_2.php:342
+#: elementor/widgets/ova_audio_featured.php:439
+#: elementor/widgets/ova_audio_featured.php:490
+#: elementor/widgets/ova_audio_featured.php:532
+#: elementor/widgets/ova_audio_featured.php:700
+#: elementor/widgets/ova_audio_list.php:315
+#: elementor/widgets/ova_audio_list.php:379
+#: elementor/widgets/ova_audio_list.php:421
+#: elementor/widgets/ova_audio_list.php:463
+#: elementor/widgets/ova_audio_list.php:650
+#: elementor/widgets/ova_audio_list_2.php:312
+#: elementor/widgets/ova_audio_list_2.php:363
+#: elementor/widgets/ova_audio_list_2.php:405
+#: elementor/widgets/ova_audio_list_2.php:581
+#: elementor/widgets/ova_audio_main-slider.php:484
+#: elementor/widgets/ova_audio_podcast.php:352
+#: elementor/widgets/ova_audio_podcast.php:794
+#: elementor/widgets/ova_audio_podcast.php:965
+#: elementor/widgets/ova_audio_podcast.php:1007
+#: elementor/widgets/ova_audio_podcast.php:1049
+#: elementor/widgets/ova_audio_podcast.php:1182
+#: elementor/widgets/ova_audio_seasons.php:363
+#: elementor/widgets/ova_audio_seasons.php:616
+#: elementor/widgets/ova_audio_seasons.php:658
+#: elementor/widgets/ova_audio_seasons.php:700
+#: elementor/widgets/ova_audio_seasons.php:876
+#: elementor/widgets/ova_audio_slider_3.php:506
+msgid "Border"
+msgstr ""
+
+#: elementor/widgets/ova_audio.php:607 elementor/widgets/ova_audio.php:916
+#: elementor/widgets/ova_audio.php:1135 elementor/widgets/ova_audio_2.php:667
+#: elementor/widgets/ova_audio_2.php:842 elementor/widgets/ova_audio_2.php:1329
+#: elementor/widgets/ova_audio_category.php:913
+#: elementor/widgets/ova_audio_category_filter.php:718
+#: elementor/widgets/ova_audio_featured.php:708
+#: elementor/widgets/ova_audio_list.php:658
+#: elementor/widgets/ova_audio_list_2.php:589
+#: elementor/widgets/ova_audio_podcast.php:802
+#: elementor/widgets/ova_audio_podcast.php:1190
+#: elementor/widgets/ova_audio_seasons.php:884
+msgid "Border Color Hover"
+msgstr ""
+
+#: elementor/widgets/ova_audio.php:420 elementor/widgets/ova_audio.php:618
+#: elementor/widgets/ova_audio.php:928 elementor/widgets/ova_audio_2.php:458
+#: elementor/widgets/ova_audio_2.php:678 elementor/widgets/ova_audio_2.php:854
+#: elementor/widgets/ova_audio_categories_slider.php:475
+#: elementor/widgets/ova_audio_categories_slider.php:543
+#: elementor/widgets/ova_audio_categories_slider.php:592
+#: elementor/widgets/ova_audio_category.php:383
+#: elementor/widgets/ova_audio_category.php:924
+#: elementor/widgets/ova_audio_category_filter.php:443
+#: elementor/widgets/ova_audio_category_filter.php:729
+#: elementor/widgets/ova_audio_category_filter_2.php:351
+#: elementor/widgets/ova_audio_category_filter_2.php:484
+#: elementor/widgets/ova_audio_category_filter_2.php:681
+#: elementor/widgets/ova_audio_featured.php:719
+#: elementor/widgets/ova_audio_grid.php:379
+#: elementor/widgets/ova_audio_grid.php:576
+#: elementor/widgets/ova_audio_host.php:194
+#: elementor/widgets/ova_audio_host_slider.php:319
+#: elementor/widgets/ova_audio_host_slider.php:568
+#: elementor/widgets/ova_audio_host_slider.php:636
+#: elementor/widgets/ova_audio_list.php:323
+#: elementor/widgets/ova_audio_list.php:669
+#: elementor/widgets/ova_audio_list_2.php:600
+#: elementor/widgets/ova_audio_main-slider.php:812
+#: elementor/widgets/ova_audio_main-slider.php:908
+#: elementor/widgets/ova_audio_main-slider.php:976
+#: elementor/widgets/ova_audio_main-slider.php:1022
+#: elementor/widgets/ova_audio_podcast.php:360
+#: elementor/widgets/ova_audio_podcast.php:813
+#: elementor/widgets/ova_audio_podcast.php:1201
+#: elementor/widgets/ova_audio_seasons.php:371
+#: elementor/widgets/ova_audio_seasons.php:895
+#: elementor/widgets/ova_audio_slider.php:584
+#: elementor/widgets/ova_audio_slider.php:746
+#: elementor/widgets/ova_audio_slider.php:814
+#: elementor/widgets/ova_audio_slider_2.php:744
+#: elementor/widgets/ova_audio_slider_2.php:941
+#: elementor/widgets/ova_audio_slider_2.php:1103
+#: elementor/widgets/ova_audio_slider_2.php:1171
+#: elementor/widgets/ova_audio_slider_2.php:1217
+#: elementor/widgets/ova_audio_slider_3.php:652
+#: elementor/widgets/ova_audio_slider_3.php:753
+#: elementor/widgets/ova_audio_slider_3.php:915
+#: elementor/widgets/ova_audio_slider_3.php:983
+#: elementor/widgets/ova_audio_slider_3.php:1029
+msgid "Border Radius"
+msgstr ""
+
+#: elementor/widgets/ova_audio.php:433 elementor/widgets/ova_audio_2.php:472
+#: elementor/widgets/ova_audio_category.php:396
+#: elementor/widgets/ova_audio_category.php:949
+#: elementor/widgets/ova_audio_category_filter.php:535
+#: elementor/widgets/ova_audio_category_filter.php:754
+#: elementor/widgets/ova_audio_featured.php:448
+#: elementor/widgets/ova_audio_featured.php:744
+#: elementor/widgets/ova_audio_list.php:336
+#: elementor/widgets/ova_audio_list.php:694
+#: elementor/widgets/ova_audio_list_2.php:321
+#: elementor/widgets/ova_audio_list_2.php:625
+#: elementor/widgets/ova_audio_podcast.php:373
+#: elementor/widgets/ova_audio_podcast.php:838
+#: elementor/widgets/ova_audio_seasons.php:384
+#: elementor/widgets/ova_audio_seasons.php:920
+#: elementor/widgets/ova_audio_slider.php:391
+msgid "Box Shadow"
+msgstr ""
+
+#: elementor/widgets/ova_audio_category.php:1063
+#: elementor/widgets/ova_audio_category_filter_2.php:651
+#: elementor/widgets/ova_audio_grid.php:546
+#: elementor/widgets/ova_audio_grid_2.php:614
+#: elementor/widgets/ova_audio_seasons.php:1034
+#: elementor/widgets/ova_audio_slider.php:554
+#: elementor/widgets/ova_audio_slider_2.php:911
+#: elementor/widgets/ova_audio_slider_3.php:723
+msgid "Button"
+msgstr ""
+
+#: elementor/widgets/ova_audio_category.php:217
+#: elementor/widgets/ova_audio_seasons.php:205
+msgid "Button Options"
+msgstr ""
+
+#: elementor/widgets/ova_audio_slider_2.php:67
+msgid "By Category"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:70
+#: elementor/widgets/ova_audio_grid.php:100
+#: elementor/widgets/ova_audio_grid_2.php:103
+#: elementor/widgets/ova_audio_list.php:76
+#: elementor/widgets/ova_audio_podcast.php:76
+msgid "Categories"
+msgstr ""
+
+#: elementor/widgets/ova_audio_category.php:64
+#: elementor/widgets/ova_audio_category.php:519
+#: elementor/widgets/ova_audio_category_filter.php:911
+#: elementor/widgets/ova_audio_category_filter_2.php:500
+#: elementor/widgets/ova_audio_featured.php:89
+#: elementor/widgets/ova_audio_featured.php:911
+#: elementor/widgets/ova_audio_grid.php:395
+#: elementor/widgets/ova_audio_grid_2.php:463
+#: elementor/widgets/ova_audio_list_2.php:86
+#: elementor/widgets/ova_audio_list_2.php:782
+#: elementor/widgets/ova_audio_main-slider.php:87
+#: elementor/widgets/ova_audio_slider.php:105
+#: elementor/widgets/ova_audio_slider.php:403
+#: elementor/widgets/ova_audio_slider_2.php:105
+#: elementor/widgets/ova_audio_slider_2.php:760
+#: elementor/widgets/ova_audio_slider_3.php:87
+msgid "Category"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:102
+msgctxt "Category Audio Slug"
+msgid "category-audio"
+msgstr ""
+
+#: elementor/widgets/ova_audio_grid.php:94
+#: elementor/widgets/ova_audio_grid_2.php:97
+#: elementor/widgets/ova_audio_list.php:70
+#: elementor/widgets/ova_audio_podcast.php:70
+msgid "Category not found!"
+msgstr ""
+
+#: elementor/widgets/ova_audio_category_filter.php:179
+#: elementor/widgets/ova_audio_category_filter_2.php:167
+msgid "Category Not In"
+msgstr ""
+
+#: elementor/widgets/ova_audio_list.php:767
+msgid "Category Options"
+msgstr ""
+
+#: elementor/widgets/ova_audio_category_filter.php:201
+#: elementor/widgets/ova_audio_category_filter_2.php:189
+msgid "Category Order"
+msgstr ""
+
+#: elementor/widgets/ova_audio_category_filter.php:188
+#: elementor/widgets/ova_audio_category_filter_2.php:176
+msgid "Category Order By"
+msgstr ""
+
+#: elementor/widgets/ova_audio_featured.php:256
+#: elementor/widgets/ova_audio_grid_2.php:316
+msgid "Center"
+msgstr ""
+
+#: admin/class-ova-metabox.php:131
+msgid "Choose a form donation"
+msgstr ""
+
+#: admin/class-ova-metabox.php:96
+msgid "Choose a host"
+msgstr ""
+
+#: admin/class-ova-metabox.php:57
+msgid "Choose a Media"
+msgstr ""
+
+#: elementor/widgets/ova_audio.php:91 elementor/widgets/ova_audio.php:104
+#: elementor/widgets/ova_audio_2.php:91 elementor/widgets/ova_audio_2.php:104
+#: elementor/widgets/ova_audio_play_button.php:80
+#: elementor/widgets/ova_audio_slider_2.php:148
+msgid "Choose Audio"
+msgstr ""
+
+#: elementor/widgets/ova_audio_2.php:145
+msgid "Choose Avatar"
+msgstr ""
+
+#: elementor/widgets/ova_audio_categories_slider.php:65
+msgid "Choose Categories"
+msgstr ""
+
+#: admin/class-ova-metabox.php:130
+msgid "Choose Donation"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:81 inc/class-ova-custom-post-type.php:169
+#: inc/class-ova-custom-post-type.php:214
+msgid "Choose from the most used"
+msgstr ""
+
+#: elementor/widgets/ova_audio_category.php:114
+#: elementor/widgets/ova_audio_seasons.php:116
+msgid "Choose Image"
+msgstr ""
+
+#: admin/class-ova-metabox.php:195
+msgid "Class icon social"
+msgstr ""
+
+#: elementor/widgets/ova_audio.php:473 elementor/widgets/ova_audio.php:504
+#: elementor/widgets/ova_audio.php:536 elementor/widgets/ova_audio.php:660
+#: elementor/widgets/ova_audio.php:724 elementor/widgets/ova_audio.php:752
+#: elementor/widgets/ova_audio.php:780 elementor/widgets/ova_audio.php:832
+#: elementor/widgets/ova_audio.php:865 elementor/widgets/ova_audio.php:951
+#: elementor/widgets/ova_audio.php:1002 elementor/widgets/ova_audio.php:1057
+#: elementor/widgets/ova_audio.php:1088 elementor/widgets/ova_audio_2.php:532
+#: elementor/widgets/ova_audio_2.php:595 elementor/widgets/ova_audio_2.php:735
+#: elementor/widgets/ova_audio_2.php:768 elementor/widgets/ova_audio_2.php:927
+#: elementor/widgets/ova_audio_2.php:991 elementor/widgets/ova_audio_2.php:1019
+#: elementor/widgets/ova_audio_2.php:1047
+#: elementor/widgets/ova_audio_2.php:1087
+#: elementor/widgets/ova_audio_2.php:1107
+#: elementor/widgets/ova_audio_2.php:1145
+#: elementor/widgets/ova_audio_2.php:1251
+#: elementor/widgets/ova_audio_2.php:1282
+#: elementor/widgets/ova_audio_categories_slider.php:307
+#: elementor/widgets/ova_audio_categories_slider.php:428
+#: elementor/widgets/ova_audio_categories_slider.php:496
+#: elementor/widgets/ova_audio_categories_slider.php:625
+#: elementor/widgets/ova_audio_category.php:546
+#: elementor/widgets/ova_audio_category.php:587
+#: elementor/widgets/ova_audio_category.php:770
+#: elementor/widgets/ova_audio_category.php:842
+#: elementor/widgets/ova_audio_category.php:983
+#: elementor/widgets/ova_audio_category.php:1023
+#: elementor/widgets/ova_audio_category.php:1101
+#: elementor/widgets/ova_audio_category.php:1132
+#: elementor/widgets/ova_audio_category_filter.php:345
+#: elementor/widgets/ova_audio_category_filter.php:377
+#: elementor/widgets/ova_audio_category_filter.php:408
+#: elementor/widgets/ova_audio_category_filter.php:575
+#: elementor/widgets/ova_audio_category_filter.php:647
+#: elementor/widgets/ova_audio_category_filter.php:780
+#: elementor/widgets/ova_audio_category_filter.php:836
+#: elementor/widgets/ova_audio_category_filter.php:876
+#: elementor/widgets/ova_audio_category_filter.php:896
+#: elementor/widgets/ova_audio_category_filter.php:938
+#: elementor/widgets/ova_audio_category_filter.php:958
+#: elementor/widgets/ova_audio_category_filter.php:1000
+#: elementor/widgets/ova_audio_category_filter.php:1020
+#: elementor/widgets/ova_audio_category_filter.php:1044
+#: elementor/widgets/ova_audio_category_filter_2.php:253
+#: elementor/widgets/ova_audio_category_filter_2.php:285
+#: elementor/widgets/ova_audio_category_filter_2.php:316
+#: elementor/widgets/ova_audio_category_filter_2.php:427
+#: elementor/widgets/ova_audio_category_filter_2.php:516
+#: elementor/widgets/ova_audio_category_filter_2.php:559
+#: elementor/widgets/ova_audio_category_filter_2.php:613
+#: elementor/widgets/ova_audio_category_filter_2.php:772
+#: elementor/widgets/ova_audio_featured.php:573
+#: elementor/widgets/ova_audio_featured.php:604
+#: elementor/widgets/ova_audio_featured.php:636
+#: elementor/widgets/ova_audio_featured.php:762
+#: elementor/widgets/ova_audio_featured.php:813
+#: elementor/widgets/ova_audio_featured.php:869
+#: elementor/widgets/ova_audio_featured.php:898
+#: elementor/widgets/ova_audio_featured.php:938
+#: elementor/widgets/ova_audio_featured.php:958
+#: elementor/widgets/ova_audio_featured.php:989
+#: elementor/widgets/ova_audio_featured.php:1041
+#: elementor/widgets/ova_audio_featured.php:1061
+#: elementor/widgets/ova_audio_grid.php:322
+#: elementor/widgets/ova_audio_grid.php:411
+#: elementor/widgets/ova_audio_grid.php:454
+#: elementor/widgets/ova_audio_grid.php:508
+#: elementor/widgets/ova_audio_grid_2.php:479
+#: elementor/widgets/ova_audio_grid_2.php:522
+#: elementor/widgets/ova_audio_grid_2.php:576
+#: elementor/widgets/ova_audio_grid_2.php:682
+#: elementor/widgets/ova_audio_host.php:235
+#: elementor/widgets/ova_audio_host.php:274
+#: elementor/widgets/ova_audio_host.php:306
+#: elementor/widgets/ova_audio_host.php:335
+#: elementor/widgets/ova_audio_host_slider.php:360
+#: elementor/widgets/ova_audio_host_slider.php:399
+#: elementor/widgets/ova_audio_host_slider.php:431
+#: elementor/widgets/ova_audio_host_slider.php:460
+#: elementor/widgets/ova_audio_host_slider.php:521
+#: elementor/widgets/ova_audio_host_slider.php:589
+#: elementor/widgets/ova_audio_list.php:504
+#: elementor/widgets/ova_audio_list.php:555
+#: elementor/widgets/ova_audio_list.php:587
+#: elementor/widgets/ova_audio_list.php:728
+#: elementor/widgets/ova_audio_list.php:756
+#: elementor/widgets/ova_audio_list.php:790
+#: elementor/widgets/ova_audio_list.php:842
+#: elementor/widgets/ova_audio_list.php:888
+#: elementor/widgets/ova_audio_list_2.php:446
+#: elementor/widgets/ova_audio_list_2.php:518
+#: elementor/widgets/ova_audio_list_2.php:651
+#: elementor/widgets/ova_audio_list_2.php:707
+#: elementor/widgets/ova_audio_list_2.php:747
+#: elementor/widgets/ova_audio_list_2.php:767
+#: elementor/widgets/ova_audio_list_2.php:809
+#: elementor/widgets/ova_audio_list_2.php:829
+#: elementor/widgets/ova_audio_list_2.php:871
+#: elementor/widgets/ova_audio_list_2.php:891
+#: elementor/widgets/ova_audio_main-slider.php:512
+#: elementor/widgets/ova_audio_main-slider.php:566
+#: elementor/widgets/ova_audio_main-slider.php:609
+#: elementor/widgets/ova_audio_main-slider.php:703
+#: elementor/widgets/ova_audio_main-slider.php:861
+#: elementor/widgets/ova_audio_main-slider.php:929
+#: elementor/widgets/ova_audio_main-slider.php:1055
+#: elementor/widgets/ova_audio_play_button.php:215
+#: elementor/widgets/ova_audio_podcast.php:479
+#: elementor/widgets/ova_audio_podcast.php:545
+#: elementor/widgets/ova_audio_podcast.php:565
+#: elementor/widgets/ova_audio_podcast.php:597
+#: elementor/widgets/ova_audio_podcast.php:625
+#: elementor/widgets/ova_audio_podcast.php:668
+#: elementor/widgets/ova_audio_podcast.php:699
+#: elementor/widgets/ova_audio_podcast.php:731
+#: elementor/widgets/ova_audio_podcast.php:856
+#: elementor/widgets/ova_audio_podcast.php:1089
+#: elementor/widgets/ova_audio_podcast.php:1120
+#: elementor/widgets/ova_audio_podcast.php:1243
+#: elementor/widgets/ova_audio_podcast.php:1299
+#: elementor/widgets/ova_audio_podcast.php:1340
+#: elementor/widgets/ova_audio_seasons.php:534
+#: elementor/widgets/ova_audio_seasons.php:554
+#: elementor/widgets/ova_audio_seasons.php:741
+#: elementor/widgets/ova_audio_seasons.php:813
+#: elementor/widgets/ova_audio_seasons.php:954
+#: elementor/widgets/ova_audio_seasons.php:994
+#: elementor/widgets/ova_audio_seasons.php:1072
+#: elementor/widgets/ova_audio_seasons.php:1103
+#: elementor/widgets/ova_audio_slider.php:419
+#: elementor/widgets/ova_audio_slider.php:462
+#: elementor/widgets/ova_audio_slider.php:516
+#: elementor/widgets/ova_audio_slider.php:699
+#: elementor/widgets/ova_audio_slider.php:767
+#: elementor/widgets/ova_audio_slider_2.php:687
+#: elementor/widgets/ova_audio_slider_2.php:776
+#: elementor/widgets/ova_audio_slider_2.php:819
+#: elementor/widgets/ova_audio_slider_2.php:873
+#: elementor/widgets/ova_audio_slider_2.php:995
+#: elementor/widgets/ova_audio_slider_2.php:1056
+#: elementor/widgets/ova_audio_slider_2.php:1124
+#: elementor/widgets/ova_audio_slider_2.php:1250
+#: elementor/widgets/ova_audio_slider_3.php:554
+#: elementor/widgets/ova_audio_slider_3.php:685
+#: elementor/widgets/ova_audio_slider_3.php:868
+#: elementor/widgets/ova_audio_slider_3.php:936
+#: elementor/widgets/ova_audio_slider_3.php:1062
+msgid "Color"
+msgstr ""
+
+#: elementor/widgets/ova_audio_grid_2.php:652
+#: elementor/widgets/ova_audio_slider_2.php:965
+msgid "Color "
+msgstr ""
+
+#: elementor/widgets/ova_audio.php:672 elementor/widgets/ova_audio_2.php:939
+#: elementor/widgets/ova_audio_categories_slider.php:318
+#: elementor/widgets/ova_audio_categories_slider.php:656
+#: elementor/widgets/ova_audio_category.php:1035
+#: elementor/widgets/ova_audio_category_filter.php:792
+#: elementor/widgets/ova_audio_category_filter_2.php:458
+#: elementor/widgets/ova_audio_category_filter_2.php:624
+#: elementor/widgets/ova_audio_featured.php:825
+#: elementor/widgets/ova_audio_grid.php:353
+#: elementor/widgets/ova_audio_grid.php:519
+#: elementor/widgets/ova_audio_grid_2.php:587
+#: elementor/widgets/ova_audio_host.php:246
+#: elementor/widgets/ova_audio_host_slider.php:371
+#: elementor/widgets/ova_audio_list.php:805
+#: elementor/widgets/ova_audio_list.php:856
+#: elementor/widgets/ova_audio_list.php:900
+#: elementor/widgets/ova_audio_list_2.php:663
+#: elementor/widgets/ova_audio_main-slider.php:523
+#: elementor/widgets/ova_audio_main-slider.php:785
+#: elementor/widgets/ova_audio_main-slider.php:1086
+#: elementor/widgets/ova_audio_play_button.php:226
+#: elementor/widgets/ova_audio_podcast.php:491
+#: elementor/widgets/ova_audio_podcast.php:1255
+#: elementor/widgets/ova_audio_podcast.php:1351
+#: elementor/widgets/ova_audio_seasons.php:1006
+#: elementor/widgets/ova_audio_slider.php:527
+#: elementor/widgets/ova_audio_slider_2.php:718
+#: elementor/widgets/ova_audio_slider_2.php:884
+#: elementor/widgets/ova_audio_slider_2.php:1281
+#: elementor/widgets/ova_audio_slider_3.php:625
+#: elementor/widgets/ova_audio_slider_3.php:696
+#: elementor/widgets/ova_audio_slider_3.php:1093
+msgid "Color Hover"
+msgstr ""
+
+#: inc/class-customize.php:109 inc/class-customize.php:749
+#: elementor/widgets/ova_audio_grid.php:110
+#: elementor/widgets/ova_audio_grid_2.php:113
+msgid "Column"
+msgstr ""
+
+#: templates/parts/audio-item-grid-2.php:236
+msgid "Comment off"
+msgstr ""
+
+#: elementor/widgets/ova_audio.php:43 elementor/widgets/ova_audio.php:330
+#: elementor/widgets/ova_audio_2.php:43
+#: elementor/widgets/ova_audio_categories_slider.php:44
+#: elementor/widgets/ova_audio_category.php:43
+#: elementor/widgets/ova_audio_category.php:343
+#: elementor/widgets/ova_audio_featured.php:47
+#: elementor/widgets/ova_audio_grid.php:43
+#: elementor/widgets/ova_audio_grid_2.php:43
+#: elementor/widgets/ova_audio_host.php:39
+#: elementor/widgets/ova_audio_host_slider.php:43
+#: elementor/widgets/ova_audio_list.php:43
+#: elementor/widgets/ova_audio_list.php:283
+#: elementor/widgets/ova_audio_list_2.php:43
+#: elementor/widgets/ova_audio_main-slider.php:43
+#: elementor/widgets/ova_audio_play_button.php:43
+#: elementor/widgets/ova_audio_podcast.php:43
+#: elementor/widgets/ova_audio_podcast.php:320
+#: elementor/widgets/ova_audio_seasons.php:43
+#: elementor/widgets/ova_audio_seasons.php:331
+#: elementor/widgets/ova_audio_slider.php:44
+#: elementor/widgets/ova_audio_slider.php:359
+#: elementor/widgets/ova_audio_slider_2.php:43
+#: elementor/widgets/ova_audio_slider_3.php:43
+msgid "Content"
+msgstr ""
+
+#: elementor/widgets/ova_audio_podcast.php:1059
+msgid "Control Item"
+msgstr ""
+
+#: elementor/widgets/ova_audio.php:443 elementor/widgets/ova_audio_2.php:502
+#: elementor/widgets/ova_audio_category.php:740
+#: elementor/widgets/ova_audio_category_filter.php:545
+#: elementor/widgets/ova_audio_featured.php:543
+#: elementor/widgets/ova_audio_list.php:474
+#: elementor/widgets/ova_audio_list_2.php:416
+#: elementor/widgets/ova_audio_podcast.php:638
+#: elementor/widgets/ova_audio_seasons.php:711
+msgid "Controls"
+msgstr ""
+
+#: elementor/widgets/ova_audio.php:962 elementor/widgets/ova_audio_2.php:1156
+#: elementor/widgets/ova_audio_featured.php:773
+#: elementor/widgets/ova_audio_podcast.php:867
+msgid "Current Color"
+msgstr ""
+
+#: elementor/widgets/ova_audio.php:986
+#: elementor/widgets/ova_audio_podcast.php:891
+msgid "Current Time"
+msgstr ""
+
+#: elementor/widgets/ova_audio_2.php:1180
+msgid "Current Time & Duration"
+msgstr ""
+
+#: elementor/widgets/ova_audio.php:50 elementor/widgets/ova_audio_2.php:50
+msgid "Custom Audio"
+msgstr ""
+
+#: elementor/widgets/ova_audio_2.php:131
+msgid "Custom Avatar"
+msgstr ""
+
+#: elementor/widgets/ova_audio_category.php:236
+#: elementor/widgets/ova_audio_seasons.php:224
+msgid "Custom Link"
+msgstr ""
+
+#: elementor/widgets/ova_audio_host.php:92
+#: elementor/widgets/ova_audio_host_slider.php:81
+#: elementor/widgets/ova_audio_main-slider.php:128
+#: elementor/widgets/ova_audio_slider.php:146
+#: elementor/widgets/ova_audio_slider_2.php:193
+#: elementor/widgets/ova_audio_slider_3.php:138
+msgid "Custom Order"
+msgstr ""
+
+#: elementor/widgets/ova_audio_category.php:414
+#: elementor/widgets/ova_audio_seasons.php:402
+msgid "Custom Size"
+msgstr ""
+
+#: elementor/widgets/ova_audio.php:131
+msgid "Custom URL"
+msgstr ""
+
+#: elementor/widgets/ova_audio_slider_2.php:63
+msgid "Data Filter"
+msgstr ""
+
+#: inc/class-customize.php:91 inc/class-customize.php:730
+#: elementor/widgets/ova_audio_category.php:103
+#: elementor/widgets/ova_audio_category_filter.php:81
+#: elementor/widgets/ova_audio_category_filter_2.php:68
+#: elementor/widgets/ova_audio_featured.php:118
+#: elementor/widgets/ova_audio_grid.php:143
+#: elementor/widgets/ova_audio_grid_2.php:146
+#: elementor/widgets/ova_audio_host.php:89
+#: elementor/widgets/ova_audio_host_slider.php:78
+#: elementor/widgets/ova_audio_list.php:105
+#: elementor/widgets/ova_audio_list_2.php:115
+#: elementor/widgets/ova_audio_main-slider.php:125
+#: elementor/widgets/ova_audio_podcast.php:105
+#: elementor/widgets/ova_audio_seasons.php:105
+#: elementor/widgets/ova_audio_slider.php:143
+#: elementor/widgets/ova_audio_slider_2.php:190
+#: elementor/widgets/ova_audio_slider_3.php:135
+msgid "Date"
+msgstr ""
+
+#: elementor/widgets/ova_audio_grid_2.php:157
+#: elementor/widgets/ova_audio_slider_2.php:201
+msgid "Date Time Type"
+msgstr ""
+
+#: inc/ova-core-functions.php:299
+msgid "day"
+msgstr ""
+
+#: elementor/widgets/ova_audio_featured.php:282
+#: elementor/widgets/ova_audio_grid_2.php:161
+#: elementor/widgets/ova_audio_main-slider.php:141
+#: elementor/widgets/ova_audio_slider_2.php:205
+msgid "Default"
+msgstr ""
+
+#: inc/class-customize.php:70 inc/class-customize.php:708
+#: elementor/widgets/ova_audio_category.php:89
+#: elementor/widgets/ova_audio_category_filter.php:94
+#: elementor/widgets/ova_audio_category_filter.php:205
+#: elementor/widgets/ova_audio_category_filter_2.php:81
+#: elementor/widgets/ova_audio_category_filter_2.php:193
+#: elementor/widgets/ova_audio_featured.php:104
+#: elementor/widgets/ova_audio_grid.php:129
+#: elementor/widgets/ova_audio_grid_2.php:132
+#: elementor/widgets/ova_audio_host.php:105
+#: elementor/widgets/ova_audio_host_slider.php:94
+#: elementor/widgets/ova_audio_list.php:91
+#: elementor/widgets/ova_audio_list_2.php:101
+#: elementor/widgets/ova_audio_main-slider.php:111
+#: elementor/widgets/ova_audio_podcast.php:91
+#: elementor/widgets/ova_audio_seasons.php:91
+#: elementor/widgets/ova_audio_slider.php:129
+#: elementor/widgets/ova_audio_slider_2.php:176
+#: elementor/widgets/ova_audio_slider_3.php:121
+msgid "Descending"
+msgstr ""
+
+#: admin/class-ova-metabox.php:123
+msgid "Descriptions"
+msgstr ""
+
+#: elementor/widgets/ova_audio_2.php:287
+#: elementor/widgets/ova_audio_category_filter.php:147
+#: elementor/widgets/ova_audio_category_filter_2.php:146
+#: elementor/widgets/ova_audio_featured.php:291
+#: elementor/widgets/ova_audio_list_2.php:188
+msgid "Detail Label"
+msgstr ""
+
+#: elementor/widgets/ova_audio_category_filter_2.php:570
+#: elementor/widgets/ova_audio_grid.php:465
+#: elementor/widgets/ova_audio_grid_2.php:533
+#: elementor/widgets/ova_audio_slider.php:473
+#: elementor/widgets/ova_audio_slider_2.php:830
+msgid "Dot Color"
+msgstr ""
+
+#: elementor/widgets/ova_audio_categories_slider.php:396
+#: elementor/widgets/ova_audio_host_slider.php:489
+#: elementor/widgets/ova_audio_main-slider.php:829
+#: elementor/widgets/ova_audio_slider.php:667
+#: elementor/widgets/ova_audio_slider_2.php:1024
+#: elementor/widgets/ova_audio_slider_3.php:836
+msgid "Dots"
+msgstr ""
+
+#: elementor/widgets/ova_audio_podcast.php:1324
+msgid "Download Icon"
+msgstr ""
+
+#: elementor/widgets/ova_audio_podcast.php:1283
+msgid "Duration"
+msgstr ""
+
+#: elementor/widgets/ova_audio.php:763 elementor/widgets/ova_audio_2.php:1030
+msgid "Duration Options"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:36 inc/class-ova-custom-post-type.php:125
+msgid "Edit"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:77
+msgid "Edit Category Audio"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:165
+msgid "Edit Season Audio"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:210
+msgid "Edit Tag Audio"
+msgstr ""
+
+#: elementor/widgets/ova_audio_category_filter.php:181
+#: elementor/widgets/ova_audio_category_filter_2.php:169
+msgid ""
+"Enter the category ID of Case Study. IDs are separated by \"|\". Ex: 1|2|3."
+msgstr ""
+
+#: admin/class-ova-metabox.php:87 elementor/widgets/ova_audio.php:159
+#: elementor/widgets/ova_audio.php:700 elementor/widgets/ova_audio_2.php:173
+#: elementor/widgets/ova_audio_2.php:967
+#: elementor/widgets/ova_audio_category.php:959
+#: elementor/widgets/ova_audio_category_filter.php:820
+#: elementor/widgets/ova_audio_category_filter_2.php:543
+#: elementor/widgets/ova_audio_featured.php:853
+#: elementor/widgets/ova_audio_grid.php:438
+#: elementor/widgets/ova_audio_grid_2.php:506
+#: elementor/widgets/ova_audio_list.php:704
+#: elementor/widgets/ova_audio_list_2.php:691
+#: elementor/widgets/ova_audio_seasons.php:930
+#: elementor/widgets/ova_audio_slider.php:446
+#: elementor/widgets/ova_audio_slider_2.php:803
+msgid "Episode"
+msgstr ""
+
+#: inc/class-ova-get-data.php:206
+msgid "Episode "
+msgstr ""
+
+#: elementor/widgets/ova_audio_main-slider.php:593
+msgid "Episode & Time ago"
+msgstr ""
+
+#: inc/class-ova-get-data.php:202 elementor/widgets/ova_audio.php:161
+#: elementor/widgets/ova_audio_2.php:175
+msgid "Episode 1"
+msgstr ""
+
+#: elementor/widgets/ova_audio_category_filter_2.php:148
+#: templates/elementor/ova_audio_slider.php:10
+#: templates/parts/audio-item-grid.php:18
+msgid "Episode page"
+msgstr ""
+
+#: admin/class-ova-metabox.php:108
+msgid "Episode Timeline"
+msgstr ""
+
+#: templates/single-audio-2.php:311 templates/single-audio.php:204
+msgid "Episode timeline"
+msgstr ""
+
+#: elementor/widgets/ova_audio_featured.php:973
+#: elementor/widgets/ova_audio_main-slider.php:550
+msgid "Excerpt"
+msgstr ""
+
+#: elementor/widgets/ova_audio_featured.php:54
+msgid "Featured"
+msgstr ""
+
+#: inc/class-customize.php:149 inc/class-customize.php:790
+msgid "Footer Archive"
+msgstr ""
+
+#: inc/class-customize.php:351 inc/class-customize.php:951
+msgid "Footer Single"
+msgstr ""
+
+#: inc/class-customize.php:369
+msgid "Footer Single 2"
+msgstr ""
+
+#: templates/search-form-audio.php:34
+msgid "From..."
+msgstr ""
+
+#: elementor/widgets/ova_audio_slider.php:92
+msgid "Get Related Audio by ID"
+msgstr ""
+
+#: elementor/widgets/ova_audio.php:973 elementor/widgets/ova_audio_2.php:1167
+#: elementor/widgets/ova_audio_2.php:1196
+#: elementor/widgets/ova_audio_featured.php:784
+#: elementor/widgets/ova_audio_podcast.php:878
+#: elementor/widgets/ova_audio_podcast.php:907
+msgid "Handle Color"
+msgstr ""
+
+#: inc/class-customize.php:131 inc/class-customize.php:772
+msgid "Header Archive"
+msgstr ""
+
+#: inc/class-customize.php:315 inc/class-customize.php:933
+msgid "Header Single"
+msgstr ""
+
+#: inc/class-customize.php:333
+msgid "Header Single 2"
+msgstr ""
+
+#: elementor/widgets/ova_audio.php:376
+#: elementor/widgets/ova_audio_categories_slider.php:375
+#: elementor/widgets/ova_audio_categories_slider.php:457
+#: elementor/widgets/ova_audio_categories_slider.php:525
+#: elementor/widgets/ova_audio_category.php:478
+#: elementor/widgets/ova_audio_grid.php:264
+#: elementor/widgets/ova_audio_grid_2.php:441
+#: elementor/widgets/ova_audio_host.php:175
+#: elementor/widgets/ova_audio_host_slider.php:300
+#: elementor/widgets/ova_audio_host_slider.php:550
+#: elementor/widgets/ova_audio_host_slider.php:618
+#: elementor/widgets/ova_audio_main-slider.php:890
+#: elementor/widgets/ova_audio_main-slider.php:958
+#: elementor/widgets/ova_audio_seasons.php:466
+#: elementor/widgets/ova_audio_slider.php:728
+#: elementor/widgets/ova_audio_slider.php:796
+#: elementor/widgets/ova_audio_slider_2.php:629
+#: elementor/widgets/ova_audio_slider_2.php:1085
+#: elementor/widgets/ova_audio_slider_2.php:1153
+#: elementor/widgets/ova_audio_slider_3.php:897
+#: elementor/widgets/ova_audio_slider_3.php:965
+msgid "Height"
+msgstr ""
+
+#: elementor/widgets/ova_audio_category_filter.php:170
+#: elementor/widgets/ova_audio_category_filter_2.php:158
+#: elementor/widgets/ova_audio_featured.php:133
+#: elementor/widgets/ova_audio_featured.php:174
+#: elementor/widgets/ova_audio_featured.php:185
+#: elementor/widgets/ova_audio_featured.php:196
+#: elementor/widgets/ova_audio_featured.php:207
+#: elementor/widgets/ova_audio_featured.php:218
+#: elementor/widgets/ova_audio_featured.php:229
+#: elementor/widgets/ova_audio_featured.php:240
+#: elementor/widgets/ova_audio_grid.php:157
+#: elementor/widgets/ova_audio_grid.php:223
+#: elementor/widgets/ova_audio_grid_2.php:173
+#: elementor/widgets/ova_audio_grid_2.php:239
+#: elementor/widgets/ova_audio_grid_2.php:264
+#: elementor/widgets/ova_audio_grid_2.php:276
+#: elementor/widgets/ova_audio_grid_2.php:288
+#: elementor/widgets/ova_audio_grid_2.php:300
+#: elementor/widgets/ova_audio_host.php:116
+#: elementor/widgets/ova_audio_host.php:131
+#: elementor/widgets/ova_audio_host.php:143
+#: elementor/widgets/ova_audio_host.php:155
+#: elementor/widgets/ova_audio_host_slider.php:105
+#: elementor/widgets/ova_audio_host_slider.php:120
+#: elementor/widgets/ova_audio_host_slider.php:132
+#: elementor/widgets/ova_audio_host_slider.php:144
+#: elementor/widgets/ova_audio_list_2.php:53
+#: elementor/widgets/ova_audio_main-slider.php:153
+#: elementor/widgets/ova_audio_main-slider.php:164
+#: elementor/widgets/ova_audio_main-slider.php:175
+#: elementor/widgets/ova_audio_main-slider.php:187
+#: elementor/widgets/ova_audio_main-slider.php:199
+#: elementor/widgets/ova_audio_seasons.php:130
+#: elementor/widgets/ova_audio_seasons.php:141
+#: elementor/widgets/ova_audio_seasons.php:152
+#: elementor/widgets/ova_audio_seasons.php:197
+#: elementor/widgets/ova_audio_slider.php:71
+#: elementor/widgets/ova_audio_slider.php:83
+#: elementor/widgets/ova_audio_slider_2.php:308
+#: elementor/widgets/ova_audio_slider_3.php:78
+msgid "Hide"
+msgstr ""
+
+#: elementor/widgets/ova_audio_category_filter.php:849
+#: elementor/widgets/ova_audio_list_2.php:720
+#: elementor/widgets/ova_audio_slider_3.php:97
+msgid "Host"
+msgstr ""
+
+#: elementor/widgets/ova_audio_list.php:819
+#: elementor/widgets/ova_audio_podcast.php:517
+msgid "Host Options"
+msgstr ""
+
+#: admin/class-ova-metabox.php:95 inc/class-ova-custom-post-type.php:116
+msgid "Hosts"
+msgstr ""
+
+#: inc/ova-core-functions.php:300
+msgid "hour"
+msgstr ""
+
+#: elementor/widgets/ova_audio.php:517 elementor/widgets/ova_audio.php:846
+#: elementor/widgets/ova_audio.php:1070 elementor/widgets/ova_audio_2.php:576
+#: elementor/widgets/ova_audio_2.php:749 elementor/widgets/ova_audio_2.php:1100
+#: elementor/widgets/ova_audio_2.php:1264
+#: elementor/widgets/ova_audio_categories_slider.php:649
+#: elementor/widgets/ova_audio_category.php:823
+#: elementor/widgets/ova_audio_category.php:1114
+#: elementor/widgets/ova_audio_category_filter.php:370
+#: elementor/widgets/ova_audio_category_filter.php:628
+#: elementor/widgets/ova_audio_category_filter.php:889
+#: elementor/widgets/ova_audio_category_filter.php:951
+#: elementor/widgets/ova_audio_category_filter.php:1013
+#: elementor/widgets/ova_audio_category_filter_2.php:278
+#: elementor/widgets/ova_audio_category_filter_2.php:451
+#: elementor/widgets/ova_audio_category_filter_2.php:729
+#: elementor/widgets/ova_audio_featured.php:617
+#: elementor/widgets/ova_audio_featured.php:951
+#: elementor/widgets/ova_audio_featured.php:1054
+#: elementor/widgets/ova_audio_grid.php:346
+#: elementor/widgets/ova_audio_grid.php:624
+#: elementor/widgets/ova_audio_grid_2.php:676
+#: elementor/widgets/ova_audio_host.php:329
+#: elementor/widgets/ova_audio_host_slider.php:454
+#: elementor/widgets/ova_audio_list.php:568
+#: elementor/widgets/ova_audio_list_2.php:499
+#: elementor/widgets/ova_audio_list_2.php:760
+#: elementor/widgets/ova_audio_list_2.php:822
+#: elementor/widgets/ova_audio_list_2.php:884
+#: elementor/widgets/ova_audio_main-slider.php:767
+#: elementor/widgets/ova_audio_main-slider.php:1079
+#: elementor/widgets/ova_audio_podcast.php:558
+#: elementor/widgets/ova_audio_podcast.php:712
+#: elementor/widgets/ova_audio_podcast.php:1102
+#: elementor/widgets/ova_audio_seasons.php:547
+#: elementor/widgets/ova_audio_seasons.php:794
+#: elementor/widgets/ova_audio_seasons.php:1085
+#: elementor/widgets/ova_audio_slider.php:632
+#: elementor/widgets/ova_audio_slider_2.php:711
+#: elementor/widgets/ova_audio_slider_2.php:989
+#: elementor/widgets/ova_audio_slider_2.php:1274
+#: elementor/widgets/ova_audio_slider_3.php:618
+#: elementor/widgets/ova_audio_slider_3.php:801
+#: elementor/widgets/ova_audio_slider_3.php:1086
+msgid "Hover"
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://ovatheme.com"
+msgstr ""
+
+#: elementor/widgets/ova_audio.php:110 elementor/widgets/ova_audio.php:133
+#: elementor/widgets/ova_audio_2.php:110 elementor/widgets/ova_audio_2.php:299
+#: elementor/widgets/ova_audio_category.php:248
+#: elementor/widgets/ova_audio_seasons.php:236
+msgid "https://your-link.com"
+msgstr ""
+
+#: elementor/widgets/ova_audio_category_filter_2.php:391
+#: elementor/widgets/ova_audio_grid.php:72
+#: elementor/widgets/ova_audio_grid.php:286
+#: elementor/widgets/ova_audio_grid_2.php:75
+#: elementor/widgets/ova_audio_grid_2.php:358
+#: elementor/widgets/ova_audio_main-slider.php:75
+#: elementor/widgets/ova_audio_main-slider.php:238
+#: elementor/widgets/ova_audio_slider_2.php:93
+#: elementor/widgets/ova_audio_slider_2.php:368
+#: elementor/widgets/ova_audio_slider_2.php:651
+#: elementor/widgets/ova_audio_slider_3.php:209
+msgid "Icon"
+msgstr ""
+
+#: elementor/widgets/ova_audio_grid.php:241
+#: elementor/widgets/ova_audio_slider_2.php:317
+msgid "Icon Button"
+msgstr ""
+
+#: elementor/widgets/ova_audio_category.php:1172
+#: elementor/widgets/ova_audio_seasons.php:1143
+msgid "Icon Margin"
+msgstr ""
+
+#: elementor/widgets/ova_audio_categories_slider.php:242
+#: elementor/widgets/ova_audio_main-slider.php:403
+#: elementor/widgets/ova_audio_slider_2.php:572
+#: elementor/widgets/ova_audio_slider_3.php:414
+msgid "Icon Next"
+msgstr ""
+
+#: elementor/widgets/ova_audio_categories_slider.php:257
+#: elementor/widgets/ova_audio_main-slider.php:418
+#: elementor/widgets/ova_audio_slider_2.php:587
+#: elementor/widgets/ova_audio_slider_3.php:429
+msgid "Icon Prev"
+msgstr ""
+
+#: elementor/widgets/ova_audio_categories_slider.php:573
+#: elementor/widgets/ova_audio_main-slider.php:1003
+#: elementor/widgets/ova_audio_slider_2.php:1198
+#: elementor/widgets/ova_audio_slider_3.php:1010
+msgid "Icon Size"
+msgstr ""
+
+#: elementor/widgets/ova_audio_host.php:288
+#: elementor/widgets/ova_audio_host_slider.php:413
+msgid "Icons"
+msgstr ""
+
+#: inc/class-customize.php:89 inc/class-customize.php:728
+#: elementor/widgets/ova_audio_category.php:101
+#: elementor/widgets/ova_audio_category_filter.php:82
+#: elementor/widgets/ova_audio_category_filter.php:193
+#: elementor/widgets/ova_audio_category_filter_2.php:69
+#: elementor/widgets/ova_audio_category_filter_2.php:181
+#: elementor/widgets/ova_audio_featured.php:116
+#: elementor/widgets/ova_audio_grid.php:141
+#: elementor/widgets/ova_audio_grid_2.php:144
+#: elementor/widgets/ova_audio_host.php:87
+#: elementor/widgets/ova_audio_host_slider.php:76
+#: elementor/widgets/ova_audio_list.php:103
+#: elementor/widgets/ova_audio_list_2.php:113
+#: elementor/widgets/ova_audio_main-slider.php:123
+#: elementor/widgets/ova_audio_podcast.php:103
+#: elementor/widgets/ova_audio_seasons.php:103
+#: elementor/widgets/ova_audio_slider.php:141
+#: elementor/widgets/ova_audio_slider_2.php:188
+#: elementor/widgets/ova_audio_slider_3.php:133
+msgid "ID"
+msgstr ""
+
+#: elementor/widgets/ova_audio_slider.php:98
+msgid ""
+"If this element located in a single audio page, get related audio by unique "
+"audio id and based category"
+msgstr ""
+
+#: admin/class-ova-metabox.php:79
+msgid "Iframe"
+msgstr ""
+
+#: elementor/widgets/ova_audio_categories_slider.php:345
+#: elementor/widgets/ova_audio_category.php:406
+#: elementor/widgets/ova_audio_grid.php:256
+#: elementor/widgets/ova_audio_grid_2.php:433
+#: elementor/widgets/ova_audio_host.php:167
+#: elementor/widgets/ova_audio_host_slider.php:292
+#: elementor/widgets/ova_audio_podcast.php:383
+#: elementor/widgets/ova_audio_seasons.php:394
+#: elementor/widgets/ova_audio_slider_2.php:621
+#: templates/elementor/ova_audio_category.php:14
+#: templates/elementor/ova_audio_seasons.php:14
+msgid "Image"
+msgstr ""
+
+#: elementor/widgets/ova_audio_categories_slider.php:177
+#: elementor/widgets/ova_audio_host_slider.php:222
+#: elementor/widgets/ova_audio_main-slider.php:338
+#: elementor/widgets/ova_audio_slider.php:289
+#: elementor/widgets/ova_audio_slider_2.php:507
+#: elementor/widgets/ova_audio_slider_3.php:349
+msgid "Infinite Loop"
+msgstr ""
+
+#: elementor/widgets/ova_audio_host.php:210
+#: elementor/widgets/ova_audio_host_slider.php:335
+msgid "Info"
+msgstr ""
+
+#: admin/class-ova-metabox.php:82
+msgid "Insert <iframe> HTML"
+msgstr ""
+
+#: admin/class-ova-metabox.php:75
+msgid "Insert Audio URL"
+msgstr ""
+
+#: elementor/widgets/ova_audio_category.php:612
+#: elementor/widgets/ova_audio_category_filter.php:482
+#: elementor/widgets/ova_audio_featured.php:406
+#: elementor/widgets/ova_audio_list.php:346
+#: elementor/widgets/ova_audio_list_2.php:279
+#: elementor/widgets/ova_audio_main-slider.php:452
+#: elementor/widgets/ova_audio_podcast.php:932
+#: elementor/widgets/ova_audio_seasons.php:583
+#: elementor/widgets/ova_audio_slider_3.php:463
+msgid "Item"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:29 inc/class-ova-custom-post-type.php:118
+msgid "Item Archives"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:30 inc/class-ova-custom-post-type.php:119
+msgid "Item Attributes"
+msgstr ""
+
+#: elementor/widgets/ova_audio_category.php:653
+#: elementor/widgets/ova_audio_featured.php:456
+#: elementor/widgets/ova_audio_list.php:387
+#: elementor/widgets/ova_audio_list_2.php:329
+#: elementor/widgets/ova_audio_podcast.php:973
+#: elementor/widgets/ova_audio_seasons.php:624
+msgid "Item First Child"
+msgstr ""
+
+#: elementor/widgets/ova_audio_category.php:695
+#: elementor/widgets/ova_audio_featured.php:498
+#: elementor/widgets/ova_audio_list.php:429
+#: elementor/widgets/ova_audio_list_2.php:371
+#: elementor/widgets/ova_audio_podcast.php:1015
+#: elementor/widgets/ova_audio_seasons.php:666
+msgid "Item Last Child"
+msgstr ""
+
+#: elementor/widgets/ova_audio_categories_slider.php:142
+#: elementor/widgets/ova_audio_host_slider.php:185
+#: elementor/widgets/ova_audio_slider.php:252
+#: elementor/widgets/ova_audio_slider_2.php:472
+#: elementor/widgets/ova_audio_slider_3.php:314
+msgid "Item Number"
+msgstr ""
+
+#: elementor/widgets/ova_audio_categories_slider.php:125
+#: elementor/widgets/ova_audio_host_slider.php:169
+#: elementor/widgets/ova_audio_slider.php:235
+#: elementor/widgets/ova_audio_slider_2.php:455
+#: elementor/widgets/ova_audio_slider_3.php:297
+msgid "Item space between"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:86 inc/class-ova-custom-post-type.php:174
+#: inc/class-ova-custom-post-type.php:219
+msgid "Items list"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:87 inc/class-ova-custom-post-type.php:175
+#: inc/class-ova-custom-post-type.php:220
+msgid "Items list navigation"
+msgstr ""
+
+#: elementor/widgets/ova_audio_category_filter.php:317
+#: elementor/widgets/ova_audio_category_filter_2.php:225
+msgid "Items Style"
+msgstr ""
+
+#: admin/class-ova-metabox.php:175 elementor/widgets/ova_audio_host.php:257
+#: elementor/widgets/ova_audio_host_slider.php:382
+msgid "Job"
+msgstr ""
+
+#: elementor/widgets/ova_audio.php:307 elementor/widgets/ova_audio_2.php:383
+#: elementor/widgets/ova_audio_category.php:320
+#: elementor/widgets/ova_audio_category_filter.php:273
+#: elementor/widgets/ova_audio_featured.php:383
+#: elementor/widgets/ova_audio_grid_2.php:408
+#: elementor/widgets/ova_audio_list.php:260
+#: elementor/widgets/ova_audio_list_2.php:256
+#: elementor/widgets/ova_audio_main-slider.php:288
+#: elementor/widgets/ova_audio_play_button.php:174
+#: elementor/widgets/ova_audio_podcast.php:297
+#: elementor/widgets/ova_audio_seasons.php:308
+#: elementor/widgets/ova_audio_slider_2.php:418
+#: elementor/widgets/ova_audio_slider_3.php:259
+msgid "Jump Forward"
+msgstr ""
+
+#: elementor/widgets/ova_audio_2.php:888
+msgid "Jump Forward Options"
+msgstr ""
+
+#: inc/ova-core-functions.php:319
+msgid "just now"
+msgstr ""
+
+#: elementor/widgets/ova_audio_category.php:226
+#: elementor/widgets/ova_audio_seasons.php:214
+msgid "Label"
+msgstr ""
+
+#: elementor/widgets/ova_audio.php:708 elementor/widgets/ova_audio_2.php:975
+#: elementor/widgets/ova_audio_category.php:967
+#: elementor/widgets/ova_audio_list.php:712
+#: elementor/widgets/ova_audio_podcast.php:608
+#: elementor/widgets/ova_audio_seasons.php:938
+msgid "Label Options"
+msgstr ""
+
+#: inc/class-customize.php:890
+msgid "Layout of my podcasts"
+msgstr ""
+
+#: elementor/widgets/ova_audio_category.php:128
+msgid "Learn the strategies for your next podcast shows"
+msgstr ""
+
+#: elementor/widgets/ova_audio_categories_slider.php:70
+msgid "Leave empty to select all"
+msgstr ""
+
+#: elementor/widgets/ova_audio_featured.php:252
+#: elementor/widgets/ova_audio_grid_2.php:312
+msgid "Left"
+msgstr ""
+
+#: elementor/widgets/ova_audio_2.php:297
+#: elementor/widgets/ova_audio_category.php:246
+#: elementor/widgets/ova_audio_seasons.php:234
+msgid "Link"
+msgstr ""
+
+#: admin/class-ova-metabox.php:201
+msgid "Link social"
+msgstr ""
+
+#: elementor/widgets/ova_audio.php:120 elementor/widgets/ova_audio_2.php:213
+#: elementor/widgets/ova_audio_category.php:188
+#: elementor/widgets/ova_audio_featured.php:142
+#: elementor/widgets/ova_audio_list.php:164
+#: elementor/widgets/ova_audio_list_2.php:126
+#: elementor/widgets/ova_audio_podcast.php:138
+#: elementor/widgets/ova_audio_seasons.php:169
+msgid "Link Title"
+msgstr ""
+
+#: elementor/widgets/ova_audio_category_filter.php:297
+#: elementor/widgets/ova_audio_category_filter_2.php:205
+msgid "List Categories"
+msgstr ""
+
+#: admin/class-ova-metabox.php:184
+msgid "List Social"
+msgstr ""
+
+#: templates/parts/audio-item-grid-player.php:27
+msgid "Listen Now!"
+msgstr ""
+
+#: elementor/widgets/ova_audio_category_filter.php:1036
+#: elementor/widgets/ova_audio_category_filter_2.php:764
+msgid "Loader"
+msgstr ""
+
+#: elementor/widgets/ova_audio.php:287 elementor/widgets/ova_audio_2.php:363
+#: elementor/widgets/ova_audio_category.php:300
+#: elementor/widgets/ova_audio_category_filter.php:253
+#: elementor/widgets/ova_audio_featured.php:363
+#: elementor/widgets/ova_audio_grid_2.php:388
+#: elementor/widgets/ova_audio_list.php:240
+#: elementor/widgets/ova_audio_list_2.php:236
+#: elementor/widgets/ova_audio_main-slider.php:268
+#: elementor/widgets/ova_audio_play_button.php:154
+#: elementor/widgets/ova_audio_seasons.php:288
+#: elementor/widgets/ova_audio_slider_2.php:398
+#: elementor/widgets/ova_audio_slider_3.php:239
+msgid "Loop"
+msgstr ""
+
+#: elementor/widgets/ova_audio_slider_2.php:68
+msgid "Manual Audios"
+msgstr ""
+
+#: elementor/widgets/ova_audio.php:630 elementor/widgets/ova_audio.php:686
+#: elementor/widgets/ova_audio.php:1013 elementor/widgets/ova_audio_2.php:437
+#: elementor/widgets/ova_audio_2.php:690 elementor/widgets/ova_audio_2.php:876
+#: elementor/widgets/ova_audio_2.php:897 elementor/widgets/ova_audio_2.php:953
+#: elementor/widgets/ova_audio_2.php:1122
+#: elementor/widgets/ova_audio_2.php:1207
+#: elementor/widgets/ova_audio_2.php:1340
+#: elementor/widgets/ova_audio_categories_slider.php:329
+#: elementor/widgets/ova_audio_categories_slider.php:407
+#: elementor/widgets/ova_audio_categories_slider.php:604
+#: elementor/widgets/ova_audio_category.php:505
+#: elementor/widgets/ova_audio_category.php:598
+#: elementor/widgets/ova_audio_category.php:632
+#: elementor/widgets/ova_audio_category.php:674
+#: elementor/widgets/ova_audio_category.php:716
+#: elementor/widgets/ova_audio_category.php:936
+#: elementor/widgets/ova_audio_category.php:994
+#: elementor/widgets/ova_audio_category.php:1049
+#: elementor/widgets/ova_audio_category.php:1160
+#: elementor/widgets/ova_audio_category_filter.php:467
+#: elementor/widgets/ova_audio_category_filter.php:502
+#: elementor/widgets/ova_audio_category_filter.php:741
+#: elementor/widgets/ova_audio_category_filter.php:806
+#: elementor/widgets/ova_audio_category_filter_2.php:375
+#: elementor/widgets/ova_audio_category_filter_2.php:635
+#: elementor/widgets/ova_audio_featured.php:426
+#: elementor/widgets/ova_audio_featured.php:477
+#: elementor/widgets/ova_audio_featured.php:519
+#: elementor/widgets/ova_audio_featured.php:731
+#: elementor/widgets/ova_audio_featured.php:839
+#: elementor/widgets/ova_audio_featured.php:1000
+#: elementor/widgets/ova_audio_grid.php:530
+#: elementor/widgets/ova_audio_grid_2.php:598
+#: elementor/widgets/ova_audio_host_slider.php:500
+#: elementor/widgets/ova_audio_list.php:366
+#: elementor/widgets/ova_audio_list.php:408
+#: elementor/widgets/ova_audio_list.php:450
+#: elementor/widgets/ova_audio_list.php:681
+#: elementor/widgets/ova_audio_list.php:914
+#: elementor/widgets/ova_audio_list_2.php:299
+#: elementor/widgets/ova_audio_list_2.php:350
+#: elementor/widgets/ova_audio_list_2.php:392
+#: elementor/widgets/ova_audio_list_2.php:612
+#: elementor/widgets/ova_audio_list_2.php:677
+#: elementor/widgets/ova_audio_main-slider.php:534
+#: elementor/widgets/ova_audio_main-slider.php:577
+#: elementor/widgets/ova_audio_main-slider.php:631
+#: elementor/widgets/ova_audio_main-slider.php:840
+#: elementor/widgets/ova_audio_main-slider.php:1034
+#: elementor/widgets/ova_audio_podcast.php:416
+#: elementor/widgets/ova_audio_podcast.php:438
+#: elementor/widgets/ova_audio_podcast.php:505
+#: elementor/widgets/ova_audio_podcast.php:825
+#: elementor/widgets/ova_audio_podcast.php:918
+#: elementor/widgets/ova_audio_podcast.php:952
+#: elementor/widgets/ova_audio_podcast.php:994
+#: elementor/widgets/ova_audio_podcast.php:1036
+#: elementor/widgets/ova_audio_podcast.php:1213
+#: elementor/widgets/ova_audio_podcast.php:1269
+#: elementor/widgets/ova_audio_podcast.php:1310
+#: elementor/widgets/ova_audio_podcast.php:1362
+#: elementor/widgets/ova_audio_seasons.php:493
+#: elementor/widgets/ova_audio_seasons.php:569
+#: elementor/widgets/ova_audio_seasons.php:603
+#: elementor/widgets/ova_audio_seasons.php:645
+#: elementor/widgets/ova_audio_seasons.php:687
+#: elementor/widgets/ova_audio_seasons.php:907
+#: elementor/widgets/ova_audio_seasons.php:965
+#: elementor/widgets/ova_audio_seasons.php:1020
+#: elementor/widgets/ova_audio_seasons.php:1131
+#: elementor/widgets/ova_audio_slider.php:538
+#: elementor/widgets/ova_audio_slider.php:678
+#: elementor/widgets/ova_audio_slider_2.php:895
+#: elementor/widgets/ova_audio_slider_2.php:1035
+#: elementor/widgets/ova_audio_slider_2.php:1229
+#: elementor/widgets/ova_audio_slider_3.php:707
+#: elementor/widgets/ova_audio_slider_3.php:847
+#: elementor/widgets/ova_audio_slider_3.php:1041
+msgid "Margin"
+msgstr ""
+
+#: elementor/widgets/ova_audio_categories_slider.php:122
+#: elementor/widgets/ova_audio_host_slider.php:166
+#: elementor/widgets/ova_audio_slider.php:232
+#: elementor/widgets/ova_audio_slider_2.php:452
+#: elementor/widgets/ova_audio_slider_3.php:294
+msgid "Margin Right Items"
+msgstr ""
+
+#: elementor/widgets/ova_audio_categories_slider.php:353
+#: elementor/widgets/ova_audio_category.php:451
+#: elementor/widgets/ova_audio_seasons.php:439
+msgid "Max Width"
+msgstr ""
+
+#: admin/class-ova-metabox.php:46
+msgid "Media"
+msgstr ""
+
+#: inc/ova-core-functions.php:301
+msgid "minute"
+msgstr ""
+
+#: inc/class-customize.php:92 inc/class-customize.php:731
+#: elementor/widgets/ova_audio_category.php:104
+#: elementor/widgets/ova_audio_featured.php:119
+#: elementor/widgets/ova_audio_grid.php:144
+#: elementor/widgets/ova_audio_grid_2.php:147
+#: elementor/widgets/ova_audio_host.php:90
+#: elementor/widgets/ova_audio_host_slider.php:79
+#: elementor/widgets/ova_audio_list.php:106
+#: elementor/widgets/ova_audio_list_2.php:116
+#: elementor/widgets/ova_audio_main-slider.php:126
+#: elementor/widgets/ova_audio_podcast.php:106
+#: elementor/widgets/ova_audio_seasons.php:106
+#: elementor/widgets/ova_audio_slider.php:144
+#: elementor/widgets/ova_audio_slider_2.php:191
+#: elementor/widgets/ova_audio_slider_3.php:136
+msgid "Modified"
+msgstr ""
+
+#: inc/ova-core-functions.php:297
+msgid "month"
+msgstr ""
+
+#: elementor/widgets/ova_audio_category_filter.php:192
+#: elementor/widgets/ova_audio_category_filter_2.php:180
+#: elementor/widgets/ova_audio_host.php:218
+#: elementor/widgets/ova_audio_host_slider.php:343
+msgid "Name"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:35 inc/class-ova-custom-post-type.php:124
+msgid "New Item"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:74 inc/class-ova-custom-post-type.php:162
+#: inc/class-ova-custom-post-type.php:207
+msgid "New Item Name"
+msgstr ""
+
+#: inc/class-customize.php:172 inc/class-customize.php:192
+#: inc/class-customize.php:212 inc/class-customize.php:232
+#: inc/class-customize.php:252 inc/class-customize.php:272
+#: inc/class-customize.php:392 inc/class-customize.php:412
+#: inc/class-customize.php:433 inc/class-customize.php:453
+#: inc/class-customize.php:473 inc/class-customize.php:493
+#: inc/class-customize.php:513 inc/class-customize.php:534
+#: inc/class-customize.php:555 inc/class-customize.php:575
+#: inc/class-customize.php:595 inc/class-customize.php:615
+#: inc/class-customize.php:636 inc/class-customize.php:656
+#: inc/class-customize.php:918 elementor/widgets/ova_audio.php:53
+#: elementor/widgets/ova_audio.php:123 elementor/widgets/ova_audio.php:188
+#: elementor/widgets/ova_audio.php:202 elementor/widgets/ova_audio.php:216
+#: elementor/widgets/ova_audio.php:230 elementor/widgets/ova_audio.php:290
+#: elementor/widgets/ova_audio_2.php:53 elementor/widgets/ova_audio_2.php:123
+#: elementor/widgets/ova_audio_2.php:134 elementor/widgets/ova_audio_2.php:201
+#: elementor/widgets/ova_audio_2.php:216 elementor/widgets/ova_audio_2.php:231
+#: elementor/widgets/ova_audio_2.php:247 elementor/widgets/ova_audio_2.php:261
+#: elementor/widgets/ova_audio_2.php:275 elementor/widgets/ova_audio_2.php:366
+#: elementor/widgets/ova_audio_categories_slider.php:89
+#: elementor/widgets/ova_audio_categories_slider.php:100
+#: elementor/widgets/ova_audio_categories_slider.php:167
+#: elementor/widgets/ova_audio_categories_slider.php:182
+#: elementor/widgets/ova_audio_categories_slider.php:196
+#: elementor/widgets/ova_audio_categories_slider.php:233
+#: elementor/widgets/ova_audio_categories_slider.php:277
+#: elementor/widgets/ova_audio_category.php:138
+#: elementor/widgets/ova_audio_category.php:149
+#: elementor/widgets/ova_audio_category.php:160
+#: elementor/widgets/ova_audio_category.php:180
+#: elementor/widgets/ova_audio_category.php:191
+#: elementor/widgets/ova_audio_category.php:205
+#: elementor/widgets/ova_audio_category.php:239
+#: elementor/widgets/ova_audio_category.php:303
+#: elementor/widgets/ova_audio_category.php:417
+#: elementor/widgets/ova_audio_category_filter.php:106
+#: elementor/widgets/ova_audio_category_filter.php:117
+#: elementor/widgets/ova_audio_category_filter.php:128
+#: elementor/widgets/ova_audio_category_filter.php:139
+#: elementor/widgets/ova_audio_category_filter.php:159
+#: elementor/widgets/ova_audio_category_filter.php:256
+#: elementor/widgets/ova_audio_category_filter_2.php:93
+#: elementor/widgets/ova_audio_category_filter_2.php:105
+#: elementor/widgets/ova_audio_category_filter_2.php:116
+#: elementor/widgets/ova_audio_category_filter_2.php:127
+#: elementor/widgets/ova_audio_category_filter_2.php:138
+#: elementor/widgets/ova_audio_featured.php:57
+#: elementor/widgets/ova_audio_featured.php:145
+#: elementor/widgets/ova_audio_featured.php:159
+#: elementor/widgets/ova_audio_featured.php:366
+#: elementor/widgets/ova_audio_grid.php:168
+#: elementor/widgets/ova_audio_grid.php:179
+#: elementor/widgets/ova_audio_grid.php:190
+#: elementor/widgets/ova_audio_grid.php:201
+#: elementor/widgets/ova_audio_grid.php:212
+#: elementor/widgets/ova_audio_grid_2.php:184
+#: elementor/widgets/ova_audio_grid_2.php:195
+#: elementor/widgets/ova_audio_grid_2.php:206
+#: elementor/widgets/ova_audio_grid_2.php:217
+#: elementor/widgets/ova_audio_grid_2.php:228
+#: elementor/widgets/ova_audio_grid_2.php:253
+#: elementor/widgets/ova_audio_grid_2.php:391
+#: elementor/widgets/ova_audio_host_slider.php:212
+#: elementor/widgets/ova_audio_host_slider.php:227
+#: elementor/widgets/ova_audio_host_slider.php:241
+#: elementor/widgets/ova_audio_host_slider.php:278
+#: elementor/widgets/ova_audio_list.php:119
+#: elementor/widgets/ova_audio_list.php:131
+#: elementor/widgets/ova_audio_list.php:143
+#: elementor/widgets/ova_audio_list.php:155
+#: elementor/widgets/ova_audio_list.php:167
+#: elementor/widgets/ova_audio_list.php:178
+#: elementor/widgets/ova_audio_list.php:243
+#: elementor/widgets/ova_audio_list_2.php:129
+#: elementor/widgets/ova_audio_list_2.php:141
+#: elementor/widgets/ova_audio_list_2.php:155
+#: elementor/widgets/ova_audio_list_2.php:167
+#: elementor/widgets/ova_audio_list_2.php:179
+#: elementor/widgets/ova_audio_list_2.php:239
+#: elementor/widgets/ova_audio_main-slider.php:271
+#: elementor/widgets/ova_audio_main-slider.php:328
+#: elementor/widgets/ova_audio_main-slider.php:343
+#: elementor/widgets/ova_audio_main-slider.php:357
+#: elementor/widgets/ova_audio_main-slider.php:394
+#: elementor/widgets/ova_audio_main-slider.php:438
+#: elementor/widgets/ova_audio_play_button.php:157
+#: elementor/widgets/ova_audio_podcast.php:119
+#: elementor/widgets/ova_audio_podcast.php:130
+#: elementor/widgets/ova_audio_podcast.php:141
+#: elementor/widgets/ova_audio_podcast.php:155
+#: elementor/widgets/ova_audio_podcast.php:170
+#: elementor/widgets/ova_audio_podcast.php:181
+#: elementor/widgets/ova_audio_podcast.php:204
+#: elementor/widgets/ova_audio_podcast.php:215
+#: elementor/widgets/ova_audio_podcast.php:235
+#: elementor/widgets/ova_audio_seasons.php:172
+#: elementor/widgets/ova_audio_seasons.php:183
+#: elementor/widgets/ova_audio_seasons.php:227
+#: elementor/widgets/ova_audio_seasons.php:291
+#: elementor/widgets/ova_audio_seasons.php:405
+#: elementor/widgets/ova_audio_slider.php:95
+#: elementor/widgets/ova_audio_slider.php:157
+#: elementor/widgets/ova_audio_slider.php:168
+#: elementor/widgets/ova_audio_slider.php:179
+#: elementor/widgets/ova_audio_slider.php:190
+#: elementor/widgets/ova_audio_slider.php:201
+#: elementor/widgets/ova_audio_slider.php:279
+#: elementor/widgets/ova_audio_slider.php:294
+#: elementor/widgets/ova_audio_slider.php:308
+#: elementor/widgets/ova_audio_slider.php:345
+#: elementor/widgets/ova_audio_slider_2.php:220
+#: elementor/widgets/ova_audio_slider_2.php:231
+#: elementor/widgets/ova_audio_slider_2.php:242
+#: elementor/widgets/ova_audio_slider_2.php:253
+#: elementor/widgets/ova_audio_slider_2.php:264
+#: elementor/widgets/ova_audio_slider_2.php:275
+#: elementor/widgets/ova_audio_slider_2.php:286
+#: elementor/widgets/ova_audio_slider_2.php:297
+#: elementor/widgets/ova_audio_slider_2.php:401
+#: elementor/widgets/ova_audio_slider_2.php:497
+#: elementor/widgets/ova_audio_slider_2.php:512
+#: elementor/widgets/ova_audio_slider_2.php:526
+#: elementor/widgets/ova_audio_slider_2.php:563
+#: elementor/widgets/ova_audio_slider_2.php:607
+#: elementor/widgets/ova_audio_slider_3.php:149
+#: elementor/widgets/ova_audio_slider_3.php:160
+#: elementor/widgets/ova_audio_slider_3.php:171
+#: elementor/widgets/ova_audio_slider_3.php:242
+#: elementor/widgets/ova_audio_slider_3.php:339
+#: elementor/widgets/ova_audio_slider_3.php:354
+#: elementor/widgets/ova_audio_slider_3.php:368
+#: elementor/widgets/ova_audio_slider_3.php:405
+#: elementor/widgets/ova_audio_slider_3.php:449
+msgid "No"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:85 inc/class-ova-custom-post-type.php:173
+#: inc/class-ova-custom-post-type.php:218
+msgid "No items"
+msgstr ""
+
+#: elementor/widgets/ova_audio_featured.php:281
+#: elementor/widgets/ova_audio_main-slider.php:140
+msgid "None"
+msgstr ""
+
+#: elementor/widgets/ova_audio.php:455 elementor/widgets/ova_audio.php:813
+#: elementor/widgets/ova_audio.php:1039 elementor/widgets/ova_audio_2.php:514
+#: elementor/widgets/ova_audio_2.php:716 elementor/widgets/ova_audio_2.php:1080
+#: elementor/widgets/ova_audio_2.php:1233
+#: elementor/widgets/ova_audio_categories_slider.php:421
+#: elementor/widgets/ova_audio_categories_slider.php:618
+#: elementor/widgets/ova_audio_category.php:752
+#: elementor/widgets/ova_audio_category.php:1083
+#: elementor/widgets/ova_audio_category_filter.php:338
+#: elementor/widgets/ova_audio_category_filter.php:557
+#: elementor/widgets/ova_audio_category_filter.php:869
+#: elementor/widgets/ova_audio_category_filter.php:931
+#: elementor/widgets/ova_audio_category_filter.php:993
+#: elementor/widgets/ova_audio_category_filter_2.php:246
+#: elementor/widgets/ova_audio_category_filter_2.php:420
+#: elementor/widgets/ova_audio_category_filter_2.php:698
+#: elementor/widgets/ova_audio_featured.php:555
+#: elementor/widgets/ova_audio_featured.php:931
+#: elementor/widgets/ova_audio_featured.php:1034
+#: elementor/widgets/ova_audio_grid.php:315
+#: elementor/widgets/ova_audio_grid.php:593
+#: elementor/widgets/ova_audio_grid_2.php:645
+#: elementor/widgets/ova_audio_host.php:300
+#: elementor/widgets/ova_audio_host_slider.php:425
+#: elementor/widgets/ova_audio_host_slider.php:514
+#: elementor/widgets/ova_audio_list.php:486
+#: elementor/widgets/ova_audio_list_2.php:428
+#: elementor/widgets/ova_audio_list_2.php:740
+#: elementor/widgets/ova_audio_list_2.php:802
+#: elementor/widgets/ova_audio_list_2.php:864
+#: elementor/widgets/ova_audio_main-slider.php:685
+#: elementor/widgets/ova_audio_main-slider.php:854
+#: elementor/widgets/ova_audio_main-slider.php:1048
+#: elementor/widgets/ova_audio_podcast.php:538
+#: elementor/widgets/ova_audio_podcast.php:650
+#: elementor/widgets/ova_audio_podcast.php:1071
+#: elementor/widgets/ova_audio_seasons.php:527
+#: elementor/widgets/ova_audio_seasons.php:723
+#: elementor/widgets/ova_audio_seasons.php:1054
+#: elementor/widgets/ova_audio_slider.php:601
+#: elementor/widgets/ova_audio_slider.php:692
+#: elementor/widgets/ova_audio_slider_2.php:680
+#: elementor/widgets/ova_audio_slider_2.php:958
+#: elementor/widgets/ova_audio_slider_2.php:1049
+#: elementor/widgets/ova_audio_slider_2.php:1243
+#: elementor/widgets/ova_audio_slider_3.php:547
+#: elementor/widgets/ova_audio_slider_3.php:770
+#: elementor/widgets/ova_audio_slider_3.php:861
+#: elementor/widgets/ova_audio_slider_3.php:1055
+msgid "Normal"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:84 inc/class-ova-custom-post-type.php:172
+#: inc/class-ova-custom-post-type.php:217
+msgid "Not Found"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:40 inc/class-ova-custom-post-type.php:129
+msgid "Not found"
+msgstr ""
+
+#: templates/parts/audio-item-list-2.php:65
+#: templates/parts/audio-item-list.php:170
+msgid "Not Found episode!"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:41 inc/class-ova-custom-post-type.php:130
+msgid "Not found in Trash"
+msgstr ""
+
+#: templates/elementor/ova_audio_category.php:193
+#: templates/elementor/ova_audio_seasons.php:179
+msgid "Not found!"
+msgstr ""
+
+#: elementor/widgets/ova_audio_categories_slider.php:144
+#: elementor/widgets/ova_audio_host_slider.php:187
+#: elementor/widgets/ova_audio_slider.php:254
+#: elementor/widgets/ova_audio_slider_2.php:474
+#: elementor/widgets/ova_audio_slider_3.php:316
+msgid "Number Item"
+msgstr ""
+
+#: elementor/widgets/ova_audio_host.php:68
+msgid "Number Of Column"
+msgstr ""
+
+#: inc/class-customize.php:816
+msgid "Number of my podcasts"
+msgstr ""
+
+#: inc/class-customize.php:48 inc/class-customize.php:685
+msgid "Number of posts per page"
+msgstr ""
+
+#: admin/class-ova-metabox.php:40 admin/class-ova-metabox.php:72
+msgid "oEmbed"
+msgstr ""
+
+#: elementor/widgets/ova_audio_grid.php:60
+#: elementor/widgets/ova_audio_grid_2.php:60
+msgid "Ofset"
+msgstr ""
+
+#: inc/class-customize.php:64 inc/class-customize.php:702
+#: elementor/widgets/ova_audio_category.php:84
+#: elementor/widgets/ova_audio_category.php:106
+#: elementor/widgets/ova_audio_category_filter.php:90
+#: elementor/widgets/ova_audio_category_filter_2.php:77
+#: elementor/widgets/ova_audio_featured.php:99
+#: elementor/widgets/ova_audio_featured.php:121
+#: elementor/widgets/ova_audio_grid.php:124
+#: elementor/widgets/ova_audio_grid.php:146
+#: elementor/widgets/ova_audio_grid_2.php:127
+#: elementor/widgets/ova_audio_grid_2.php:149
+#: elementor/widgets/ova_audio_host.php:100
+#: elementor/widgets/ova_audio_host_slider.php:89
+#: elementor/widgets/ova_audio_list.php:86
+#: elementor/widgets/ova_audio_list.php:108
+#: elementor/widgets/ova_audio_list_2.php:96
+#: elementor/widgets/ova_audio_list_2.php:118
+#: elementor/widgets/ova_audio_main-slider.php:106
+#: elementor/widgets/ova_audio_podcast.php:86
+#: elementor/widgets/ova_audio_podcast.php:108
+#: elementor/widgets/ova_audio_seasons.php:86
+#: elementor/widgets/ova_audio_seasons.php:108
+#: elementor/widgets/ova_audio_slider.php:124
+#: elementor/widgets/ova_audio_slider_2.php:171
+#: elementor/widgets/ova_audio_slider_3.php:116
+msgid "Order"
+msgstr ""
+
+#: inc/class-customize.php:84 inc/class-customize.php:723
+#: elementor/widgets/ova_audio_category.php:97
+#: elementor/widgets/ova_audio_category_filter.php:76
+#: elementor/widgets/ova_audio_category_filter_2.php:63
+#: elementor/widgets/ova_audio_featured.php:112
+#: elementor/widgets/ova_audio_grid.php:137
+#: elementor/widgets/ova_audio_grid_2.php:140
+#: elementor/widgets/ova_audio_list.php:99
+#: elementor/widgets/ova_audio_list_2.php:109
+#: elementor/widgets/ova_audio_podcast.php:99
+#: elementor/widgets/ova_audio_seasons.php:99
+msgid "Order By"
+msgstr ""
+
+#: elementor/widgets/ova_audio_host.php:83
+#: elementor/widgets/ova_audio_host_slider.php:72
+#: elementor/widgets/ova_audio_main-slider.php:119
+#: elementor/widgets/ova_audio_slider.php:137
+#: elementor/widgets/ova_audio_slider_2.php:184
+#: elementor/widgets/ova_audio_slider_3.php:129
+msgid "OrderBy"
+msgstr ""
+
+#. Name of the plugin
+#. Description of the plugin
+#: elementor/class-ova-register-elementor.php:27
+msgid "Ova Audio"
+msgstr ""
+
+#. Author of the plugin
+msgid "ovatheme"
+msgstr ""
+
+#: elementor/widgets/ova_audio.php:399
+#: elementor/widgets/ova_audio_category.php:362
+#: elementor/widgets/ova_audio_category.php:557
+#: elementor/widgets/ova_audio_category.php:620
+#: elementor/widgets/ova_audio_category.php:662
+#: elementor/widgets/ova_audio_category.php:704
+#: elementor/widgets/ova_audio_category.php:1147
+#: elementor/widgets/ova_audio_category_filter.php:305
+#: elementor/widgets/ova_audio_category_filter.php:455
+#: elementor/widgets/ova_audio_category_filter.php:490
+#: elementor/widgets/ova_audio_category_filter_2.php:213
+#: elementor/widgets/ova_audio_category_filter_2.php:363
+#: elementor/widgets/ova_audio_category_filter_2.php:527
+#: elementor/widgets/ova_audio_category_filter_2.php:581
+#: elementor/widgets/ova_audio_category_filter_2.php:669
+#: elementor/widgets/ova_audio_featured.php:414
+#: elementor/widgets/ova_audio_featured.php:465
+#: elementor/widgets/ova_audio_featured.php:507
+#: elementor/widgets/ova_audio_grid.php:422
+#: elementor/widgets/ova_audio_grid.php:476
+#: elementor/widgets/ova_audio_grid.php:564
+#: elementor/widgets/ova_audio_grid_2.php:490
+#: elementor/widgets/ova_audio_grid_2.php:544
+#: elementor/widgets/ova_audio_list.php:302
+#: elementor/widgets/ova_audio_list.php:354
+#: elementor/widgets/ova_audio_list.php:396
+#: elementor/widgets/ova_audio_list.php:438
+#: elementor/widgets/ova_audio_list_2.php:287
+#: elementor/widgets/ova_audio_list_2.php:338
+#: elementor/widgets/ova_audio_list_2.php:380
+#: elementor/widgets/ova_audio_main-slider.php:471
+#: elementor/widgets/ova_audio_podcast.php:339
+#: elementor/widgets/ova_audio_podcast.php:450
+#: elementor/widgets/ova_audio_podcast.php:940
+#: elementor/widgets/ova_audio_podcast.php:982
+#: elementor/widgets/ova_audio_podcast.php:1024
+#: elementor/widgets/ova_audio_seasons.php:350
+#: elementor/widgets/ova_audio_seasons.php:591
+#: elementor/widgets/ova_audio_seasons.php:633
+#: elementor/widgets/ova_audio_seasons.php:675
+#: elementor/widgets/ova_audio_seasons.php:1118
+#: elementor/widgets/ova_audio_slider.php:367
+#: elementor/widgets/ova_audio_slider.php:430
+#: elementor/widgets/ova_audio_slider.php:484
+#: elementor/widgets/ova_audio_slider.php:572
+#: elementor/widgets/ova_audio_slider_2.php:787
+#: elementor/widgets/ova_audio_slider_2.php:841
+#: elementor/widgets/ova_audio_slider_2.php:929
+#: elementor/widgets/ova_audio_slider_3.php:493
+#: elementor/widgets/ova_audio_slider_3.php:741
+msgid "Padding"
+msgstr ""
+
+#: elementor/widgets/ova_audio_featured.php:248
+#: elementor/widgets/ova_audio_grid_2.php:308
+msgid "Pagination Alignment"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:72 inc/class-ova-custom-post-type.php:160
+#: inc/class-ova-custom-post-type.php:205
+msgid "Parent Item"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:31 inc/class-ova-custom-post-type.php:73
+#: inc/class-ova-custom-post-type.php:120
+#: inc/class-ova-custom-post-type.php:161
+#: inc/class-ova-custom-post-type.php:206
+msgid "Parent Item:"
+msgstr ""
+
+#: elementor/widgets/ova_audio.php:257 elementor/widgets/ova_audio_2.php:333
+#: elementor/widgets/ova_audio_category.php:285
+#: elementor/widgets/ova_audio_category_filter.php:238
+#: elementor/widgets/ova_audio_featured.php:333
+#: elementor/widgets/ova_audio_grid_2.php:373
+#: elementor/widgets/ova_audio_list.php:225
+#: elementor/widgets/ova_audio_list_2.php:221
+#: elementor/widgets/ova_audio_main-slider.php:253
+#: elementor/widgets/ova_audio_play_button.php:124
+#: elementor/widgets/ova_audio_podcast.php:258
+#: elementor/widgets/ova_audio_seasons.php:273
+#: elementor/widgets/ova_audio_slider_2.php:383
+#: elementor/widgets/ova_audio_slider_3.php:224
+msgid "Pause Icon"
+msgstr ""
+
+#: elementor/widgets/ova_audio_categories_slider.php:162
+#: elementor/widgets/ova_audio_host_slider.php:207
+#: elementor/widgets/ova_audio_main-slider.php:323
+#: elementor/widgets/ova_audio_slider.php:274
+#: elementor/widgets/ova_audio_slider_2.php:492
+#: elementor/widgets/ova_audio_slider_3.php:334
+msgid "Pause on Hover"
+msgstr ""
+
+#: shortcodes/shortcodes.php:16
+msgid "Play"
+msgstr ""
+
+#: elementor/widgets/ova_audio.php:242 elementor/widgets/ova_audio_2.php:318
+#: elementor/widgets/ova_audio_category.php:270
+#: elementor/widgets/ova_audio_category_filter.php:223
+#: elementor/widgets/ova_audio_featured.php:318
+#: elementor/widgets/ova_audio_list.php:210
+#: elementor/widgets/ova_audio_list_2.php:206
+#: elementor/widgets/ova_audio_main-slider.php:647
+#: elementor/widgets/ova_audio_play_button.php:109
+#: elementor/widgets/ova_audio_podcast.php:243
+#: elementor/widgets/ova_audio_seasons.php:258
+#: elementor/widgets/ova_audio_slider_3.php:518
+msgid "Play Icon"
+msgstr ""
+
+#: elementor/widgets/ova_audio.php:486 elementor/widgets/ova_audio_2.php:545
+#: elementor/widgets/ova_audio_category.php:803
+#: elementor/widgets/ova_audio_category_filter.php:608
+#: elementor/widgets/ova_audio_featured.php:586
+#: elementor/widgets/ova_audio_list.php:537
+#: elementor/widgets/ova_audio_list_2.php:479
+#: elementor/widgets/ova_audio_main-slider.php:747
+#: elementor/widgets/ova_audio_podcast.php:681
+#: elementor/widgets/ova_audio_seasons.php:774
+#: elementor/widgets/ova_audio_slider_3.php:598
+msgid "Playing"
+msgstr ""
+
+#: elementor/widgets/ova_audio_2.php:563
+msgid "Playing Color"
+msgstr ""
+
+#: shortcodes/shortcodes.php:30
+msgid ""
+"Please check surely you made template file for search form in plugin or theme"
+msgstr ""
+
+#: elementor/widgets/ova_audio_podcast.php:23
+msgid "Podcast"
+msgstr ""
+
+#: elementor/widgets/ova_audio_podcast.php:430
+msgid "Podcast Active"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:82 inc/class-ova-custom-post-type.php:170
+#: inc/class-ova-custom-post-type.php:215
+msgid "Popular Items"
+msgstr ""
+
+#: elementor/widgets/ova_audio_category_filter.php:66
+#: elementor/widgets/ova_audio_category_filter_2.php:53
+msgid "Post Per Page"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:45 inc/class-ova-custom-post-type.php:134
+msgid "Post Type Description"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:68
+msgctxt "Post Type General Name"
+msgid "Audio Categories"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:201
+msgctxt "Post Type General Name"
+msgid "Audio Tags"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:25
+msgctxt "Post Type General Name"
+msgid "Audios"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:114
+msgctxt "Post Type General Name"
+msgid "Hosts"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:156
+msgctxt "Post Type General Name"
+msgid "Seasons"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:26
+msgctxt "Post Type Singular Name"
+msgid "Audio"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:69
+msgctxt "Post Type Singular Name"
+msgid "Audio Category"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:202
+msgctxt "Post Type Singular Name"
+msgid "Audio Tag"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:115
+msgctxt "Post Type Singular Name"
+msgid "Host"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:157
+msgctxt "Post Type Singular Name"
+msgid "Seasons"
+msgstr ""
+
+#: elementor/widgets/ova_audio.php:943 elementor/widgets/ova_audio_2.php:1137
+#: elementor/widgets/ova_audio_featured.php:754
+#: elementor/widgets/ova_audio_podcast.php:848
+msgid "Progress"
+msgstr ""
+
+#: inc/class-customize.php:93 inc/class-customize.php:732
+#: elementor/widgets/ova_audio_category.php:105
+#: elementor/widgets/ova_audio_featured.php:120
+#: elementor/widgets/ova_audio_grid.php:145
+#: elementor/widgets/ova_audio_grid_2.php:148
+#: elementor/widgets/ova_audio_host.php:91
+#: elementor/widgets/ova_audio_host_slider.php:80
+#: elementor/widgets/ova_audio_list.php:107
+#: elementor/widgets/ova_audio_list_2.php:117
+#: elementor/widgets/ova_audio_main-slider.php:127
+#: elementor/widgets/ova_audio_podcast.php:107
+#: elementor/widgets/ova_audio_seasons.php:107
+#: elementor/widgets/ova_audio_slider.php:145
+#: elementor/widgets/ova_audio_slider_2.php:192
+#: elementor/widgets/ova_audio_slider_3.php:137
+msgid "Random"
+msgstr ""
+
+#: elementor/widgets/ova_audio.php:272 elementor/widgets/ova_audio_2.php:348
+#: elementor/widgets/ova_audio_featured.php:348
+#: elementor/widgets/ova_audio_play_button.php:139
+#: elementor/widgets/ova_audio_podcast.php:273
+msgid "Redo Icon"
+msgstr ""
+
+#: admin/class-ova-metabox.php:110 admin/class-ova-metabox.php:188
+msgid "Remove"
+msgstr ""
+
+#: admin/class-ova-metabox.php:257 admin/class-ova-metabox.php:352
+msgid "Remove image"
+msgstr ""
+
+#: elementor/widgets/ova_audio_grid_2.php:248
+msgid "Replace Date by Category"
+msgstr ""
+
+#: elementor/widgets/ova_audio_featured.php:260
+#: elementor/widgets/ova_audio_grid_2.php:320
+msgid "Right"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:39 inc/class-ova-custom-post-type.php:128
+msgid "Search Item"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:83 inc/class-ova-custom-post-type.php:171
+#: inc/class-ova-custom-post-type.php:216
+msgid "Search Items"
+msgstr ""
+
+#: elementor/widgets/ova_audio_seasons.php:66
+msgid "Season"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:189
+msgctxt "Season Audio Slug"
+msgid "season-audio"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:158
+msgid "Seasons"
+msgstr ""
+
+#: inc/ova-core-functions.php:302
+msgid "second"
+msgstr ""
+
+#: admin/class-ova-metabox.php:117
+msgid "Seconds"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:79 inc/class-ova-custom-post-type.php:167
+#: inc/class-ova-custom-post-type.php:212
+msgid "Separate items with commas"
+msgstr ""
+
+#: elementor/widgets/ova_audio_main-slider.php:620
+msgid "Separator Color"
+msgstr ""
+
+#: elementor/widgets/ova_audio.php:171 elementor/widgets/ova_audio_2.php:185
+#: elementor/widgets/ova_audio_featured.php:300
+#: elementor/widgets/ova_audio_featured.php:882
+#: elementor/widgets/ova_audio_grid_2.php:346
+#: elementor/widgets/ova_audio_list.php:198
+#: elementor/widgets/ova_audio_main-slider.php:226
+#: elementor/widgets/ova_audio_podcast.php:189
+#: elementor/widgets/ova_audio_podcast.php:580
+#: elementor/widgets/ova_audio_slider_2.php:356
+#: elementor/widgets/ova_audio_slider_3.php:197
+msgid "Seperate"
+msgstr ""
+
+#: elementor/widgets/ova_audio.php:735 elementor/widgets/ova_audio_2.php:1002
+#: elementor/widgets/ova_audio_list.php:739
+msgid "Seperate Options"
+msgstr ""
+
+#: elementor/widgets/ova_audio_categories_slider.php:154
+#: elementor/widgets/ova_audio_host_slider.php:199
+#: elementor/widgets/ova_audio_slider.php:266
+#: elementor/widgets/ova_audio_slider_2.php:484
+#: elementor/widgets/ova_audio_slider_3.php:326
+msgid "Set how many slides are scrolled per swipe."
+msgstr ""
+
+#: admin/class-ova-metabox.php:13 admin/class-ova-metabox.php:159
+msgid "Settings"
+msgstr ""
+
+#: templates/single-audio-2.php:302 templates/single-audio.php:188
+msgid "Sharing:"
+msgstr ""
+
+#: elementor/widgets/ova_audio_category_filter.php:169
+#: elementor/widgets/ova_audio_category_filter_2.php:157
+#: elementor/widgets/ova_audio_featured.php:132
+#: elementor/widgets/ova_audio_featured.php:173
+#: elementor/widgets/ova_audio_featured.php:184
+#: elementor/widgets/ova_audio_featured.php:195
+#: elementor/widgets/ova_audio_featured.php:206
+#: elementor/widgets/ova_audio_featured.php:217
+#: elementor/widgets/ova_audio_featured.php:228
+#: elementor/widgets/ova_audio_featured.php:239
+#: elementor/widgets/ova_audio_grid.php:156
+#: elementor/widgets/ova_audio_grid.php:222
+#: elementor/widgets/ova_audio_grid_2.php:172
+#: elementor/widgets/ova_audio_grid_2.php:238
+#: elementor/widgets/ova_audio_grid_2.php:263
+#: elementor/widgets/ova_audio_grid_2.php:275
+#: elementor/widgets/ova_audio_grid_2.php:287
+#: elementor/widgets/ova_audio_grid_2.php:299
+#: elementor/widgets/ova_audio_host.php:115
+#: elementor/widgets/ova_audio_host.php:130
+#: elementor/widgets/ova_audio_host.php:142
+#: elementor/widgets/ova_audio_host.php:154
+#: elementor/widgets/ova_audio_host_slider.php:104
+#: elementor/widgets/ova_audio_host_slider.php:119
+#: elementor/widgets/ova_audio_host_slider.php:131
+#: elementor/widgets/ova_audio_host_slider.php:143
+#: elementor/widgets/ova_audio_list_2.php:52
+#: elementor/widgets/ova_audio_main-slider.php:152
+#: elementor/widgets/ova_audio_main-slider.php:163
+#: elementor/widgets/ova_audio_main-slider.php:174
+#: elementor/widgets/ova_audio_main-slider.php:186
+#: elementor/widgets/ova_audio_main-slider.php:198
+#: elementor/widgets/ova_audio_seasons.php:129
+#: elementor/widgets/ova_audio_seasons.php:140
+#: elementor/widgets/ova_audio_seasons.php:151
+#: elementor/widgets/ova_audio_seasons.php:196
+#: elementor/widgets/ova_audio_slider.php:70
+#: elementor/widgets/ova_audio_slider.php:82
+#: elementor/widgets/ova_audio_slider_2.php:307
+#: elementor/widgets/ova_audio_slider_3.php:77
+msgid "Show"
+msgstr ""
+
+#: inc/class-customize.php:386
+msgid "Show Audio/Video Section"
+msgstr ""
+
+#: elementor/widgets/ova_audio_2.php:120
+msgid "Show Avatar"
+msgstr ""
+
+#: inc/class-customize.php:912
+msgid "Show Button"
+msgstr ""
+
+#: inc/class-customize.php:206 inc/class-customize.php:507
+#: elementor/widgets/ova_audio_category.php:135
+#: elementor/widgets/ova_audio_category_filter.php:136
+#: elementor/widgets/ova_audio_category_filter_2.php:135
+#: elementor/widgets/ova_audio_featured.php:204
+#: elementor/widgets/ova_audio_grid.php:176
+#: elementor/widgets/ova_audio_grid_2.php:192
+#: elementor/widgets/ova_audio_list.php:140
+#: elementor/widgets/ova_audio_main-slider.php:150
+#: elementor/widgets/ova_audio_slider.php:176
+#: elementor/widgets/ova_audio_slider_2.php:228
+msgid "Show Category"
+msgstr ""
+
+#: inc/class-customize.php:650 elementor/widgets/ova_audio_grid_2.php:261
+#: elementor/widgets/ova_audio_slider_2.php:283
+msgid "Show Comment"
+msgstr ""
+
+#: inc/class-customize.php:528 elementor/widgets/ova_audio_grid_2.php:236
+#: elementor/widgets/ova_audio_slider_2.php:272
+msgid "Show Date"
+msgstr ""
+
+#: inc/class-customize.php:589
+msgid "Show Donation"
+msgstr ""
+
+#: elementor/widgets/ova_audio_categories_slider.php:272
+#: elementor/widgets/ova_audio_host_slider.php:273
+#: elementor/widgets/ova_audio_main-slider.php:433
+#: elementor/widgets/ova_audio_slider.php:340
+#: elementor/widgets/ova_audio_slider_2.php:602
+#: elementor/widgets/ova_audio_slider_3.php:444
+msgid "Show Dots"
+msgstr ""
+
+#: elementor/widgets/ova_audio_podcast.php:212
+msgid "Show Download"
+msgstr ""
+
+#: inc/class-customize.php:487 elementor/widgets/ova_audio.php:227
+#: elementor/widgets/ova_audio_2.php:272
+#: elementor/widgets/ova_audio_grid_2.php:273
+#: elementor/widgets/ova_audio_podcast.php:201
+#: elementor/widgets/ova_audio_slider_2.php:294
+msgid "Show Duration"
+msgstr ""
+
+#: inc/class-customize.php:226 inc/class-customize.php:467
+#: elementor/widgets/ova_audio.php:213 elementor/widgets/ova_audio_2.php:258
+#: elementor/widgets/ova_audio_category.php:157
+#: elementor/widgets/ova_audio_category_filter.php:125
+#: elementor/widgets/ova_audio_category_filter_2.php:124
+#: elementor/widgets/ova_audio_featured.php:193
+#: elementor/widgets/ova_audio_grid.php:187
+#: elementor/widgets/ova_audio_grid_2.php:203
+#: elementor/widgets/ova_audio_list.php:128
+#: elementor/widgets/ova_audio_list_2.php:176
+#: elementor/widgets/ova_audio_main-slider.php:172
+#: elementor/widgets/ova_audio_podcast.php:178
+#: elementor/widgets/ova_audio_seasons.php:149
+#: elementor/widgets/ova_audio_slider.php:187
+#: elementor/widgets/ova_audio_slider_2.php:239
+msgid "Show Episode"
+msgstr ""
+
+#: elementor/widgets/ova_audio_featured.php:215
+#: elementor/widgets/ova_audio_grid.php:209
+#: elementor/widgets/ova_audio_grid_2.php:225
+#: elementor/widgets/ova_audio_main-slider.php:184
+#: elementor/widgets/ova_audio_slider_2.php:261
+msgid "Show Excerpt"
+msgstr ""
+
+#: elementor/widgets/ova_audio_list_2.php:50
+#: elementor/widgets/ova_audio_slider.php:68
+msgid "Show Featured"
+msgstr ""
+
+#: elementor/widgets/ova_audio_featured.php:226
+msgid "Show Filter"
+msgstr ""
+
+#: inc/class-customize.php:186 inc/class-customize.php:447
+#: elementor/widgets/ova_audio.php:199 elementor/widgets/ova_audio_2.php:244
+#: elementor/widgets/ova_audio_category.php:146
+#: elementor/widgets/ova_audio_category_filter.php:114
+#: elementor/widgets/ova_audio_category_filter_2.php:113
+#: elementor/widgets/ova_audio_featured.php:182
+#: elementor/widgets/ova_audio_grid.php:165
+#: elementor/widgets/ova_audio_grid_2.php:181
+#: elementor/widgets/ova_audio_list.php:116
+#: elementor/widgets/ova_audio_list_2.php:164
+#: elementor/widgets/ova_audio_podcast.php:167
+#: elementor/widgets/ova_audio_seasons.php:138
+#: elementor/widgets/ova_audio_slider.php:165
+#: elementor/widgets/ova_audio_slider_3.php:157
+msgid "Show Host"
+msgstr ""
+
+#: inc/class-customize.php:406
+msgid "Show Image"
+msgstr ""
+
+#: elementor/widgets/ova_audio_host.php:140
+#: elementor/widgets/ova_audio_host_slider.php:129
+msgid "Show Job"
+msgstr ""
+
+#: elementor/widgets/ova_audio_grid.php:220
+#: elementor/widgets/ova_audio_grid_2.php:285
+#: elementor/widgets/ova_audio_host.php:152
+#: elementor/widgets/ova_audio_host_slider.php:141
+#: elementor/widgets/ova_audio_main-slider.php:196
+#: elementor/widgets/ova_audio_slider.php:80
+#: elementor/widgets/ova_audio_slider_2.php:305
+#: elementor/widgets/ova_audio_slider_3.php:75
+msgid "Show Link to Detail"
+msgstr ""
+
+#: elementor/widgets/ova_audio_host.php:128
+#: elementor/widgets/ova_audio_host_slider.php:117
+msgid "Show Name"
+msgstr ""
+
+#: elementor/widgets/ova_audio_categories_slider.php:228
+#: elementor/widgets/ova_audio_main-slider.php:389
+#: elementor/widgets/ova_audio_slider_2.php:558
+#: elementor/widgets/ova_audio_slider_3.php:400
+msgid "Show Nav"
+msgstr ""
+
+#: elementor/widgets/ova_audio_category_filter.php:167
+#: elementor/widgets/ova_audio_category_filter_2.php:155
+#: elementor/widgets/ova_audio_featured.php:237
+#: elementor/widgets/ova_audio_grid_2.php:297
+msgid "Show Pagination"
+msgstr ""
+
+#: elementor/widgets/ova_audio_seasons.php:127
+msgid "Show Season"
+msgstr ""
+
+#: inc/class-customize.php:630
+msgid "Show Sharing"
+msgstr ""
+
+#: elementor/widgets/ova_audio_host.php:113
+#: elementor/widgets/ova_audio_host_slider.php:102
+msgid "Show Social"
+msgstr ""
+
+#: inc/class-customize.php:609
+msgid "Show Tag"
+msgstr ""
+
+#: inc/class-customize.php:266
+msgid "Show Text Button"
+msgstr ""
+
+#: inc/class-customize.php:166
+#: elementor/widgets/ova_audio_categories_slider.php:97
+#: elementor/widgets/ova_audio_category_filter_2.php:90
+#: elementor/widgets/ova_audio_featured.php:171
+#: elementor/widgets/ova_audio_grid.php:154
+#: elementor/widgets/ova_audio_grid_2.php:170
+#: elementor/widgets/ova_audio_podcast.php:116
+#: elementor/widgets/ova_audio_slider.php:154
+#: elementor/widgets/ova_audio_slider_2.php:217
+#: elementor/widgets/ova_audio_slider_3.php:146
+msgid "Show Thumbnail"
+msgstr ""
+
+#: inc/class-customize.php:569
+msgid "Show Timeline"
+msgstr ""
+
+#: inc/class-customize.php:246 inc/class-customize.php:427
+#: elementor/widgets/ova_audio.php:185 elementor/widgets/ova_audio_2.php:198
+#: elementor/widgets/ova_audio_categories_slider.php:86
+#: elementor/widgets/ova_audio_category.php:177
+#: elementor/widgets/ova_audio_category_filter.php:103
+#: elementor/widgets/ova_audio_category_filter_2.php:102
+#: elementor/widgets/ova_audio_featured.php:130
+#: elementor/widgets/ova_audio_grid.php:198
+#: elementor/widgets/ova_audio_grid_2.php:214
+#: elementor/widgets/ova_audio_list.php:152
+#: elementor/widgets/ova_audio_list_2.php:152
+#: elementor/widgets/ova_audio_main-slider.php:161
+#: elementor/widgets/ova_audio_podcast.php:127
+#: elementor/widgets/ova_audio_seasons.php:194
+#: elementor/widgets/ova_audio_slider.php:198
+#: elementor/widgets/ova_audio_slider_2.php:250
+#: elementor/widgets/ova_audio_slider_3.php:168
+msgid "Show Title"
+msgstr ""
+
+#: inc/class-customize.php:549
+msgid "Show Transcript"
+msgstr ""
+
+#: inc/class-customize.php:278 inc/class-customize.php:799
+msgid "Single"
+msgstr ""
+
+#: admin/class-ova-metabox.php:27
+msgid "Single Template 1"
+msgstr ""
+
+#: admin/class-ova-metabox.php:28
+msgid "Single Template 2"
+msgstr ""
+
+#: elementor/widgets/ova_audio.php:552 elementor/widgets/ova_audio.php:881
+#: elementor/widgets/ova_audio_2.php:414 elementor/widgets/ova_audio_2.php:611
+#: elementor/widgets/ova_audio_2.php:784 elementor/widgets/ova_audio_2.php:809
+#: elementor/widgets/ova_audio_category.php:857
+#: elementor/widgets/ova_audio_category_filter.php:662
+#: elementor/widgets/ova_audio_category_filter_2.php:399
+#: elementor/widgets/ova_audio_featured.php:652
+#: elementor/widgets/ova_audio_grid.php:294
+#: elementor/widgets/ova_audio_grid_2.php:622
+#: elementor/widgets/ova_audio_list.php:602
+#: elementor/widgets/ova_audio_list_2.php:533
+#: elementor/widgets/ova_audio_main-slider.php:664
+#: elementor/widgets/ova_audio_podcast.php:391
+#: elementor/widgets/ova_audio_podcast.php:746
+#: elementor/widgets/ova_audio_podcast.php:1135
+#: elementor/widgets/ova_audio_seasons.php:828
+#: elementor/widgets/ova_audio_slider_2.php:659
+#: elementor/widgets/ova_audio_slider_3.php:526
+msgid "Size"
+msgstr ""
+
+#: elementor/widgets/ova_audio.php:575 elementor/widgets/ova_audio_2.php:635
+#: elementor/widgets/ova_audio_category.php:881
+#: elementor/widgets/ova_audio_category_filter.php:686
+#: elementor/widgets/ova_audio_featured.php:676
+#: elementor/widgets/ova_audio_list.php:626
+#: elementor/widgets/ova_audio_list_2.php:557
+#: elementor/widgets/ova_audio_podcast.php:770
+#: elementor/widgets/ova_audio_podcast.php:1158
+#: elementor/widgets/ova_audio_seasons.php:852
+msgid "Size Icon"
+msgstr ""
+
+#: elementor/widgets/ova_audio.php:1103 elementor/widgets/ova_audio_2.php:1297
+msgid "Size icon"
+msgstr ""
+
+#: elementor/widgets/ova_audio.php:298 elementor/widgets/ova_audio_2.php:374
+#: elementor/widgets/ova_audio_category.php:311
+#: elementor/widgets/ova_audio_category_filter.php:264
+#: elementor/widgets/ova_audio_featured.php:374
+#: elementor/widgets/ova_audio_grid_2.php:399
+#: elementor/widgets/ova_audio_list.php:251
+#: elementor/widgets/ova_audio_list_2.php:247
+#: elementor/widgets/ova_audio_main-slider.php:279
+#: elementor/widgets/ova_audio_play_button.php:165
+#: elementor/widgets/ova_audio_podcast.php:288
+#: elementor/widgets/ova_audio_seasons.php:299
+#: elementor/widgets/ova_audio_slider_2.php:409
+#: elementor/widgets/ova_audio_slider_3.php:250
+msgid "Skip Back"
+msgstr ""
+
+#: elementor/widgets/ova_audio.php:793 elementor/widgets/ova_audio_2.php:704
+msgid "Skip Back & Jump Forward"
+msgstr ""
+
+#: elementor/widgets/ova_audio_2.php:867
+msgid "Skip Back Options"
+msgstr ""
+
+#: elementor/widgets/ova_audio_categories_slider.php:152
+#: elementor/widgets/ova_audio_host_slider.php:197
+#: elementor/widgets/ova_audio_slider.php:264
+#: elementor/widgets/ova_audio_slider_2.php:482
+#: elementor/widgets/ova_audio_slider_3.php:324
+msgid "Slides to Scroll"
+msgstr ""
+
+#: admin/class-ova-metabox.php:169
+msgid "Slogans"
+msgstr ""
+
+#: elementor/widgets/ova_audio_categories_slider.php:219
+#: elementor/widgets/ova_audio_host_slider.php:264
+#: elementor/widgets/ova_audio_main-slider.php:380
+#: elementor/widgets/ova_audio_slider.php:331
+#: elementor/widgets/ova_audio_slider_2.php:549
+#: elementor/widgets/ova_audio_slider_3.php:391
+msgid "Smart Speed"
+msgstr ""
+
+#: admin/class-ova-metabox.php:186
+msgid "Social"
+msgstr ""
+
+#: admin/class-ova-metabox.php:147 admin/class-ova-metabox.php:207
+#: inc/class-customize.php:94 inc/class-customize.php:733
+msgid "Sort Order"
+msgstr ""
+
+#: elementor/widgets/ova_audio_categories_slider.php:132
+#: elementor/widgets/ova_audio_host_slider.php:176
+#: elementor/widgets/ova_audio_slider.php:242
+#: elementor/widgets/ova_audio_slider_2.php:462
+#: elementor/widgets/ova_audio_slider_3.php:304
+msgid "Stage Padding"
+msgstr ""
+
+#: elementor/widgets/ova_audio_main-slider.php:210
+#: elementor/widgets/ova_audio_play_button.php:92
+#: templates/elementor/ova_audio_play_button.php:21
+#: templates/parts/audio-item-main-slider.php:27
+msgid "Start Listening"
+msgstr ""
+
+#: elementor/widgets/ova_audio.php:316 elementor/widgets/ova_audio_2.php:392
+#: elementor/widgets/ova_audio_category.php:329
+#: elementor/widgets/ova_audio_category_filter.php:282
+#: elementor/widgets/ova_audio_featured.php:392
+#: elementor/widgets/ova_audio_grid_2.php:417
+#: elementor/widgets/ova_audio_list.php:269
+#: elementor/widgets/ova_audio_list_2.php:265
+#: elementor/widgets/ova_audio_main-slider.php:297
+#: elementor/widgets/ova_audio_play_button.php:183
+#: elementor/widgets/ova_audio_podcast.php:306
+#: elementor/widgets/ova_audio_seasons.php:317
+#: elementor/widgets/ova_audio_slider_2.php:427
+#: elementor/widgets/ova_audio_slider_3.php:268
+msgid "Start Volume"
+msgstr ""
+
+#: inc/class-customize.php:835
+msgid "Sub Title"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:234
+msgctxt "Tag Audio Slug"
+msgid "audio-tag"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:203 templates/single-audio-2.php:286
+msgid "Tags"
+msgstr ""
+
+#: elementor/widgets/ova_audio_2.php:228
+#: elementor/widgets/ova_audio_category.php:202
+#: elementor/widgets/ova_audio_category_filter.php:156
+#: elementor/widgets/ova_audio_featured.php:156
+#: elementor/widgets/ova_audio_list.php:175
+#: elementor/widgets/ova_audio_list_2.php:138
+#: elementor/widgets/ova_audio_podcast.php:152
+#: elementor/widgets/ova_audio_seasons.php:180
+msgid "Target"
+msgstr ""
+
+#: admin/class-ova-metabox.php:21 inc/class-customize.php:294
+#: elementor/widgets/ova_audio_category_filter.php:53
+#: elementor/widgets/ova_audio_host.php:55
+#: elementor/widgets/ova_audio_host_slider.php:59
+#: elementor/widgets/ova_audio_slider_2.php:50
+msgid "Template"
+msgstr ""
+
+#: inc/class-customize.php:299
+#: elementor/widgets/ova_audio_category_filter.php:57
+#: elementor/widgets/ova_audio_host.php:59
+#: elementor/widgets/ova_audio_host_slider.php:63
+#: elementor/widgets/ova_audio_slider_2.php:54
+msgid "Template 1"
+msgstr ""
+
+#: inc/class-customize.php:300
+#: elementor/widgets/ova_audio_category_filter.php:58
+#: elementor/widgets/ova_audio_host.php:60
+#: elementor/widgets/ova_audio_host_slider.php:64
+#: elementor/widgets/ova_audio_slider_2.php:55
+msgid "Template 2"
+msgstr ""
+
+#: inc/class-customize.php:871 elementor/widgets/ova_audio_grid.php:232
+#: elementor/widgets/ova_audio_main-slider.php:208
+#: elementor/widgets/ova_audio_play_button.php:90
+#: elementor/widgets/ova_audio_play_button.php:198
+#: elementor/widgets/ova_audio_slider.php:209
+#: elementor/widgets/ova_audio_slider_2.php:332
+#: elementor/widgets/ova_audio_slider_3.php:179
+msgid "Text Button"
+msgstr ""
+
+#: elementor/widgets/ova_audio_category_filter_2.php:735
+#: elementor/widgets/ova_audio_grid.php:630
+#: elementor/widgets/ova_audio_main-slider.php:692
+#: elementor/widgets/ova_audio_slider.php:638
+#: elementor/widgets/ova_audio_slider_3.php:807
+msgid "Text Color"
+msgstr ""
+
+#: elementor/widgets/ova_audio_category_filter_2.php:705
+#: elementor/widgets/ova_audio_grid.php:600
+#: elementor/widgets/ova_audio_slider.php:608
+#: elementor/widgets/ova_audio_slider_3.php:777
+msgid "Text Color "
+msgstr ""
+
+#: elementor/widgets/ova_audio_main-slider.php:774
+msgid "Text Color Hover"
+msgstr ""
+
+#: admin/class-ova-metabox.php:141
+msgid "This is a featured audio"
+msgstr ""
+
+#: admin/class-ova-metabox.php:252 admin/class-ova-metabox.php:346
+msgid "Thumbnail"
+msgstr ""
+
+#: elementor/widgets/ova_audio_featured.php:283
+#: elementor/widgets/ova_audio_grid_2.php:162
+#: elementor/widgets/ova_audio_main-slider.php:142
+#: elementor/widgets/ova_audio_slider_2.php:206
+msgid "Time ago"
+msgstr ""
+
+#: elementor/widgets/ova_audio_featured.php:277
+#: elementor/widgets/ova_audio_main-slider.php:136
+msgid "Time Type"
+msgstr ""
+
+#: inc/class-customize.php:90 inc/class-customize.php:729
+#: inc/class-customize.php:853 elementor/widgets/ova_audio.php:147
+#: elementor/widgets/ova_audio.php:644 elementor/widgets/ova_audio_2.php:161
+#: elementor/widgets/ova_audio_2.php:911
+#: elementor/widgets/ova_audio_categories_slider.php:291
+#: elementor/widgets/ova_audio_category.php:102
+#: elementor/widgets/ova_audio_category.php:125
+#: elementor/widgets/ova_audio_category.php:571
+#: elementor/widgets/ova_audio_category_filter.php:80
+#: elementor/widgets/ova_audio_category_filter.php:764
+#: elementor/widgets/ova_audio_category_filter_2.php:67
+#: elementor/widgets/ova_audio_category_filter_2.php:597
+#: elementor/widgets/ova_audio_featured.php:117
+#: elementor/widgets/ova_audio_featured.php:797
+#: elementor/widgets/ova_audio_grid.php:142
+#: elementor/widgets/ova_audio_grid.php:492
+#: elementor/widgets/ova_audio_grid_2.php:145
+#: elementor/widgets/ova_audio_grid_2.php:560
+#: elementor/widgets/ova_audio_host.php:88
+#: elementor/widgets/ova_audio_host_slider.php:77
+#: elementor/widgets/ova_audio_list.php:104
+#: elementor/widgets/ova_audio_list.php:872
+#: elementor/widgets/ova_audio_list_2.php:114
+#: elementor/widgets/ova_audio_list_2.php:635
+#: elementor/widgets/ova_audio_main-slider.php:124
+#: elementor/widgets/ova_audio_main-slider.php:496
+#: elementor/widgets/ova_audio_podcast.php:104
+#: elementor/widgets/ova_audio_seasons.php:104
+#: elementor/widgets/ova_audio_seasons.php:507
+#: elementor/widgets/ova_audio_slider.php:142
+#: elementor/widgets/ova_audio_slider.php:500
+#: elementor/widgets/ova_audio_slider_2.php:189
+#: elementor/widgets/ova_audio_slider_2.php:857
+#: elementor/widgets/ova_audio_slider_3.php:134
+#: elementor/widgets/ova_audio_slider_3.php:669
+#: templates/shortcode/player.php:18
+msgid "Title"
+msgstr ""
+
+#: shortcodes/shortcodes.php:15 elementor/widgets/ova_audio.php:149
+#: elementor/widgets/ova_audio_2.php:163
+#: elementor/widgets/ova_audio_category.php:168
+#: elementor/widgets/ova_audio_seasons.php:160
+msgid "Title Audio"
+msgstr ""
+
+#: elementor/widgets/ova_audio_category.php:1006
+#: elementor/widgets/ova_audio_seasons.php:977
+msgid "Title Audio Options"
+msgstr ""
+
+#: elementor/widgets/ova_audio_podcast.php:1227
+msgid "Title Item"
+msgstr ""
+
+#: elementor/widgets/ova_audio_podcast.php:462
+msgid "Title Options"
+msgstr ""
+
+#: templates/search-form-audio.php:46
+msgid "to..."
+msgstr ""
+
+#: elementor/widgets/ova_audio_host.php:46
+#: elementor/widgets/ova_audio_host_slider.php:50
+#: elementor/widgets/ova_audio_main-slider.php:97
+#: elementor/widgets/ova_audio_slider.php:115
+#: elementor/widgets/ova_audio_slider_2.php:162
+#: elementor/widgets/ova_audio_slider_3.php:107
+msgid "Total"
+msgstr ""
+
+#: elementor/widgets/ova_audio_categories_slider.php:77
+msgid "Total Categories"
+msgstr ""
+
+#: elementor/widgets/ova_audio_category.php:74
+#: elementor/widgets/ova_audio_featured.php:65
+#: elementor/widgets/ova_audio_grid.php:50
+#: elementor/widgets/ova_audio_grid_2.php:50
+#: elementor/widgets/ova_audio_list.php:50
+#: elementor/widgets/ova_audio_list_2.php:62
+#: elementor/widgets/ova_audio_podcast.php:50
+#: elementor/widgets/ova_audio_seasons.php:76
+msgid "Total Posts"
+msgstr ""
+
+#: admin/class-ova-metabox.php:33
+msgid "Type"
+msgstr ""
+
+#: elementor/widgets/ova_audio_category_filter_2.php:660
+#: elementor/widgets/ova_audio_grid.php:555
+#: elementor/widgets/ova_audio_slider.php:563
+#: elementor/widgets/ova_audio_slider_2.php:920
+#: elementor/widgets/ova_audio_slider_3.php:732
+msgid "Typography"
+msgstr ""
+
+#: admin/class-ova-metabox.php:39
+msgid "Upload File"
+msgstr ""
+
+#: admin/class-ova-metabox.php:256 admin/class-ova-metabox.php:351
+msgid "Upload/Add image"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:57
+msgctxt "URL slug"
+msgid "audio"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:145
+msgctxt "URL slug"
+msgid "audio-host"
+msgstr ""
+
+#: admin/class-ova-metabox.php:51
+msgid "Video"
+msgstr ""
+
+#: elementor/widgets/ova_audio_category.php:229
+#: elementor/widgets/ova_audio_seasons.php:217
+msgid "View all episodes"
+msgstr ""
+
+#: elementor/widgets/ova_audio_2.php:1060
+#: elementor/widgets/ova_audio_category_filter.php:973
+#: elementor/widgets/ova_audio_featured.php:1014
+#: elementor/widgets/ova_audio_list_2.php:844
+msgid "View Detail"
+msgstr ""
+
+#: inc/class-ajax.php:53 templates/parts/audio-item-list.php:15
+msgid "View Epidose"
+msgstr ""
+
+#: elementor/widgets/ova_audio_2.php:289
+#: elementor/widgets/ova_audio_category_filter.php:149
+#: elementor/widgets/ova_audio_featured.php:293
+#: elementor/widgets/ova_audio_list_2.php:190
+#: elementor/widgets/ova_audio_slider_2.php:334
+msgid "View Episode"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:37 inc/class-ova-custom-post-type.php:78
+#: inc/class-ova-custom-post-type.php:126
+#: inc/class-ova-custom-post-type.php:166
+#: inc/class-ova-custom-post-type.php:211
+msgid "View Item"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:38 inc/class-ova-custom-post-type.php:127
+msgid "View Items"
+msgstr ""
+
+#: elementor/widgets/ova_audio.php:1027 elementor/widgets/ova_audio_2.php:1221
+msgid "Volume"
+msgstr ""
+
+#: elementor/widgets/ova_audio_2.php:490
+#: elementor/widgets/ova_audio_category.php:791
+#: elementor/widgets/ova_audio_category_filter.php:596
+#: elementor/widgets/ova_audio_list.php:525
+#: elementor/widgets/ova_audio_list_2.php:467
+#: elementor/widgets/ova_audio_main-slider.php:735
+#: elementor/widgets/ova_audio_seasons.php:762
+#: elementor/widgets/ova_audio_slider_3.php:586
+msgid "Wave Background"
+msgstr ""
+
+#: elementor/widgets/ova_audio_2.php:480
+#: elementor/widgets/ova_audio_category.php:781
+#: elementor/widgets/ova_audio_category_filter.php:586
+#: elementor/widgets/ova_audio_list.php:515
+#: elementor/widgets/ova_audio_list_2.php:457
+#: elementor/widgets/ova_audio_main-slider.php:725
+#: elementor/widgets/ova_audio_seasons.php:752
+#: elementor/widgets/ova_audio_slider_3.php:576
+msgid "Wave Options"
+msgstr ""
+
+#: inc/ova-core-functions.php:298 inc/ova-core-functions.php:307
+msgid "week"
+msgstr ""
+
+#: elementor/widgets/ova_audio.php:349
+#: elementor/widgets/ova_audio_categories_slider.php:439
+#: elementor/widgets/ova_audio_categories_slider.php:507
+#: elementor/widgets/ova_audio_category.php:424
+#: elementor/widgets/ova_audio_host_slider.php:532
+#: elementor/widgets/ova_audio_host_slider.php:600
+#: elementor/widgets/ova_audio_main-slider.php:872
+#: elementor/widgets/ova_audio_main-slider.php:940
+#: elementor/widgets/ova_audio_play_button.php:237
+#: elementor/widgets/ova_audio_seasons.php:412
+#: elementor/widgets/ova_audio_slider.php:710
+#: elementor/widgets/ova_audio_slider.php:778
+#: elementor/widgets/ova_audio_slider_2.php:1067
+#: elementor/widgets/ova_audio_slider_2.php:1135
+#: elementor/widgets/ova_audio_slider_3.php:879
+#: elementor/widgets/ova_audio_slider_3.php:947
+msgid "Width"
+msgstr ""
+
+#: inc/ova-core-functions.php:296
+msgid "year"
+msgstr ""
+
+#: inc/class-customize.php:171 inc/class-customize.php:191
+#: inc/class-customize.php:211 inc/class-customize.php:231
+#: inc/class-customize.php:251 inc/class-customize.php:271
+#: inc/class-customize.php:391 inc/class-customize.php:411
+#: inc/class-customize.php:432 inc/class-customize.php:452
+#: inc/class-customize.php:472 inc/class-customize.php:492
+#: inc/class-customize.php:512 inc/class-customize.php:533
+#: inc/class-customize.php:554 inc/class-customize.php:574
+#: inc/class-customize.php:594 inc/class-customize.php:614
+#: inc/class-customize.php:635 inc/class-customize.php:655
+#: inc/class-customize.php:917 elementor/widgets/ova_audio.php:52
+#: elementor/widgets/ova_audio.php:122 elementor/widgets/ova_audio.php:187
+#: elementor/widgets/ova_audio.php:201 elementor/widgets/ova_audio.php:215
+#: elementor/widgets/ova_audio.php:229 elementor/widgets/ova_audio.php:289
+#: elementor/widgets/ova_audio_2.php:52 elementor/widgets/ova_audio_2.php:122
+#: elementor/widgets/ova_audio_2.php:133 elementor/widgets/ova_audio_2.php:200
+#: elementor/widgets/ova_audio_2.php:215 elementor/widgets/ova_audio_2.php:230
+#: elementor/widgets/ova_audio_2.php:246 elementor/widgets/ova_audio_2.php:260
+#: elementor/widgets/ova_audio_2.php:274 elementor/widgets/ova_audio_2.php:365
+#: elementor/widgets/ova_audio_categories_slider.php:88
+#: elementor/widgets/ova_audio_categories_slider.php:99
+#: elementor/widgets/ova_audio_categories_slider.php:166
+#: elementor/widgets/ova_audio_categories_slider.php:181
+#: elementor/widgets/ova_audio_categories_slider.php:195
+#: elementor/widgets/ova_audio_categories_slider.php:232
+#: elementor/widgets/ova_audio_categories_slider.php:276
+#: elementor/widgets/ova_audio_category.php:137
+#: elementor/widgets/ova_audio_category.php:148
+#: elementor/widgets/ova_audio_category.php:159
+#: elementor/widgets/ova_audio_category.php:179
+#: elementor/widgets/ova_audio_category.php:190
+#: elementor/widgets/ova_audio_category.php:204
+#: elementor/widgets/ova_audio_category.php:238
+#: elementor/widgets/ova_audio_category.php:302
+#: elementor/widgets/ova_audio_category.php:416
+#: elementor/widgets/ova_audio_category_filter.php:105
+#: elementor/widgets/ova_audio_category_filter.php:116
+#: elementor/widgets/ova_audio_category_filter.php:127
+#: elementor/widgets/ova_audio_category_filter.php:138
+#: elementor/widgets/ova_audio_category_filter.php:158
+#: elementor/widgets/ova_audio_category_filter.php:255
+#: elementor/widgets/ova_audio_category_filter_2.php:92
+#: elementor/widgets/ova_audio_category_filter_2.php:104
+#: elementor/widgets/ova_audio_category_filter_2.php:115
+#: elementor/widgets/ova_audio_category_filter_2.php:126
+#: elementor/widgets/ova_audio_category_filter_2.php:137
+#: elementor/widgets/ova_audio_featured.php:56
+#: elementor/widgets/ova_audio_featured.php:144
+#: elementor/widgets/ova_audio_featured.php:158
+#: elementor/widgets/ova_audio_featured.php:365
+#: elementor/widgets/ova_audio_grid.php:167
+#: elementor/widgets/ova_audio_grid.php:178
+#: elementor/widgets/ova_audio_grid.php:189
+#: elementor/widgets/ova_audio_grid.php:200
+#: elementor/widgets/ova_audio_grid.php:211
+#: elementor/widgets/ova_audio_grid_2.php:183
+#: elementor/widgets/ova_audio_grid_2.php:194
+#: elementor/widgets/ova_audio_grid_2.php:205
+#: elementor/widgets/ova_audio_grid_2.php:216
+#: elementor/widgets/ova_audio_grid_2.php:227
+#: elementor/widgets/ova_audio_grid_2.php:252
+#: elementor/widgets/ova_audio_grid_2.php:390
+#: elementor/widgets/ova_audio_host_slider.php:211
+#: elementor/widgets/ova_audio_host_slider.php:226
+#: elementor/widgets/ova_audio_host_slider.php:240
+#: elementor/widgets/ova_audio_host_slider.php:277
+#: elementor/widgets/ova_audio_list.php:118
+#: elementor/widgets/ova_audio_list.php:130
+#: elementor/widgets/ova_audio_list.php:142
+#: elementor/widgets/ova_audio_list.php:154
+#: elementor/widgets/ova_audio_list.php:166
+#: elementor/widgets/ova_audio_list.php:177
+#: elementor/widgets/ova_audio_list.php:242
+#: elementor/widgets/ova_audio_list_2.php:128
+#: elementor/widgets/ova_audio_list_2.php:140
+#: elementor/widgets/ova_audio_list_2.php:154
+#: elementor/widgets/ova_audio_list_2.php:166
+#: elementor/widgets/ova_audio_list_2.php:178
+#: elementor/widgets/ova_audio_list_2.php:238
+#: elementor/widgets/ova_audio_main-slider.php:270
+#: elementor/widgets/ova_audio_main-slider.php:327
+#: elementor/widgets/ova_audio_main-slider.php:342
+#: elementor/widgets/ova_audio_main-slider.php:356
+#: elementor/widgets/ova_audio_main-slider.php:393
+#: elementor/widgets/ova_audio_main-slider.php:437
+#: elementor/widgets/ova_audio_play_button.php:156
+#: elementor/widgets/ova_audio_podcast.php:118
+#: elementor/widgets/ova_audio_podcast.php:129
+#: elementor/widgets/ova_audio_podcast.php:140
+#: elementor/widgets/ova_audio_podcast.php:154
+#: elementor/widgets/ova_audio_podcast.php:169
+#: elementor/widgets/ova_audio_podcast.php:180
+#: elementor/widgets/ova_audio_podcast.php:203
+#: elementor/widgets/ova_audio_podcast.php:214
+#: elementor/widgets/ova_audio_podcast.php:234
+#: elementor/widgets/ova_audio_seasons.php:171
+#: elementor/widgets/ova_audio_seasons.php:182
+#: elementor/widgets/ova_audio_seasons.php:226
+#: elementor/widgets/ova_audio_seasons.php:290
+#: elementor/widgets/ova_audio_seasons.php:404
+#: elementor/widgets/ova_audio_slider.php:94
+#: elementor/widgets/ova_audio_slider.php:156
+#: elementor/widgets/ova_audio_slider.php:167
+#: elementor/widgets/ova_audio_slider.php:178
+#: elementor/widgets/ova_audio_slider.php:189
+#: elementor/widgets/ova_audio_slider.php:200
+#: elementor/widgets/ova_audio_slider.php:278
+#: elementor/widgets/ova_audio_slider.php:293
+#: elementor/widgets/ova_audio_slider.php:307
+#: elementor/widgets/ova_audio_slider.php:344
+#: elementor/widgets/ova_audio_slider_2.php:219
+#: elementor/widgets/ova_audio_slider_2.php:230
+#: elementor/widgets/ova_audio_slider_2.php:241
+#: elementor/widgets/ova_audio_slider_2.php:252
+#: elementor/widgets/ova_audio_slider_2.php:263
+#: elementor/widgets/ova_audio_slider_2.php:274
+#: elementor/widgets/ova_audio_slider_2.php:285
+#: elementor/widgets/ova_audio_slider_2.php:296
+#: elementor/widgets/ova_audio_slider_2.php:400
+#: elementor/widgets/ova_audio_slider_2.php:496
+#: elementor/widgets/ova_audio_slider_2.php:511
+#: elementor/widgets/ova_audio_slider_2.php:525
+#: elementor/widgets/ova_audio_slider_2.php:562
+#: elementor/widgets/ova_audio_slider_2.php:606
+#: elementor/widgets/ova_audio_slider_3.php:148
+#: elementor/widgets/ova_audio_slider_3.php:159
+#: elementor/widgets/ova_audio_slider_3.php:170
+#: elementor/widgets/ova_audio_slider_3.php:241
+#: elementor/widgets/ova_audio_slider_3.php:338
+#: elementor/widgets/ova_audio_slider_3.php:353
+#: elementor/widgets/ova_audio_slider_3.php:367
+#: elementor/widgets/ova_audio_slider_3.php:404
+#: elementor/widgets/ova_audio_slider_3.php:448
+msgid "Yes"
+msgstr ""

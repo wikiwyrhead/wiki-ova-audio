@@ -1,0 +1,44 @@
+.ova-audio-host{
+
+	&.archive-audio-host {
+		margin-bottom: 115px;
+		@media (max-width: 1024px) {
+			margin-bottom: 75px;
+		}
+	}
+	
+	.content {
+		display: grid;
+		grid-gap: 30px;
+		  
+		&.four_column{
+		  	grid-template-columns: 1fr 1fr 1fr 1fr;	
+		  	@media( max-width: 1200px ){
+				grid-template-columns: 1fr 1fr;
+			}
+			@media( max-width: 767px ){
+				grid-template-columns: auto;	
+			}
+		}
+
+		&.three_column{
+		  	grid-template-columns: 1fr 1fr 1fr;
+		  	@media( max-width: 1200px ){
+				grid-template-columns: 1fr 1fr;
+			}
+			@media( max-width: 767px ){
+				grid-template-columns: auto;	
+			}
+		}
+
+		&.two_column{
+		  	grid-template-columns: 1fr 1fr;
+		  	grid-gap: 50px;
+		  	@media( max-width: 767px ){
+				grid-template-columns: auto;	
+			}
+		}
+		
+	}			
+	
+}

@@ -1,0 +1,136 @@
+.ovau-play-button {
+	.ova-media {
+		.icon {
+	    	-webkit-transition: all .5s ease;
+			transition: all .5s ease; 
+			-webkit-transform: scale(1);
+	        transform: scale(1);
+	        cursor: pointer;
+	        -webkit-tap-highlight-color: transparent;
+			border-radius: 50%;
+			width: 60px;
+			height: 60px;
+			display: inline-flex;
+			justify-content: center;
+			align-items: center;
+			background-color: var(--primary);  
+			position: relative; 
+			z-index: 1;
+
+			&:hover {
+				-webkit-transition: all .5s ease; 
+			    transition: all .5s ease; 
+			    background-color: var(--heading);
+			    i {
+			    	-webkit-transition: all .3s ease; 
+			        transition: all .3s ease;
+			    }
+			    .text_button {
+			    	-webkit-transition: all .3s ease; 
+			    	transition: all .3s ease;
+			    }
+			}
+
+			i {
+				-webkit-transition: all .3s ease; 
+			    transition: all .3s ease;
+			    display: inline-flex;
+				font-size: 19px;
+				color: #fff;
+			}
+			
+			.loader {
+				display: none;
+			}
+
+			.text_button {
+				-webkit-transition: all .3s ease; 
+			    transition: all .3s ease;
+				position: absolute;
+				left: calc(100% + 17px);
+   				width: 150px;
+   				font-weight: 500;
+   				text-transform: uppercase;
+			}
+
+			&.ovau-playing {
+				background-color: var(--primary);
+
+				.loader {
+					display: flex;
+					width: 100%;
+					height: 100%;
+					align-items: center;
+					justify-content: center;
+
+					.stroke {
+						position: relative;
+						background-color: #FFFFFF;
+						height: 20px;
+						width: 5px;
+						border-radius: 50px;
+						margin: 0 2px;
+						animation: playing 1s linear infinite;
+
+						&:nth-child(1) {
+							animation-delay: 0s;
+						}
+
+						&:nth-child(2) {
+							animation-delay: 0.3s;
+						}
+
+						&:nth-child(3) {
+							animation-delay: 0.6s;
+						}
+
+						&:nth-child(4) {
+							animation-delay: 0.3s;
+						}
+
+						&:nth-child(5) {
+							animation-delay: 0s;
+						}
+
+					}
+
+					@keyframes playing {
+						50% {
+	    					height: 5px;
+						}
+						100% {
+						    height: 20px;
+						}
+					}
+				}
+
+				i {
+					display: none;
+				}
+
+				&:hover {
+					.loader {
+						display: none;
+					}
+
+					i {
+						display: block;
+					}
+				}
+			}
+		}
+	}
+}
+
+.rtl {
+	.ovau-play-button {
+		.ova-media {
+			.icon {
+				.text_button {
+					left: unset;
+					right: calc(100% + 17px);
+				}
+			}
+		}
+	}   
+}
